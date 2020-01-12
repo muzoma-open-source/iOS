@@ -3495,7 +3495,7 @@ Cgo
                         <attributedString key="attributedTitle">
                             <fragment content="Refreshing...">
                                 <attributes>
-                                    <font key="NSFont" metaFont="label" size="11"/>
+                                    <font key="NSFont" metaFont="message" size="11"/>
                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                 </attributes>
                             </fragment>
@@ -4524,7 +4524,7 @@ Cgo
                         <attributedString key="attributedTitle">
                             <fragment content="Reloading">
                                 <attributes>
-                                    <font key="NSFont" metaFont="label" size="11"/>
+                                    <font key="NSFont" metaFont="message" size="11"/>
                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                 </attributes>
                             </fragment>
