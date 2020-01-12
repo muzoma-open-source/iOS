@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ExternalPlayerView" customModule="Muzoma" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sample Chords" adjustsFontSizeToFit="NO" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="Rdk-Su-WRW">
+                    <rect key="frame" x="26" y="143" width="550" height="30"/>
+                    <color key="textColor" white="0.0" alpha="0.45000000000000001" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="30"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sample Lyrics" adjustsFontSizeToFit="NO" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="gIE-wT-jKz">
+                    <rect key="frame" x="26" y="173" width="550" height="22"/>
+                    <color key="textColor" white="0.0" alpha="0.45000000000000001" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="30"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sample Chords" adjustsFontSizeToFit="NO" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="9T0-b6-fEZ">
+                    <rect key="frame" x="26" y="217" width="550" height="30"/>
+                    <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="42"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sample Lyrics" adjustsFontSizeToFit="NO" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="ttT-Fa-Vy1">
+                    <rect key="frame" x="26" y="338" width="550" height="30"/>
+                    <color key="textColor" white="0.0" alpha="0.44647606379999999" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="30"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sample Chords" adjustsFontSizeToFit="NO" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="AhH-Nv-eE6">
+                    <rect key="frame" x="26" y="310" width="550" height="30"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.45121343089999999" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="30"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sample Lyrics" adjustsFontSizeToFit="NO" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="7Dn-g1-XGP">
+                    <rect key="frame" x="26" y="247" width="550" height="30"/>
+                    <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="42"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="currentChords" destination="9T0-b6-fEZ" id="iEm-Mx-nzF"/>
+                <outlet property="currentLyrics" destination="7Dn-g1-XGP" id="XVu-vf-1gE"/>
+                <outlet property="nextChords" destination="AhH-Nv-eE6" id="ZPv-Sm-l7s"/>
+                <outlet property="nextLyrics" destination="ttT-Fa-Vy1" id="Kvp-Nf-oQO"/>
+                <outlet property="prevChords" destination="Rdk-Su-WRW" id="5XY-qX-2MX"/>
+                <outlet property="prevLyrics" destination="gIE-wT-jKz" id="kkm-Zm-YXL"/>
+            </connections>
+        </view>
+    </objects>
+</document>

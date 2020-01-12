@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<playlist>
+  <version>1.0</version>
+  <timestamp>1536335854123</timestamp>
+  <creator>cymatic audio uTool</creator>
+  <playlistname>Matts Playlist</playlistname>
+  <target_device>LP-16</target_device>
+  <song>
+    <name>Muzoma - Impossible Dream</name>
+    <location></location>
+    <duration>190.276</duration>
+    <pause_mode>
+      <mode>wait_for_button_press</mode>
+      <time>0</time>
+    </pause_mode>
+  </song>
+  <song>
+    <name>Muzoma - Impossible Dream</name>
+    <location></location>
+    <duration>190.276</duration>
+    <pause_mode>
+      <mode>wait_period</mode>
+      <time>2</time>
+    </pause_mode>
+  </song>
+  <song>
+    <name>Muzoma - Impossible Dream</name>
+    <location></location>
+    <duration>190.276</duration>
+    <pause_mode>
+      <mode>no_wait</mode>
+      <time>0</time>
+    </pause_mode>
+  </song>
+</playlist>

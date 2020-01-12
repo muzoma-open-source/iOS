@@ -1,0 +1,433 @@
+
+
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>: AccessoryInfo = {
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>:     IAPAppAccessoryNameKey = iConnectMIDI4+;
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>:     IAPAppAccessoryManufacturerKey = iConnectivity;
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>:     IAPAppAccessoryModelNumberKey = icmidi-04;
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>:     IAPAppAccessoryFirmwareRevisionKey = 1.0.3;
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>:     IAPAppAccessoryHardwareRevisionKey = 1.0;
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>: } // End AccessoryInfo
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>: EA new accessory (1 total) {
+	    EAManagerAccessoryDevID = 4295482585;
+	    EAManagerAccessorySessions = "<iAP2EASessionList: 0x15dd1bd90>";
+	    IAPAppAccessoryCapabilitiesKey = 0;
+	    IAPAppAccessoryConnectionAuthStartedTimeKey = "476990770.808878";
+	    IAPAppAccessoryConnectionAuthSucceededTimeKey = "476990771.51087";
+	    IAPAppAccessoryConnectionTimeInSecKey = 1455297971;
+	    IAPAppAccessoryFirmwareRevisionKey = "1.0.3";
+	    IAPAppAccessoryHardwareRevisionKey = "1.0";
+	    IAPAppAccessoryMacAddressKey = "00:00:00:00:00:00";
+	    IAPAppAccessoryManufacturerKey = iConnectivity;
+	    IAPAppAccessoryModelNumberKey = "icmidi-04";
+	    IAPAppAccessoryNameKey = "iConnectMIDI4+";
+	    IAPAppAccessorySerialNumberKey = 00000257;
+	    IAPAppConnectionIDKey = 36615529;
+	}
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>: OwnsConnectionID: connectionID = 36615529
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>: OwnsConnectionID: connectionID = 36615529
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>: OwnsConnectionID: connectionID = 36615529
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>: INFO - /BuildRoot/Library/Caches/com.apple.xbs/Sources/iapd/iapd-1746.20.20/iap2d/iAP2Power.m:PowerGetChargerCurrent - 407 IOAccessoryManagerGetUSBCurrentLimitBase not attached 0xe00002d9
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>: OwnsConnectionID: connectionID = 36615529
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>: INFO - /BuildRoot/Library/Caches/com.apple.xbs/Sources/iapd/iapd-1746.20.20/iap2d/iAP2Power.m:PowerGetChargerVoltage - 427 IOAccessoryManagerGetUSBChargingVoltage not attached 0xe00002d9
+Feb 12 17:26:11 MEH iap2d[3789] <Warning>: INFO - /BuildRoot/Library/Caches/com.apple.xbs/Sources/iapd/iapd-1746.20.20/iap2d/iAP2Power.m:PowerGetAvailableCurrent - 100 IOAccessoryManagerGetUSBCurrentLimitBase not attached 0xe00002d9
+Feb 12 17:26:11 MEH kernel[0] <Notice>: AppleARMPMUCharger: AppleUSBCableDetect 1
+Feb 12 17:26:13 MEH mediaserverd[3375] <Error>: 17:26:13.713 ERROR:    [0x16edc3000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:26:13 MEH mediaserverd[3375] <Error>: 17:26:13.899 ERROR:    [0x16edc3000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:26:13 MEH mediaserverd[3375] <Error>: 17:26:13.921 ERROR:    [0x16edc3000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:26:13 MEH mediaserverd[3375] <Error>: 17:26:13.963 ERROR:    [0x16edc3000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:26:14 MEH mediaserverd[3375] <Error>: 17:26:14.090 ERROR:    [0x16edc3000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:26:14 MEH routined[3379] <Notice>: 476990774.682631 (12/02/2016, 17:26:14 GMT), [APPLICATION PREDICTION]: Could not acquire location in 538.000000 ms, falling back to global model.
+Feb 12 17:26:14 MEH duetexpertd[3515] <Warning>: Got Magical Moments prediction, 1
+Feb 12 17:26:16 MEH iap2d[3789] <Warning>: process com.apple.mobilegarageband is now running the foreground
+Feb 12 17:26:16 MEH bird[3483] <Error>: setting error: <NSError:0x127694130(BRCloudDocsErrorDomain:5) - {
+	    NSDescription = "No document at URL";
+	    NSFilePath = "/private/var/mobile/Library/Mobile Documents/F3LWYJ7GM7~com~apple~mobilegarageband/Documents/YOU!.png";
+	    NSUnderlyingError = "<NSError:0x127695700(NSPOSIXErrorDomain:2) - {\n    NSDescription = \"No such file or directory\";\n}>";
+	}>
+Feb 12 17:26:19 MEH mediaserverd[3375] <Error>: 17:26:19.792 ERROR:    [0x16edc3000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:26:19 MEH mediaserverd[3375] <Error>: 17:26:19.868 ERROR:    [0x16edc3000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:26:19 MEH mediaserverd[3375] <Error>: 17:26:19.903 ERROR:    [0x16edc3000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:26:19 MEH mediaserverd[3375] <Error>: 17:26:19.945 ERROR:    [0x16edc3000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:26:20 MEH mediaserverd[3375] <Error>: 17:26:20.044 ERROR:    [0x16edc3000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:26:26 MEH sharingd[3409] <Notice>: 17:26:26.913 : Scanning mode Everyone
+Feb 12 17:26:29 MEH routined[3379] <Notice>: 476990789.428956 (12/02/2016, 17:26:29 GMT), [APPLICATION PREDICTION]: Error trying to get current loi: Error Domain=RTErrorDomain Code=5 "no location" UserInfo={NSLocalizedDescription=no location}
+Feb 12 17:26:32 MEH iap2d[3789] <Warning>: process Muzoma.com.Muzoma is now running the foreground
+Feb 12 17:26:33 MEH iap2d[3789] <Warning>: process com.apple.mobilegarageband is now running in the background
+Feb 12 17:26:33 MEH sharingd[3409] <Notice>: 17:26:33.741 : Scanning mode Everyone
+Feb 12 17:26:34 MEH SpringBoard[3404] <Warning>: BSXPCMessage received error for message: Connection interrupted
+Feb 12 17:26:34 MEH mediaserverd[3375] <Notice>: '' Muzoma.com.Muzoma(pid = 3800) setting DiscoveryMode = DiscoveryMode_None, currentDiscoveryMode = DiscoveryMode_None
+Feb 12 17:26:34 MEH SpringBoard[3404] <Warning>: Application 'UIKitApplication:Muzoma.com.Muzoma[0xd74f]' exited voluntarily.
+Feb 12 17:26:34 MEH UserEventAgent[3373] <Warning>: 13502005137459: id=Muzoma.com.Muzoma pid=3800, state=0
+Feb 12 17:26:34 MEH iap2d[3789] <Warning>: process Muzoma.com.Muzoma is now switching to other state
+Feb 12 17:26:34 MEH iap2d[3789] <Warning>: process Muzoma.com.Muzoma is now terminated
+Feb 12 17:26:34 MEH searchd[3496] <Warning>: ====^^^^ DuetExpert missing data, count -> people:8 applicationDeepLinks:0 applications:8 requests:20 missingAllDataRequests:0
+Feb 12 17:26:36 MEH SpringBoard[3404] <Error>:  SecTrustEvaluate  [leaf IssuerCommonName SubjectCommonName]
+Feb 12 17:26:36 MEH syslogd[3372] <Notice>: ASL Sender Statistics
+Feb 12 17:26:37 MEH SpringBoard[3404] <Error>:  SecTrustEvaluate  [leaf IssuerCommonName SubjectCommonName]
+Feb 12 17:26:37 MEH kernel[0] <Notice>: xpcproxy[3811] Container: /private/var/mobile/Containers/Data/Application/56740E76-54A6-4826-B137-FB9F619A8AC4 (sandbox)
+Feb 12 17:26:37 MEH iap2d[3789] <Warning>: process Muzoma.com.Muzoma is now running the foreground
+Feb 12 17:26:37 MEH Muzoma[3811] <Warning>: Unable to simultaneously satisfy constraints.
+		Probably at least one of the constraints in the following list is one you don't want. 
+		Try this: 
+			(1) look at each constraint and try to figure out which you don't expect; 
+			(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(
+	    "<NSLayoutConstraint:0x13fe85930 V:|-(20)-[UIInputSetContainerView:0x13fe8c6e0]   (Names: '|':UITextEffectsWindow:0x13fe8ca90 )>",
+	    "<NSLayoutConstraint:0x13fd56aa0 'UIInputWindowController-top' V:|-(0)-[UIInputSetContainerView:0x13fe8c6e0]   (Names: '|':UITextEffectsWindow:0x13fe8ca90 )>"
+	)
+	
+	Will attempt to recover by breaking constraint 
+	<NSLayoutConstraint:0x13fe85930 V:|-(20)-[UIInputSetContainerView:0x13fe8c6e0]   (Names: '|':UITextEffectsWindow:0x13fe8ca90 )>
+	
+	Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+	The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: set multi route, current output chans 6
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: set pref chans 8
+Feb 12 17:26:48 MEH mediaserverd[3375] <Warning>: 17:26:48.044 WARNING:  [0x16e0a3000] 255: AudioSessionSetProperty: WARNING translating CMSession error: -12981
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: error The operation couldn’t be completed. (OSStatus error -50.)
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: ins Optional("[<AVAudioSessionPortDescription: 0x13fde44b0, type = MicrophoneBuiltIn; name = iPhone Microphone; UID = Built-In Microphone; selectedDataSource = Bottom>, <AVAudioSessionPortDescription: 0x13ff1fe80, type = USBAudio; name = iConnectMIDI4+; UID = AppleUSBAudioEngine:iConnectivity:iConnectMIDI4+:00000257:1,2; selectedDataSource = (null)>]")
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: avail ins Optional(2)
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: outDS is nil
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: currentRoute <AVAudioSessionRouteDescription: 0x13fd8b890, 
+	inputs = (
+	    "<AVAudioSessionPortDescription: 0x13fee05b0, type = USBAudio; name = iConnectMIDI4+; UID = AppleUSBAudioEngine:iConnectivity:iConnectMIDI4+:00000257:1,2; selectedDataSource = (null)>"
+	); 
+	outputs = (
+	    "<AVAudioSessionPortDescription: 0x13fedf110, type = USBAudio; name = iConnectMIDI4+; UID = AppleUSBAudioEngine:iConnectivity:iConnectMIDI4+:00000257:1,2; selectedDataSource = (null)>"
+	)>
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: route <AVAudioSessionPortDescription: 0x13fedf110, type = USBAudio; name = iConnectMIDI4+; UID = AppleUSBAudioEngine:iConnectivity:iConnectMIDI4+:00000257:1,2; selectedDataSource = (null)> has 6 channels
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: chan <AVAudioSessionChannelDescription: 0x13fec3550, name = iConnectMIDI4+ 1; label = 4294967295 (0xffffffff); number = 1; port UID = AppleUSBAudioEngine:iConnectivity:iConnectMIDI4+:00000257:1,2>
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: chan <AVAudioSessionChannelDescription: 0x13fec5a90, name = iConnectMIDI4+ 2; label = 4294967295 (0xffffffff); number = 2; port UID = AppleUSBAudioEngine:iConnectivity:iConnectMIDI4+:00000257:1,2>
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: chan <AVAudioSessionChannelDescription: 0x13ff36420, name = iConnectMIDI4+ 3; label = 4294967295 (0xffffffff); number = 3; port UID = AppleUSBAudioEngine:iConnectivity:iConnectMIDI4+:00000257:1,2>
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: chan <AVAudioSessionChannelDescription: 0x13ff34da0, name = iConnectMIDI4+ 4; label = 4294967295 (0xffffffff); number = 4; port UID = AppleUSBAudioEngine:iConnectivity:iConnectMIDI4+:00000257:1,2>
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: chan <AVAudioSessionChannelDescription: 0x13ff1fe20, name = iConnectMIDI4+ 5; label = 4294967295 (0xffffffff); number = 5; port UID = AppleUSBAudioEngine:iConnectivity:iConnectMIDI4+:00000257:1,2>
+Feb 12 17:26:48 MEH Muzoma[3811] <Warning>: chan <AVAudioSessionChannelDescription: 0x13feeb460, name = iConnectMIDI4+ 6; label = 4294967295 (0xffffffff); number = 6; port UID = AppleUSBAudioEngine:iConnectivity:iConnectMIDI4+:00000257:1,2>
+Feb 12 17:27:02 MEH kernel[0] <Notice>: 562610.910194 AppleUSBHostResources@: AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+Feb 12 17:27:02 MEH iaptransportd[3419] <Warning>: CIapPortUSBHost::PortTransmitData ERROR: WritePipe(Async)TO bulk OUT write fail status: E00002C0
+Feb 12 17:27:02 MEH iap2d[3789] <Warning>: Fri 2016-02-12 17:27:02 GMT: ERROR: iAP2LinkSendPacketCB:1767 Failed to Send data!
+Feb 12 17:27:02 MEH iap2d[3789] <Warning>: transportLeft: portAddr = 5449587264
+Feb 12 17:27:02 MEH iap2d[3789] <Notice>: Fri 2016-02-12 17:27:02 GMT: LOG: --------------------------------------------------------------------
+Feb 12 17:27:02 MEH iaptransportd[3419] <Warning>: CIapPortUSBHost::SignalUSBDriver ERROR: GetDevice fail status: E00002C0
+Feb 12 17:27:02 MEH kernel[0] <Notice>: AppleARMPMUCharger: AppleUSBCableDetect 0
+Feb 12 17:27:02 MEH kernel[0] <Notice>: AppleARMPMUCharger: AppleUSBCableType Detached
+Feb 12 17:27:02 MEH iap2d[3789] <Notice>: Fri 2016-02-12 17:27:02 GMT: LOG: disconnected connection!
+Feb 12 17:27:02 MEH iap2d[3789] <Notice>: Fri 2016-02-12 17:27:02 GMT: LOG: --------------------------------------------------------------------
+Feb 12 17:27:02 MEH iap2d[3789] <Warning>: iAP2LinkConnectedCB:1847 Port Disconnected! <iAP2Port>(0x15de1b770): linkRL=0x15e812200 link=0x15e812260 portType=1  
+	SYN Param: 
+	    ver=01h (min=01h) 
+	    maxOutstandingPackets=127 maxRetransmissions=30 
+	    maxCumAck=5 maxPacketSize=65535 
+	    retransmitTimeout=2000 cumAckTimeout=60 
+	    peerMaxOutstandingPackets=5 peerMaxPacketSize=240 
+	    min/maxSessVer=(0/2 0/1 0/1 0/1) 
+	    sessions=1 
+	        index 0 [id=1 type=0 version=1] 
+Feb 12 17:27:02 MEH iap2d[3789] <Warning>: EAManager: Detached connection ID=0x22eb569 <iAP2Connection>(0x15de5a910): 
+	_magic=2882400001 
+	_connectionID=36615529 
+	_port=<iAP2Port>(0x15de1b770): linkRL=0x15e812200 link=0x15e812260 portType=1  
+	SYN Param: 
+	    ver=01h (min=01h) 
+	    maxOutstandingPackets=127 maxRetransmissions=30 
+	    maxCumAck=5 maxPacketSize=65535 
+	    retransmitTimeout=2000 cumAckTimeout=60 
+	    peerMaxOutstandingPackets=5 peerMaxPacketSize=240 
+	    min/maxSessVer=(0/2 0/1 0/1 0/1) 
+	    sessions=1 
+	        index 0 [id=1 type=0 version=1] 
+	 
+	_isInList=1 
+	_shuttingDown=1 
+	_failed=0 
+	_controlSession=<iAP2Session: 0x15de2b640> 
+	_IdentificationInfo=<iAP2IdentificationInfo: 0x15de1d730> 
+	_powerUpdates=<iAP2PowerUpdates: 0x15dd3d430> 
+	_serviceBuffers={
+	} 
+	_serviceBuffersQ=0x15de208d0 
+	_authStatus=<iAP2AuthenticationController: 0x15de19f00> 
+	_msgLocation=(null) 
+	_msgTelephony(null) 
+	_msgWifiiAP2MsgWifi (0x15de5a0b0):
+	 
+	_msgVehicleStatus(null) 
+	_mediaLibrary=(null) 
+	_nowPlaying=0x0 
+	_serializeQ=0x15de5aa70 
+	_iap2hidManager=(null) 
+	_iPodOutController=(null) 
+	_appLaunchController=(null) 
+	_AccessoryDictionary={
+	    EAManagerAccessoryDevID = 4295482585;
+	    EAManagerAccessorySessions = "<iAP2EASessionList: 0x15dd1bd90>";
+	    IAPAppAccessoryCapabilitiesKey = 0;
+	    IAPAppAccessoryConnectionAuthStartedTimeKey = "476990770.808878";
+	    IAPAppAccessoryConnectionAuthSucceededTimeKey = "476990771.51087";
+	    IAPAppAccessoryConnectionTimeInSecKey = 1455297971;
+	    IAPAppAccessoryFirmwareRevisionKey = "1.0.3";
+	    IAPAppAccessoryHardwareRevisionKey = "1.0";
+	    IAPAppAccessoryMacAddressKey = "00:00:00:00:00:00";
+	    IAPAppAccessoryManufacturerKey = iConnectivity;
+	    IAPAppAccessoryModelNumberKey = "icmidi-04";
+	    IAPAppAccessoryNameKey = "iConnectMIDI4+";
+	    IAPAppAccessorySerialNumberKey = 00000257;
+	    IAPAppConnectionIDKey = 36615529;
+	} 
+	_serviceTests={
+	} 
+	_testRecvFile=0x0 
+	_testSendFileList={
+	} 
+	_identificationState=5 
+	_identifyTimer=0x0 accessory={
+	    EAManagerAccessoryDevID = 4295482585;
+	    EAManagerAccessorySessions = "<iAP2EASessionList: 0x15dd1bd90>";
+	    IAPAppAccessoryCapabilitiesKey = 0;
+	    IAPAppAccessoryConnectionAuthStartedTimeKey = "476990770.808878";
+	    IAPAppAccessoryConnectionAuthSucceededTimeKey = "476990771.51087";
+	    IAPAppAccessoryConnectionTimeInSecKey = 1455297971;
+	    IAPAppAccessoryFirmwareRevisionKey = "1.0.3";
+	    IAPAppAccessoryHardwareRevisionKey = "1.0";
+	    IAPAppAccessoryMacAddressKey = "00:00:00:00:00:00";
+	    IAPAppAccessoryManufacturerKey = iConnectivity;
+	    IAPAppAccessoryModelNumberKey = "icmidi-04";
+	    IAPAppAccessoryNameKey = "iConnectMIDI4+";
+	    IAPAppAccessorySerialNumberKey = 00000257;
+	    IAPAppConnectionIDKey = 36615529;
+	}
+Feb 12 17:27:02 MEH iap2d[3789] <Warning>: EA accessory with connectionID=36615529 detached
+Feb 12 17:27:02 MEH iap2d[3789] <Warning>: Accessory detached
+Feb 12 17:27:02 MEH iap2d[3789] <Warning>: INFO - /BuildRoot/Library/Caches/com.apple.xbs/Sources/iapd/iapd-1746.20.20/iap2d/iAP2Power.m:PowerGetAvailableCurrent - 100 IOAccessoryManagerGetUSBCurrentLimitBase not attached 0xe00002d9
+Feb 12 17:27:02 MEH iap2d[3789] <Warning>: INFO - /BuildRoot/Library/Caches/com.apple.xbs/Sources/iapd/iapd-1746.20.20/iap2d/iAP2Power.m:PowerGetAvailableCurrent - 100 IOAccessoryManagerGetUSBCurrentLimitBase not attached 0xe00002d9
+Feb 12 17:27:02 MEH iap2d[3789] <Warning>: /BuildRoot/Library/Caches/com.apple.xbs/Sources/iapd/iapd-1746.20.20/iap2d/iAP2EASessionList.m:-[iAP2EASessionList dealloc]
+Feb 12 17:27:02 MEH iap2d[3789] <Warning>: INFO - /BuildRoot/Library/Caches/com.apple.xbs/Sources/iapd/iapd-1746.20.20/iap2d/iAP2Power.m:PowerSetReserveCurrent - 385 IOAccessoryManagerSetUSBCurrentLimitOffset not attached 0xe00002d9
+Feb 12 17:27:02 MEH mediaserverd[3375] <Error>: 17:27:02.503 ERROR:    [0x16e1bb000] >va> 342: Error removing ListenerRelay for property "[sfmt/glob/0]"
+Feb 12 17:27:02 MEH mediaserverd[3375] <Error>: 17:27:02.504 ERROR:    [0x16e1bb000] >va> 342: Error removing ListenerRelay for property "[sfmt/glob/0]"
+Feb 12 17:27:02 MEH mediaserverd[3375] <Error>: 17:27:02.602 ERROR:    [0x16e1bb000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:27:03 MEH mediaserverd[3375] <Error>: 17:27:03.448 ERROR:    [0x16e1bb000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:27:03 MEH mediaserverd[3375] <Error>: 17:27:03.463 ERROR:    [0x16e1bb000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:27:03 MEH mediaserverd[3375] <Error>: 17:27:03.531 ERROR:    [0x16e1bb000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:27:03 MEH mediaserverd[3375] <Error>: 17:27:03.647 ERROR:    [0x16e1bb000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:27:07 MEH Muzoma[3811] <Warning>: set multi route, current output chans 1
+Feb 12 17:27:07 MEH Muzoma[3811] <Warning>: set pref chans 8
+Feb 12 17:27:07 MEH mediaserverd[3375] <Warning>: 17:27:07.441 WARNING:  [0x16e1bb000] 255: AudioSessionSetProperty: WARNING translating CMSession error: -12981
+Feb 12 17:27:07 MEH Muzoma[3811] <Warning>: error The operation couldn’t be completed. (OSStatus error -50.)
+Feb 12 17:27:07 MEH Muzoma[3811] <Warning>: ins Optional("[<AVAudioSessionPortDescription: 0x13fdbecf0, type = MicrophoneBuiltIn; name = iPhone Microphone; UID = Built-In Microphone; selectedDataSource = Bottom>]")
+Feb 12 17:27:07 MEH Muzoma[3811] <Warning>: avail ins Optional(1)
+Feb 12 17:27:07 MEH Muzoma[3811] <Warning>: outDS is nil
+Feb 12 17:27:07 MEH Muzoma[3811] <Warning>: currentRoute <AVAudioSessionRouteDescription: 0x13fd8b890, 
+	inputs = (
+	    "<AVAudioSessionPortDescription: 0x13fd926d0, type = MicrophoneBuiltIn; name = iPhone Microphone; UID = Built-In Microphone; selectedDataSource = Bottom>"
+	); 
+	outputs = (
+	    "<AVAudioSessionPortDescription: 0x13fda60c0, type = Speaker; name = Speaker; UID = Speaker; selectedDataSource = (null)>"
+	)>
+Feb 12 17:27:07 MEH Muzoma[3811] <Warning>: route <AVAudioSessionPortDescription: 0x13fda60c0, type = Speaker; name = Speaker; UID = Speaker; selectedDataSource = (null)> has 1 channels
+Feb 12 17:27:07 MEH Muzoma[3811] <Warning>: chan <AVAudioSessionChannelDescription: 0x13ff65560, name = Speaker; label = 4294967295 (0xffffffff); number = 1; port UID = Speaker>
+Feb 12 17:27:30 MEH SpringBoard[3404] <Warning>: BBBulletin-handleResponse: Error: no action key found for type 0
+Feb 12 17:27:30 MEH SpringBoard[3404] <Warning>: BBBulletin-handleResponse: Error: no action key found for type 0
+Feb 12 17:27:30 MEH SpringBoard[3404] <Warning>: BBBulletin-handleResponse: Error: no action key found for type 0
+Feb 12 17:27:32 MEH kernel[0] <Notice>: AppleARMPMUCharger: AppleUSBCableDetect 1
+Feb 12 17:27:32 MEH kernel[0] <Notice>: AppleARMPMUCharger: AppleUSBCableType USBHost
+Feb 12 17:27:33 MEH ptpd[3813] <Error>: ptpd: startResponder
+Feb 12 17:27:34 MEH ptpd[3813] <Notice>: Photo library available
+Feb 12 17:27:34 MEH ptpd[3813] <Notice>: PTP interface has been activated at high speed.
+Feb 12 17:27:35 MEH ptpd[3813] <Warning>: #### Storage allocated/var/mobile/Media 
+Feb 12 17:27:35 MEH installd[3396] <Notice>: 0x16e12f000 -[MIClientConnection lookupUninstalledWithOptions:completion:]: Lookup uninstalled requested by atc (pid 3387) with options (null)
+Feb 12 17:27:36 MEH DTFetchSymbols[3817] <Notice>: Found paths:
+Feb 12 17:27:36 MEH DTFetchSymbols[3817] <Notice>: /usr/lib/dyld
+Feb 12 17:27:36 MEH DTFetchSymbols[3817] <Notice>: /System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64
+Feb 12 17:27:36 MEH DTFetchSymbols[3817] <Notice>: /System/Library/Caches/com.apple.dyld/dyld_shared_cache_armv7s
+Feb 12 17:27:36 MEH DTFetchSymbols[3817] <Notice>: kCommand_ListFilesPlist
+Feb 12 17:27:37 MEH securityd[3436] <Error>:  secTaskDiagnoseEntitlements MISSING keychain entitlements: raw entitlement values: <CFBasicHash 0x15c5118a0 [0x19e29bb68]>{type = mutable dict, count = 0,
+	entries =>
+	}
+Feb 12 17:27:37 MEH securityd[3436] <Error>:  secTaskDiagnoseEntitlements MISSING keychain entitlements: original ag: (null)
+Feb 12 17:27:37 MEH securityd[3436] <Error>:  secTaskDiagnoseEntitlements MISSING keychain entitlements: newly parsed ag: (null)
+Feb 12 17:27:37 MEH securityd[3436] <Error>:  __security_simulatecrash Simulating crash, reason: keychain entitlement(s) missing, code=53c00007
+Feb 12 17:27:37 MEH diagnosticd[3433] <Error>: unable to find offset 0x806e9804 in shared cache for arch 'arm64'
+Feb 12 17:27:37 MEH securityd[3436] <Error>:  securityd_xpc_dictionary_handler XcodeDeviceMonit[3816] copy_matching Error Domain=NSOSStatusErrorDomain Code=-34018 "client has neither application-identifier nor keychain-access-groups entitlements" UserInfo={NSDescription=client has neither application-identifier nor keychain-access-groups entitlements}
+Feb 12 17:27:37 MEH XcodeDeviceMonitor[3816] <Error>:  SecOSStatusWith error:[-34018] Error Domain=NSOSStatusErrorDomain Code=-34018 "client has neither application-identifier nor keychain-access-groups entitlements" UserInfo={NSDescription=client has neither application-identifier nor keychain-access-groups entitlements}
+Feb 12 17:27:37 MEH ReportCrash[3818] <Warning>: saved type '109_securityd' report (6 of max 25) as /var/mobile/Library/Logs/CrashReporter/securityd_2016-02-12-172737_MEH.ips
+Feb 12 17:27:43 MEH sharingd[3409] <Notice>: 17:27:43.061 : Scanning mode Everyone
+Feb 12 17:27:43 MEH MobileGestaltHelper[3441] <Error>: libMobileGestalt MobileGestalt.c:276: server_access_check denied access to question UniqueDeviceID for pid 3809
+Feb 12 17:27:43 MEH syncdefaultsd[3809] <Error>: libMobileGestalt MobileGestaltSupport.m:151: pid 3809 (syncdefaultsd) does not have sandbox access for re6Zb+zwFKJNlkQTUeT+/w and IS NOT appropriately entitled
+Feb 12 17:27:43 MEH syncdefaultsd[3809] <Error>: libMobileGestalt MobileGestalt.c:537: no access to UniqueDeviceID (see <rdar://problem/11744455>)
+Feb 12 17:27:43 MEH iap2d[3789] <Warning>: process com.apple.mobilegarageband is now running the foreground
+Feb 12 17:27:44 MEH bird[3483] <Error>: setting error: <NSError:0x12768fab0(BRCloudDocsErrorDomain:5) - {
+	    NSDescription = "No document at URL";
+	    NSFilePath = "/private/var/mobile/Library/Mobile Documents/F3LWYJ7GM7~com~apple~mobilegarageband/Documents/YOU!.png";
+	    NSUnderlyingError = "<NSError:0x12768fa40(NSPOSIXErrorDomain:2) - {\n    NSDescription = \"No such file or directory\";\n}>";
+	}>
+Feb 12 17:27:44 MEH iap2d[3789] <Warning>: process Muzoma.com.Muzoma is now running in the background
+Feb 12 17:27:44 MEH gputoolsd[3815] <Notice>: schedule invalidation <DYTransport 0x15fd02780, error: lost transport connection (31)>
+Feb 12 17:27:44 MEH gputoolsd[3815] <Notice>: terminating daemon 0x15fd023a0
+Feb 12 17:27:45 MEH iap2d[3789] <Warning>: process Muzoma.com.Muzoma is now suspending
+Feb 12 17:27:45 MEH timed[3408] <Notice>: (Note ) CoreTime: Received time 02/12/2016 17:27:45±60.00 from "MobileLockdown"
+Feb 12 17:27:45 MEH SpringBoard[3404] <Warning>: notify name "SignificantTimeChangeNotification" has been registered 20 times - this may be a leak
+Feb 12 17:27:46 MEH timed[3408] <Notice>: (Note ) CoreTime: Want active time in 17.61min. Need active time in 8309.28min. Remaining retry interval: 7.635600min.
+Feb 12 17:27:46 MEH UserEventAgent[3373] <Error>: validateAndAddDefaults(com.apple.timed): End Time (inf) > now (476990866.2) + BACKGROUND_TASK_AGENT_JOB_WINDOW_MAX_TIME_FROM_NOW_SEC (3024000.0) + BACKGROUND_TASK_AGENT_JOB_TIME_ERROR_MARGIN (300.0)
+Feb 12 17:27:46 MEH timed[3408] <Notice>: (Error) CoreTime: Error requesting proactive time check job
+Feb 12 17:27:46 MEH timed[3408] <Notice>: (Note ) CoreTime: Current mcc: '234' simulated:'0'.
+Feb 12 17:27:46 MEH timed[3408] <Notice>: (Note ) CoreTime: Received timezone "Europe/London" from "MobileLockdown" with mcc 234
+Feb 12 17:27:49 MEH ReportCrash[3820] <Notice>: platform_thread_get_unique_id matched 2541107
+Feb 12 17:27:49 MEH diagnosticd[3433] <Error>: unable to find offset 0x806e79a4 in shared cache for arch 'arm64'
+Feb 12 17:27:49 MEH ReportCrash[3820] <Notice>: Formulating report for process[3816] XcodeDeviceMonitor
+Feb 12 17:27:49 MEH ReportCrash[3820] <Warning>: report not saved because it is non-actionable
+Feb 12 17:27:51 MEH lockdownd[3417] <Error>: CFStringGetCString error in locklog
+Feb 12 17:27:51 MEH mobile_assertion_agent[3735] <Notice>: service_one_connection: Connection closed for client iTunes.
+Feb 12 17:27:53 MEH com.apple.AppleHDQGasGauge[3373] <Error>: cannot drain the data log (-1)
+Feb 12 17:27:59 MEH ondemandd[3529] <Error>: -[ODRBackgroundMaintenance startBackgroundMaintenanceOperations]
+Feb 12 17:28:02 MEH iaptransportd[3419] <Warning>: CIapPortAppleIDBus: Auth timer timeout completed on pAIDBPort:0x144d11b40, portID:01 downstream port
+Feb 12 17:28:02 MEH kernel[0] <Notice>: IOAccessoryManager::configureAllowedFeatures: tristar: revoking mask=0xffff
+Feb 12 17:28:31 MEH streaming_zip_conduit[3747] <Warning>: LaunchServices: installing app for existing placeholder <LSApplicationProxy: 0x154d1fe20> Muzoma.com.Muzoma <(null) *Not found in database*>
+Feb 12 17:28:31 MEH streaming_zip_conduit[3747] <Warning>: LaunchServices: Not creating progress for <LSApplicationProxy: 0x154d1fe20> Muzoma.com.Muzoma <(null) *Not found in database*> since it is not a placeholder.
+Feb 12 17:28:31 MEH installd[3396] <Notice>: 0x16e12f000 -[MIClientConnection installPath:withOptions:completion:]: Install of "/var/mobile/Media/PublicStaging/Muzoma.app_sparse.ipa" type Developer (LSInstallType = (null)) requested by streaming_zip_conduit (pid 3747)
+Feb 12 17:28:31 MEH UserEventAgent[3373] <Notice>: jetsam: kernel termination snapshot being created
+Feb 12 17:28:31 MEH mediaserverd[3375] <Notice>: '' Muzoma.com.Muzoma(pid = 3811) setting DiscoveryMode = DiscoveryMode_None, currentDiscoveryMode = DiscoveryMode_None
+Feb 12 17:28:31 MEH com.apple.xpc.launchd[1] (UIKitApplication:Muzoma.com.Muzoma[0x4376][3811]) <Notice>: Service exited due to signal: Killed: 9
+Feb 12 17:28:31 MEH ReportCrash[3821] <Warning>: suspended-only jetsam log already dumped today
+Feb 12 17:28:31 MEH installd[3396] <Notice>: 0x16e087000 -[MIInstaller performInstallationWithError:]: Installing <MIInstallableBundlePatch ID=Muzoma.com.Muzoma; Version=1, ShortVersion=1.0>
+Feb 12 17:28:31 MEH installd[3396] <Notice>: 0x16e087000 -[MIInstallableBundlePatch applyPatchWithError:]: Attempting patch update of Muzoma.com.Muzoma from 1 (1.0) to 1 (1.0)
+Feb 12 17:28:31 MEH SpringBoard[3404] <Warning>: Application 'UIKitApplication:Muzoma.com.Muzoma[0x4376]' exited abnormally via signal.
+Feb 12 17:28:31 MEH iap2d[3789] <Warning>: process Muzoma.com.Muzoma is now terminated
+Feb 12 17:28:32 MEH profiled[3494] <Notice>: (Note ) MC: Provisioning profiles changed
+Feb 12 17:28:32 MEH profiled[3494] <Notice>: (Note ) MC: Updating MIS trust...
+Feb 12 17:28:32 MEH securityd[3436] <Error>:  secTaskDiagnoseEntitlements MISSING keychain entitlements: no stored taskRef found
+Feb 12 17:28:32 MEH securityd[3436] <Error>:  secTaskDiagnoseEntitlements MISSING keychain entitlements: no stored taskRef found
+Feb 12 17:28:32 MEH installd[3396] <Error>:  SecTrustEvaluate  [leaf IssuerCommonName SubjectCommonName]
+Feb 12 17:28:32 MEH installd[3396] <Notice>: 0x16e087000 -[MIInstallableBundle _refreshUUIDForContainer:withError:]: Data container for Muzoma.com.Muzoma is now at /private/var/mobile/Containers/Data/Application/6FBB571C-7F93-478C-9F25-912337A65FB5
+Feb 12 17:28:32 MEH installd[3396] <Notice>: 0x16e087000 -[MIContainer makeContainerLiveReplacingContainer:reason:withError:]: Made container live for Muzoma.com.Muzoma at /private/var/mobile/Containers/Bundle/Application/BB7E4814-7D5F-42EC-8FF8-A672F4A04448
+Feb 12 17:28:32 MEH installd[3396] <Notice>: 0x16e087000 -[MIInstaller performInstallationWithError:]: Install Successful; Staging: 0.00s; Waiting: 0.00s; Preflight/Patch: 0.14s, Verifying: 0.11s; Overall: 0.50s
+Feb 12 17:28:32 MEH pkd[3453] <Warning>: releasing plug-in hold D5C42871-4396-499D-BF12-1A6B044D0C78 at client's request
+Feb 12 17:28:32 MEH online-auth-agent[3533] <Error>:  SecTrustEvaluate  [leaf IssuerCommonName SubjectCommonName]
+Feb 12 17:28:32 MEH nesessionmanager[3463] <Notice>: NESMPathControllerSession[com.apple.commcenter.ne.cellularusage:42B0D91D-30C1-4C40-9619-2EB5762F2075]: Skip a start command from nehelper[3450]: session in state connected
+Feb 12 17:28:32 MEH lsd[3429] <Warning>: LaunchServices: Updating identifier store
+Feb 12 17:28:32 MEH SpringBoard[3404] <Warning>: Installed apps did change.
+	Added: {(
+	)}
+	Removed: {(
+	)}
+	Modified: {(
+	    "Muzoma.com.Muzoma"
+	)}
+Feb 12 17:28:33 MEH lockdownd[3417] <Error>: CFStringGetCString error in locklog
+Feb 12 17:28:34 MEH com.apple.debugserver-@(#)PROGRAM:debugserver  PROJECT:debugserver-340.3.51.1
+	[3823] <Warning>: debugserver-@(#)PROGRAM:debugserver  PROJECT:debugserver-340.3.51.1
+	 for arm64.
+Feb 12 17:28:34 MEH com.apple.debugserver-@(#)PROGRAM:debugserver  PROJECT:debugserver-340.3.51.1
+	[3823] <Warning>: Connecting to com.apple.debugserver service...
+Feb 12 17:28:34 MEH com.apple.debugserver-@(#)PROGRAM:debugserver  PROJECT:debugserver-340.3.51.1
+	[3823] <Warning>: Got a connection, waiting for process information for launching or attaching.
+Feb 12 17:28:35 MEH com.apple.debugserver-@(#)PROGRAM:debugserver  PROJECT:debugserver-340.3.51.1
+	[3823] <Warning>: Sending AppProxy info: sequence no: 275, GUID: 76712589-E8D9-42C3-90D1-755CD322CD90.
+Feb 12 17:28:35 MEH com.apple.debugserver-@(#)PROGRAM:debugserver  PROJECT:debugserver-340.3.51.1
+	[3823] <Error>: error: Unrecognized event type: .  Ignoring.
+Feb 12 17:28:35 MEH com.apple.debugserver-@(#)PROGRAM:debugserver  PROJECT:debugserver-340.3.51.1
+	[3823] <Warning>: About to launch process for bundle ID: Muzoma.com.Muzoma
+Feb 12 17:28:35 MEH SpringBoard[3404] <Error>:  SecTrustEvaluate  [leaf IssuerCommonName SubjectCommonName]
+Feb 12 17:28:35 MEH SpringBoard[3404] <Error>:  SecTrustEvaluate  [leaf IssuerCommonName SubjectCommonName]
+Feb 12 17:28:35 MEH com.apple.xpc.launchd[1] (UIKitApplication:Muzoma.com.Muzoma[0x2245]) <Error>: The DisableASLR key is no longer respected. Please remove it.
+Feb 12 17:28:35 MEH kernel[0] <Notice>: xpcproxy[3824] Container: /private/var/mobile/Containers/Data/Application/6FBB571C-7F93-478C-9F25-912337A65FB5 (sandbox)
+Feb 12 17:28:35 MEH com.apple.debugserver-@(#)PROGRAM:debugserver  PROJECT:debugserver-340.3.51.1
+	[3823] <Warning>: In completion handler, got pid for bundle id, pid: 3824.
+Feb 12 17:28:35 MEH com.apple.debugserver-@(#)PROGRAM:debugserver  PROJECT:debugserver-340.3.51.1
+	[3823] <Warning>: Got a connection, launched process /private/var/mobile/Containers/Bundle/Application/BB7E4814-7D5F-42EC-8FF8-A672F4A04448/Muzoma.app (pid = 3824).
+Feb 12 17:28:35 MEH kernel[0] <Notice>: socketIsClosed sock_receive returned errno 54
+Feb 12 17:28:36 MEH iap2d[3789] <Warning>: process Muzoma.com.Muzoma is now running the foreground
+Feb 12 17:28:37 MEH Muzoma[3824] <Warning>: Unable to simultaneously satisfy constraints.
+		Probably at least one of the constraints in the following list is one you don't want. 
+		Try this: 
+			(1) look at each constraint and try to figure out which you don't expect; 
+			(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(
+	    "<NSLayoutConstraint:0x134595560 V:|-(20)-[UIInputSetContainerView:0x134589d20]   (Names: '|':UITextEffectsWindow:0x13458d0b0 )>",
+	    "<NSLayoutConstraint:0x13455dbe0 'UIInputWindowController-top' V:|-(0)-[UIInputSetContainerView:0x134589d20]   (Names: '|':UITextEffectsWindow:0x13458d0b0 )>"
+	)
+	
+	Will attempt to recover by breaking constraint 
+	<NSLayoutConstraint:0x134595560 V:|-(20)-[UIInputSetContainerView:0x134589d20]   (Names: '|':UITextEffectsWindow:0x13458d0b0 )>
+	
+	Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+	The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+Feb 12 17:28:37 MEH iap2d[3789] <Warning>: process com.apple.mobilegarageband is now running in the background
+Feb 12 17:28:48 MEH Muzoma[3824] <Warning>: set multi route, current output chans 1
+Feb 12 17:28:48 MEH Muzoma[3824] <Warning>: set pref chans 8
+Feb 12 17:28:48 MEH diagnosticd[3433] <Error>: error evaluating process info - pid: 3824, punique: 3824
+Feb 12 17:28:48 MEH diagnosticd[3433] <Error>: error evaluating process info - pid: 3824, punique: 3824
+Feb 12 17:28:48 MEH diagnosticd[3433] <Error>: error evaluating process info - pid: 3824, punique: 3824
+Feb 12 17:28:48 MEH diagnosticd[3433] <Error>: error evaluating process info - pid: 3824, punique: 3824
+Feb 12 17:28:48 MEH diagnosticd[3433] <Error>: error evaluating process info - pid: 3824, punique: 3824
+Feb 12 17:28:48 MEH diagnosticd[3433] <Error>: error evaluating process info - pid: 3824, punique: 3824
+Feb 12 17:28:50 MEH mediaserverd[3375] <Notice>: '' (pid = 3678) setting DiscoveryMode = DiscoveryMode_None, currentDiscoveryMode = DiscoveryMode_None
+Feb 12 17:28:50 MEH mediaserverd[3375] <Notice>: '' (pid = 3678) setting DiscoveryMode = DiscoveryMode_None, currentDiscoveryMode = DiscoveryMode_None
+Feb 12 17:28:50 MEH iap2d[3789] <Warning>: process com.apple.WebKit.WebContent is now terminated
+Feb 12 17:28:50 MEH mediaserverd[3375] <Notice>: 'FigPlayer - 3381' (pid = 3381) setting DiscoveryMode = DiscoveryMode_None, currentDiscoveryMode = DiscoveryMode_None
+Feb 12 17:28:50 MEH SpringBoard[3404] <Warning>: [MPUSystemMediaControls] Updating supported commands for now playing application.
+Feb 12 17:28:50 MEH SpringBoard[3404] <Warning>: [MPUSystemMediaControls] Updating supported commands for now playing application.
+Feb 12 17:28:50 MEH SpringBoard[3404] <Warning>: [MPUSystemMediaControls] Updating supported commands for now playing application.
+Feb 12 17:28:50 MEH SpringBoard[3404] <Warning>: [MPUSystemMediaControls] Updating supported commands for now playing application.
+Feb 12 17:29:03 MEH diagnosticd[3433] <Error>: unable to find offset 0x806e79a4 in shared cache for arch 'arm64'
+Feb 12 17:29:03 MEH ReportCrash[3825] <Notice>: platform_thread_get_unique_id matched 2537712
+Feb 12 17:29:03 MEH ReportCrash[3825] <Notice>: Formulating report for process[3801] MobileGarageBand
+Feb 12 17:29:03 MEH mediaserverd[3375] <Error>: 17:29:03.401 ERROR:    [0x16e12f000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:29:03 MEH MobileGarageBand[3801] <Warning>: Audio engine overloaded, resetting
+Feb 12 17:29:03 MEH ReportCrash[3825] <Warning>: saved type '185_MobileGarageBand' report (1 of max 25) as /var/mobile/Library/Logs/CrashReporter/ExcResource_MobileGarageBand_2016-02-12-172903_MEH.ips
+Feb 12 17:29:03 MEH mediaserverd[3375] <Error>: 17:29:03.762 ERROR:    [0x16e12f000] 789: Couldn't set alt ctl: 0xe00002c1
+Feb 12 17:29:55 MEH syncdefaultsd[3809] <Notice>: (Note ) marked "com.me.keyvalueservice" topic as "enabled" on <APSConnection: 0x155515f20>
+Feb 12 17:32:21 MEH mediaserverd[3375] <Warning>: 17:32:21.549 WARNING:  [0x16e1bb000] 255: AudioSessionSetProperty: WARNING translating CMSession error: -12981
+Feb 12 17:32:21 MEH Muzoma[3824] <Warning>: error The operation couldn’t be completed. (OSStatus error -50.)
+Feb 12 17:32:23 MEH Muzoma[3824] <Warning>: ins Optional("[<AVAudioSessionPortDescription: 0x1347196f0, type = MicrophoneBuiltIn; name = iPhone Microphone; UID = Built-In Microphone; selectedDataSource = Bottom>]")
+Feb 12 17:32:23 MEH Muzoma[3824] <Warning>: avail ins Optional(1)
+Feb 12 17:32:23 MEH Muzoma[3824] <Warning>: outDS is nil
+Feb 12 17:32:23 MEH Muzoma[3824] <Warning>: currentRoute <AVAudioSessionRouteDescription: 0x1346cc6d0, 
+	inputs = (
+	    "<AVAudioSessionPortDescription: 0x1346a4080, type = MicrophoneBuiltIn; name = iPhone Microphone; UID = Built-In Microphone; selectedDataSource = Bottom>"
+	); 
+	outputs = (
+	    "<AVAudioSessionPortDescription: 0x1346aca40, type = Speaker; name = Speaker; UID = Speaker; selectedDataSource = (null)>"
+	)>
+Feb 12 17:32:23 MEH Muzoma[3824] <Warning>: route <AVAudioSessionPortDescription: 0x1346aca40, type = Speaker; name = Speaker; UID = Speaker; selectedDataSource = (null)> has 1 channels
+Feb 12 17:32:23 MEH Muzoma[3824] <Warning>: chan <AVAudioSessionChannelDescription: 0x134746f90, name = Speaker; label = 4294967295 (0xffffffff); number = 1; port UID = Speaker>
+Feb 12 17:32:23 MEH kernel[0] <Notice>: socketIsClosed sock_receive returned errno 54
+Feb 12 17:34:12 MEH CommCenter[3425] <Notice>: Snapshot path [/var/wireless/Library/Logs/CrashReporter/Baseband/] was removed
+Feb 12 17:34:12 MEH crash_mover[3827] <Notice>: (Warn ) <crash_mover.m nr_isPaired:286> device is not paired
+Feb 12 17:36:03 MEH CommCenter[3425] <Notice>: Snapshot path [/var/wireless/Library/Logs/CrashReporter/Baseband/] was removed
+Feb 12 17:36:03 MEH crash_mover[3830] <Notice>: (Warn ) <crash_mover.m nr_isPaired:286> device is not paired
+Feb 12 17:36:37 MEH syslogd[3372] <Notice>: ASL Sender Statistics
+Feb 12 17:37:54 MEH kernel[0] <Notice>: Sandbox: mobile_house_arr(3832) deny(1) file-read-metadata /private/var/mobile/Containers/Data/Application/6FBB571C-7F93-478C-9F25-912337A65FB5/.com.apple.mobile_container_manager.metadata.plist
+Feb 12 17:39:00 MEH kernel[0] <Notice>: Sandbox: mobile_house_arr(3833) deny(1) file-read-metadata /private/var/mobile/Containers/Data/Application/6FBB571C-7F93-478C-9F25-912337A65FB5/.com.apple.mobile_container_manager.metadata.plist
+Feb 12 17:40:05 MEH iap2d[3789] <Warning>: process com.apple.mobilegarageband is now running the foreground
+Feb 12 17:40:05 MEH bird[3483] <Error>: setting error: <NSError:0x127626fe0(BRCloudDocsErrorDomain:5) - {
+	    NSDescription = "No document at URL";
+	    NSFilePath = "/private/var/mobile/Library/Mobile Documents/F3LWYJ7GM7~com~apple~mobilegarageband/Documents/YOU!.png";
+	    NSUnderlyingError = "<NSError:0x1276443b0(NSPOSIXErrorDomain:2) - {\n    NSDescription = \"No such file or directory\";\n}>";
+	}>
+Feb 12 17:40:06 MEH iap2d[3789] <Warning>: process Muzoma.com.Muzoma is now running in the background
+Feb 12 17:40:07 MEH iap2d[3789] <Warning>: process Muzoma.com.Muzoma is now suspending
+Feb 12 17:40:07 MEH syncdefaultsd[3843] <Notice>: (Note ) marked "com.me.keyvalueservice" topic as "opportunistic" on <APSConnection: 0x12de1c510>
+Feb 12 17:40:08 MEH syncdefaultsd[3843] <Notice>: (Note ) marked "com.me.keyvalueservice" topic as "enabled" on <APSConnection: 0x12de1c510>
+Feb 12 17:40:09 MEH iap2d[3789] <Warning>: process com.apple.mobilegarageband is now running in the background
+Feb 12 17:40:09 MEH searchd[3496] <Warning>: ====^^^^ DuetExpert missing data, count -> people:8 applicationDeepLinks:0 applications:8 requests:21 missingAllDataRequests:0
+Feb 12 17:40:10 MEH SpringBoard[3404] <Warning>: HW kbd: Failed to set (null) as keyboard focus
+Feb 12 17:41:10 MEH SpringBoard[3404] <Warning>: [MPUSystemMediaControls] Disabling lock screen media controls updates for screen turning off.
+Feb 12 17:41:10 MEH backboardd[3406] <Notice>: [HID] [MT] MTSimpleHIDManager::setPropertyInternal detection mode: 3->255 
+Feb 12 17:41:11 MEH kernel[0] <Notice>: AppleKeyStore: operation failed (pid: 3404 sel: 26 ret: e00002e2 '-536870174')
+Feb 12 17:41:11 MEH UserEventAgent[3373] <Error>:  LockStateNotifier aksNotificationCallback posting notification: com.apple.mobile.keybagd.lock_status
+Feb 12 17:41:11 MEH UserEventAgent[3373] <Notice>: (Note ) PIH: Lock status changed.
+Feb 12 17:41:11 MEH sharingd[3409] <Notice>: 17:41:11.242 : BTLE scanning stopped
+Feb 12 17:41:11 MEH MobileMail[3521] <Warning>: Key bag transitioning from unlocked to locking
+Feb 12 17:41:11 MEH com.apple.CDScheduler[3373] <Error>: SysAdmChk: Throttling activity execution. memFlags:0x1 thermalLevel:0x0
+Feb 12 17:41:11 MEH UserEventAgent[3373] <Warning>: scheduled session log
+Feb 12 17:41:11 MEH UserEventAgent[3373] <Warning>: Filtering only beta sessions
+Feb 12 17:41:11 MEH UserEventAgent[3373] <Warning>: Session log: no events recorded
+Feb 12 17:41:11 MEH SpringBoard[3404] <Warning>: [MPUSystemMediaControls] Updating supported commands for now playing application.
+Feb 12 17:41:21 MEH kernel[0] <Notice>: AppleKeyStore:Sending lock change 1 for handle 0
+Feb 12 17:41:21 MEH UserEventAgent[3373] <Error>:  LockStateNotifier aksNotificationCallback posting notification: com.apple.mobile.keybagd.lock_status
+Feb 12 17:41:21 MEH UserEventAgent[3373] <Notice>: (Note ) PIH: Lock status changed.
+Feb 12 17:41:21 MEH MobileMail[3521] <Warning>: Key bag transitioning from locking to locked
+Feb 12 17:42:08 MEH syncdefaultsd[3843] <Notice>: (Note ) marked "com.me.keyvalueservice" topic as "enabled" on <APSConnection: 0x12de1c510>
+Feb 12 17:43:48 MEH syslog_relay[3844] <Notice>: syslog_relay read 51 total bytes: 
+	========================
+	ASL is here to serve you
+Feb 12 17:43:48 MEH syslog_relay[3844] <Notice>: syslog_relay found the ASL prompt. Starting...

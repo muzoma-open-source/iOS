@@ -1,0 +1,2004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0042091D61F2360002ADDF /* UserRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0042081D61F2360002ADDF /* UserRegistrationTableViewController.swift */; };
+		3B03BE3A1E2E8E0600599594 /* UserDownloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03BE391E2E8E0600599594 /* UserDownloads.swift */; };
+		3B03CBEC1DCE15930051C425 /* PopupQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03CBEB1DCE15930051C425 /* PopupQueue.swift */; };
+		3B0697DC1E83D0AF00A770D7 /* MuzomaMidi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0697DB1E83D0AF00A770D7 /* MuzomaMidi.swift */; };
+		3B0697DF1E83D17300A770D7 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0697DE1E83D17300A770D7 /* Globals.swift */; };
+		3B07D9421DE0E16C00266A18 /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07D9411DE0E16C00266A18 /* Chord.swift */; };
+		3B09DE3F1E51EA2F00A74BE8 /* MIKMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B09DE3A1E51E95E00A74BE8 /* MIKMIDI.framework */; };
+		3B09DE401E51EA2F00A74BE8 /* MIKMIDI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B09DE3A1E51E95E00A74BE8 /* MIKMIDI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3B0B14ED1E8C60FA00F7AE86 /* AudioShareSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0B14EB1E8C60FA00F7AE86 /* AudioShareSDK.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3B0DFAFD1D4CEC1000ED73F7 /* MuzomaProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DFAFC1D4CEC1000ED73F7 /* MuzomaProducts.swift */; };
+		3B0DFAFF1D4CECC900ED73F7 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DFAFE1D4CECC900ED73F7 /* IAPHelper.swift */; };
+		3B0FA9302390689F004E4BA1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8BFFD4238FF0FF0040F6D7 /* Alamofire.framework */; };
+		3B0FA9312390689F004E4BA1 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8BFFD4238FF0FF0040F6D7 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3B1025731BF9ED6300E3F78C /* DocumentsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1025721BF9ED6300E3F78C /* DocumentsCollectionViewController.swift */; };
+		3B1025751BF9F36B00E3F78C /* MuzDocCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1025741BF9F36B00E3F78C /* MuzDocCollectionViewCell.swift */; };
+		3B11FC131D4A0B71007BCDC2 /* Muzoma.css in Resources */ = {isa = PBXBuildFile; fileRef = 3B11FC111D4A0B71007BCDC2 /* Muzoma.css */; };
+		3B11FC141D4A0B71007BCDC2 /* Muzoma.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B11FC121D4A0B71007BCDC2 /* Muzoma.js */; };
+		3B15A08723900415006773EE /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B15A07E239003E0006773EE /* Zip.framework */; };
+		3B15A08823900415006773EE /* Zip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B15A07E239003E0006773EE /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3B195F581CF5BD4900907EC6 /* CreateNewSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B195F571CF5BD4900907EC6 /* CreateNewSetViewController.swift */; };
+		3B1C849C1CEDE85800032B6D /* EditorTableViewStructureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C849B1CEDE85800032B6D /* EditorTableViewStructureCell.swift */; };
+		3B1C849E1CEDE8B900032B6D /* EditorTableViewBarBeatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C849D1CEDE8B900032B6D /* EditorTableViewBarBeatsCell.swift */; };
+		3B1DBD731D5B97640013B852 /* ConsoleLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DBD721D5B97640013B852 /* ConsoleLogViewController.swift */; };
+		3B1DD4DD1E847088005BFA69 /* ControlSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DD4DC1E847088005BFA69 /* ControlSettings.swift */; };
+		3B1FBC8F1E412ED300B0EDD8 /* KVDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1FBC8E1E412ED300B0EDD8 /* KVDownload.swift */; };
+		3B235F0E1DDDB40B006ABFD6 /* MultiChannelAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B235F0D1DDDB40B006ABFD6 /* MultiChannelAudio.swift */; };
+		3B272E071EA7702D00132BA2 /* TransportMidiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B272E061EA7702D00132BA2 /* TransportMidiControl.swift */; };
+		3B272E091EA7709D00132BA2 /* MixerMidiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B272E081EA7709D00132BA2 /* MixerMidiControl.swift */; };
+		3B274A642145467D002CCE37 /* Matts Playlist.play.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3B274A4D2145467D002CCE37 /* Matts Playlist.play.xml */; };
+		3B274A662145469C002CCE37 /* song.set.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3B274A652145469C002CCE37 /* song.set.xml */; };
+		3B28D5281D392B3400569D89 /* 663033-airplay-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B28D5271D392B3400569D89 /* 663033-airplay-24.png */; };
+		3B2A75751D2E4E7F00799158 /* MediaCloudPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A75741D2E4E7F00799158 /* MediaCloudPicker.swift */; };
+		3B2A762F1D4623B1007F10C9 /* printer-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2A762E1D4623B1007F10C9 /* printer-64.png */; };
+		3B2A76341D46241F007F10C9 /* printer-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2A76331D46241F007F10C9 /* printer-24.png */; };
+		3B2A76361D46392F007F10C9 /* printed sheet-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2A76351D46392F007F10C9 /* printed sheet-24.png */; };
+		3B2A76381D465615007F10C9 /* ViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A76371D465615007F10C9 /* ViewerViewController.swift */; };
+		3B2C6CE31EAE09AC00C9D19A /* midi control 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2C6CE21EAE09AC00C9D19A /* midi control 4.png */; };
+		3B2CCCE91DEEDC420057EECD /* DownloadURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CCCE81DEEDC420057EECD /* DownloadURL.swift */; };
+		3B2CCCEB1DEEED120057EECD /* DiscoverRemoteDocs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CCCEA1DEEED120057EECD /* DiscoverRemoteDocs.swift */; };
+		3B2D1ACC1EAD550200083A43 /* midi in control 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2D1AC81EAD550200083A43 /* midi in control 4.png */; };
+		3B2D1ACD1EAD550200083A43 /* midi in midi out control 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2D1AC91EAD550200083A43 /* midi in midi out control 4.png */; };
+		3B2D1ACE1EAD550200083A43 /* midi out control 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2D1ACA1EAD550200083A43 /* midi out control 4.png */; };
+		3B2F4BBC1D22C5C500A5941A /* LineEventView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7ECA931CE629F100408B66 /* LineEventView.xib */; };
+		3B33B0181D2146B400FF0F8E /* TransportUIAndLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33B0171D2146B400FF0F8E /* TransportUIAndLogic.swift */; };
+		3B3465391CE9CBEB00B63F40 /* EditTimingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3465381CE9CBEB00B63F40 /* EditTimingViewController.swift */; };
+		3B3483891E47DA3400864DDF /* AudioUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3483881E47DA3400864DDF /* AudioUtils.swift */; };
+		3B37578B1DEB187B00AA8065 /* Placeholder load.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3B3757831DEB143A00AA8065 /* Placeholder load.gif */; };
+		3B37578D1DEB39F400AA8065 /* RollingPlayerDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37578C1DEB39F400AA8065 /* RollingPlayerDocumentViewController.swift */; };
+		3B3E48181E530583005A69EA /* MuzomaControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3E48171E530583005A69EA /* MuzomaControlViewController.swift */; };
+		3B40CFDF1DCA540200283AE6 /* DocumentMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40CFDE1DCA540200283AE6 /* DocumentMapper.swift */; };
+		3B44FFFE1E4B35E400FCF531 /* VirticalUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B44FFFD1E4B35E400FCF531 /* VirticalUISlider.swift */; };
+		3B49CF971C80B92B0062DC1F /* ImportTextDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49CF961C80B92B0062DC1F /* ImportTextDocumentViewController.swift */; };
+		3B49CF9C1C84B83A0062DC1F /* _Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49CF9B1C84B83A0062DC1F /* _Extensions.swift */; };
+		3B4E33BA1AD1559B00443460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4E33B91AD1559B00443460 /* AppDelegate.swift */; };
+		3B4E33BC1AD1559B00443460 /* EditDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4E33BB1AD1559B00443460 /* EditDocumentViewController.swift */; };
+		3B4E33BF1AD1559B00443460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4E33BD1AD1559B00443460 /* Main.storyboard */; };
+		3B4E33C11AD1559B00443460 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4E33C01AD1559B00443460 /* Images.xcassets */; };
+		3B4E33C41AD1559B00443460 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B4E33C21AD1559B00443460 /* LaunchScreen.xib */; };
+		3B4E52281CD9119000FE0201 /* Chord Pro Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4E52271CD9118F00FE0201 /* Chord Pro Icon.png */; };
+		3B4E522D1CD917EA00FE0201 /* Text Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4E522C1CD917EA00FE0201 /* Text Icon.png */; };
+		3B5016E71E463C8100A56344 /* KVCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5016E61E463C8100A56344 /* KVCollectionViewCell.swift */; };
+		3B5106C11C7FBDD800DC6692 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B5106C01C7FBDD800DC6692 /* Settings.bundle */; };
+		3B592A411E917F88003A6008 /* DropDownTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B592A401E917F87003A6008 /* DropDownTextField.swift */; };
+		3B5BA2AF1DEB90D90012B316 /* MuzomaDark.css in Resources */ = {isa = PBXBuildFile; fileRef = 3B5BA2AC1DEB90D90012B316 /* MuzomaDark.css */; };
+		3B5BA2B01DEB90D90012B316 /* MuzomaHighContrast.css in Resources */ = {isa = PBXBuildFile; fileRef = 3B5BA2AD1DEB90D90012B316 /* MuzomaHighContrast.css */; };
+		3B5BA2B11DEB90D90012B316 /* MuzomaLight.css in Resources */ = {isa = PBXBuildFile; fileRef = 3B5BA2AE1DEB90D90012B316 /* MuzomaLight.css */; };
+		3B5D9EA11C9FF7D3008A9736 /* dragCorner.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D9EA01C9FF7D3008A9736 /* dragCorner.png */; };
+		3B637E2C1C9174A6005D913F /* DispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B637E2B1C9174A6005D913F /* DispatchTimer.swift */; };
+		3B637E751C99578B005D913F /* _Muzoma A1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E2D1C99578B005D913F /* _Muzoma A1-AcGuitar.m4a */; };
+		3B637E761C99578B005D913F /* _Muzoma A1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E2E1C99578B005D913F /* _Muzoma A1-Piano.m4a */; };
+		3B637E771C99578B005D913F /* _Muzoma A3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E2F1C99578B005D913F /* _Muzoma A3-AcGuitar.m4a */; };
+		3B637E781C99578B005D913F /* _Muzoma A3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E301C99578B005D913F /* _Muzoma A3-Piano.m4a */; };
+		3B637E791C99578B005D913F /* _Muzoma A4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E311C99578B005D913F /* _Muzoma A4-AcGuitar.m4a */; };
+		3B637E7A1C99578B005D913F /* _Muzoma A4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E321C99578B005D913F /* _Muzoma A4-Piano.m4a */; };
+		3B637E7B1C99578B005D913F /* _Muzoma As1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E331C99578B005D913F /* _Muzoma As1-AcGuitar.m4a */; };
+		3B637E7C1C99578B005D913F /* _Muzoma As1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E341C99578B005D913F /* _Muzoma As1-Piano.m4a */; };
+		3B637E7D1C99578B005D913F /* _Muzoma As3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E351C99578B005D913F /* _Muzoma As3-AcGuitar.m4a */; };
+		3B637E7E1C99578B005D913F /* _Muzoma As3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E361C99578B005D913F /* _Muzoma As3-Piano.m4a */; };
+		3B637E7F1C99578B005D913F /* _Muzoma As4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E371C99578B005D913F /* _Muzoma As4-AcGuitar.m4a */; };
+		3B637E801C99578B005D913F /* _Muzoma As4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E381C99578B005D913F /* _Muzoma As4-Piano.m4a */; };
+		3B637E811C99578B005D913F /* _Muzoma B1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E391C99578B005D913F /* _Muzoma B1-AcGuitar.m4a */; };
+		3B637E821C99578B005D913F /* _Muzoma B1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E3A1C99578B005D913F /* _Muzoma B1-Piano.m4a */; };
+		3B637E831C99578B005D913F /* _Muzoma B3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E3B1C99578B005D913F /* _Muzoma B3-AcGuitar.m4a */; };
+		3B637E841C99578B005D913F /* _Muzoma B3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E3C1C99578B005D913F /* _Muzoma B3-Piano.m4a */; };
+		3B637E851C99578B005D913F /* _Muzoma B4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E3D1C99578B005D913F /* _Muzoma B4-AcGuitar.m4a */; };
+		3B637E861C99578B005D913F /* _Muzoma B4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E3E1C99578B005D913F /* _Muzoma B4-Piano.m4a */; };
+		3B637E871C99578B005D913F /* _Muzoma C1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E3F1C99578B005D913F /* _Muzoma C1-AcGuitar.m4a */; };
+		3B637E881C99578B005D913F /* _Muzoma C1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E401C99578B005D913F /* _Muzoma C1-Piano.m4a */; };
+		3B637E891C99578B005D913F /* _Muzoma C3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E411C99578B005D913F /* _Muzoma C3-AcGuitar.m4a */; };
+		3B637E8A1C99578B005D913F /* _Muzoma C3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E421C99578B005D913F /* _Muzoma C3-Piano.m4a */; };
+		3B637E8B1C99578B005D913F /* _Muzoma C4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E431C99578B005D913F /* _Muzoma C4-AcGuitar.m4a */; };
+		3B637E8C1C99578B005D913F /* _Muzoma C4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E441C99578B005D913F /* _Muzoma C4-Piano.m4a */; };
+		3B637E8D1C99578B005D913F /* _Muzoma Cs1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E451C99578B005D913F /* _Muzoma Cs1-AcGuitar.m4a */; };
+		3B637E8E1C99578B005D913F /* _Muzoma Cs1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E461C99578B005D913F /* _Muzoma Cs1-Piano.m4a */; };
+		3B637E8F1C99578B005D913F /* _Muzoma Cs3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E471C99578B005D913F /* _Muzoma Cs3-AcGuitar.m4a */; };
+		3B637E901C99578B005D913F /* _Muzoma Cs3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E481C99578B005D913F /* _Muzoma Cs3-Piano.m4a */; };
+		3B637E911C99578B005D913F /* _Muzoma Cs4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E491C99578B005D913F /* _Muzoma Cs4-AcGuitar.m4a */; };
+		3B637E921C99578B005D913F /* _Muzoma Cs4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E4A1C99578B005D913F /* _Muzoma Cs4-Piano.m4a */; };
+		3B637E931C99578B005D913F /* _Muzoma D1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E4B1C99578B005D913F /* _Muzoma D1-AcGuitar.m4a */; };
+		3B637E941C99578B005D913F /* _Muzoma D1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E4C1C99578B005D913F /* _Muzoma D1-Piano.m4a */; };
+		3B637E951C99578B005D913F /* _Muzoma D3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E4D1C99578B005D913F /* _Muzoma D3-AcGuitar.m4a */; };
+		3B637E961C99578B005D913F /* _Muzoma D3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E4E1C99578B005D913F /* _Muzoma D3-Piano.m4a */; };
+		3B637E971C99578B005D913F /* _Muzoma D4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E4F1C99578B005D913F /* _Muzoma D4-AcGuitar.m4a */; };
+		3B637E981C99578B005D913F /* _Muzoma D4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E501C99578B005D913F /* _Muzoma D4-Piano.m4a */; };
+		3B637E991C99578B005D913F /* _Muzoma Ds1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E511C99578B005D913F /* _Muzoma Ds1-AcGuitar.m4a */; };
+		3B637E9A1C99578B005D913F /* _Muzoma Ds1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E521C99578B005D913F /* _Muzoma Ds1-Piano.m4a */; };
+		3B637E9B1C99578B005D913F /* _Muzoma Ds3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E531C99578B005D913F /* _Muzoma Ds3-AcGuitar.m4a */; };
+		3B637E9C1C99578B005D913F /* _Muzoma Ds3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E541C99578B005D913F /* _Muzoma Ds3-Piano.m4a */; };
+		3B637E9D1C99578B005D913F /* _Muzoma Ds4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E551C99578B005D913F /* _Muzoma Ds4-AcGuitar.m4a */; };
+		3B637E9E1C99578B005D913F /* _Muzoma Ds4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E561C99578B005D913F /* _Muzoma Ds4-Piano.m4a */; };
+		3B637E9F1C99578B005D913F /* _Muzoma E1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E571C99578B005D913F /* _Muzoma E1-AcGuitar.m4a */; };
+		3B637EA01C99578B005D913F /* _Muzoma E1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E581C99578B005D913F /* _Muzoma E1-Piano.m4a */; };
+		3B637EA11C99578B005D913F /* _Muzoma E3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E591C99578B005D913F /* _Muzoma E3-AcGuitar.m4a */; };
+		3B637EA21C99578B005D913F /* _Muzoma E3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E5A1C99578B005D913F /* _Muzoma E3-Piano.m4a */; };
+		3B637EA31C99578B005D913F /* _Muzoma E4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E5B1C99578B005D913F /* _Muzoma E4-AcGuitar.m4a */; };
+		3B637EA41C99578B005D913F /* _Muzoma E4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E5C1C99578B005D913F /* _Muzoma E4-Piano.m4a */; };
+		3B637EA51C99578B005D913F /* _Muzoma F1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E5D1C99578B005D913F /* _Muzoma F1-AcGuitar.m4a */; };
+		3B637EA61C99578B005D913F /* _Muzoma F1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E5E1C99578B005D913F /* _Muzoma F1-Piano.m4a */; };
+		3B637EA71C99578B005D913F /* _Muzoma F3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E5F1C99578B005D913F /* _Muzoma F3-AcGuitar.m4a */; };
+		3B637EA81C99578B005D913F /* _Muzoma F3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E601C99578B005D913F /* _Muzoma F3-Piano.m4a */; };
+		3B637EA91C99578B005D913F /* _Muzoma F4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E611C99578B005D913F /* _Muzoma F4-AcGuitar.m4a */; };
+		3B637EAA1C99578B005D913F /* _Muzoma F4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E621C99578B005D913F /* _Muzoma F4-Piano.m4a */; };
+		3B637EAB1C99578B005D913F /* _Muzoma Fs1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E631C99578B005D913F /* _Muzoma Fs1-AcGuitar.m4a */; };
+		3B637EAC1C99578B005D913F /* _Muzoma Fs1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E641C99578B005D913F /* _Muzoma Fs1-Piano.m4a */; };
+		3B637EAD1C99578B005D913F /* _Muzoma Fs3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E651C99578B005D913F /* _Muzoma Fs3-AcGuitar.m4a */; };
+		3B637EAE1C99578B005D913F /* _Muzoma Fs3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E661C99578B005D913F /* _Muzoma Fs3-Piano.m4a */; };
+		3B637EAF1C99578B005D913F /* _Muzoma Fs4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E671C99578B005D913F /* _Muzoma Fs4-AcGuitar.m4a */; };
+		3B637EB01C99578B005D913F /* _Muzoma Fs4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E681C99578B005D913F /* _Muzoma Fs4-Piano.m4a */; };
+		3B637EB11C99578B005D913F /* _Muzoma G1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E691C99578B005D913F /* _Muzoma G1-AcGuitar.m4a */; };
+		3B637EB21C99578B005D913F /* _Muzoma G1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E6A1C99578B005D913F /* _Muzoma G1-Piano.m4a */; };
+		3B637EB31C99578B005D913F /* _Muzoma G3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E6B1C99578B005D913F /* _Muzoma G3-AcGuitar.m4a */; };
+		3B637EB41C99578B005D913F /* _Muzoma G3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E6C1C99578B005D913F /* _Muzoma G3-Piano.m4a */; };
+		3B637EB51C99578B005D913F /* _Muzoma G4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E6D1C99578B005D913F /* _Muzoma G4-AcGuitar.m4a */; };
+		3B637EB61C99578B005D913F /* _Muzoma G4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E6E1C99578B005D913F /* _Muzoma G4-Piano.m4a */; };
+		3B637EB71C99578B005D913F /* _Muzoma Gs-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E6F1C99578B005D913F /* _Muzoma Gs-Piano.m4a */; };
+		3B637EB81C99578B005D913F /* _Muzoma Gs1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E701C99578B005D913F /* _Muzoma Gs1-AcGuitar.m4a */; };
+		3B637EB91C99578B005D913F /* _Muzoma Gs1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E711C99578B005D913F /* _Muzoma Gs1-Piano.m4a */; };
+		3B637EBA1C99578B005D913F /* _Muzoma Gs3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E721C99578B005D913F /* _Muzoma Gs3-AcGuitar.m4a */; };
+		3B637EBB1C99578B005D913F /* _Muzoma Gs3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E731C99578B005D913F /* _Muzoma Gs3-Piano.m4a */; };
+		3B637EBC1C99578B005D913F /* _Muzoma Gs4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E741C99578B005D913F /* _Muzoma Gs4-AcGuitar.m4a */; };
+		3B637EBE1C9AA522005D913F /* ChordPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B637EBD1C9AA521005D913F /* ChordPlayer.swift */; };
+		3B637EC01C9ED537005D913F /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B637EBF1C9ED537005D913F /* DragView.swift */; };
+		3B63CAF8238FF44F00C2643A /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B63CAEB238FF3DE00C2643A /* AEXML.framework */; };
+		3B63CAF9238FF44F00C2643A /* AEXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B63CAEB238FF3DE00C2643A /* AEXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3B6F44BE212D6CE100CD45D4 /* SwaggerUserRegSite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6F4449212D6B7B00CD45D4 /* SwaggerUserRegSite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3B6F44BF212D6CE900CD45D4 /* SwaggerWPSite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6F442E212D69FA00CD45D4 /* SwaggerWPSite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3B720C181C29E03C0052B271 /* EditorLinesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720C171C29E03C0052B271 /* EditorLinesController.swift */; };
+		3B7880DB1BF8DEB200A7C4DE /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7880DA1BF8DEB200A7C4DE /* MainNavViewController.swift */; };
+		3B7D79621E3A1F8B0013554D /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D79611E3A1F8B0013554D /* RecorderViewController.swift */; };
+		3B7ECA8B1CE6129400408B66 /* ExternalPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7ECA8A1CE6129400408B66 /* ExternalPlayerView.xib */; };
+		3B7ECA901CE6131F00408B66 /* ExternalPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7ECA8F1CE6131F00408B66 /* ExternalPlayerView.swift */; };
+		3B7ECA921CE629D900408B66 /* LineEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7ECA911CE629D900408B66 /* LineEventView.swift */; };
+		3B847A461C033441006E6AE5 /* FileSystemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B847A451C033441006E6AE5 /* FileSystemHelper.swift */; };
+		3B8812951D1C268B00DD5953 /* About.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3B8812941D1C268B00DD5953 /* About.rtf */; };
+		3B8AEC78212DB6A900A9084A /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AEC77212DB6A900A9084A /* RepeatingTimer.swift */; };
+		3B8AF0951DF043D9003459E0 /* MuzomaContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AF0941DF043D9003459E0 /* MuzomaContentTableViewController.swift */; };
+		3B8AF09E1DF04470003459E0 /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AF09D1DF04470003459E0 /* ContentCollectionViewCell.swift */; };
+		3B90D74E1D60FF76009DD0F3 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B90D74D1D60FF76009DD0F3 /* Logging.swift */; };
+		3B9EC0A81D0F504900CEC208 /* Help Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9EC0A71D0F504900CEC208 /* Help Icon.png */; };
+		3BA479AE1C67A37000CEC949 /* EditorTableViewGuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA479AD1C67A37000CEC949 /* EditorTableViewGuideCell.swift */; };
+		3BA858891CF33AB0005997E2 /* SetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA858881CF33AB0005997E2 /* SetTableViewController.swift */; };
+		3BA8588B1CF34103005997E2 /* SetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8588A1CF34103005997E2 /* SetTableViewCell.swift */; };
+		3BA8588D1CF34919005997E2 /* MuzomaSetDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8588C1CF34919005997E2 /* MuzomaSetDocument.swift */; };
+		3BACB02F1C4564C300E360C0 /* EditorTableViewChordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACB02E1C4564C300E360C0 /* EditorTableViewChordCell.swift */; };
+		3BACB0311C458F2D00E360C0 /* ChordSelectorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACB0301C458F2D00E360C0 /* ChordSelectorTextField.swift */; };
+		3BB5F1FC2140758C0069E441 /* CymaticExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5F1FB2140758C0069E441 /* CymaticExport.swift */; };
+		3BB673B21D14102500786C29 /* DirectoryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB673B11D14102500786C29 /* DirectoryMonitor.swift */; };
+		3BBAD35A1CE39A8D001B395E /* GroupPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAD3591CE39A8D001B395E /* GroupPlayerViewController.swift */; };
+		3BBAD35E1CE39DFA001B395E /* MuzomaMultiPeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAD35D1CE39DFA001B395E /* MuzomaMultiPeerService.swift */; };
+		3BBE9B5E1C3AD1A500E74AEB /* CreateNewDocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE9B5D1C3AD1A500E74AEB /* CreateNewDocViewController.swift */; };
+		3BC56E9B1DF9FFF4006EC7CF /* SiteSong.html in Resources */ = {isa = PBXBuildFile; fileRef = 3BC56E9A1DF9FFF4006EC7CF /* SiteSong.html */; };
+		3BC6CFC31D1B21B000A7D09B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6CFC21D1B21B000A7D09B /* AboutViewController.swift */; };
+		3BC6CFC51D1B233D00A7D09B /* ExtUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6CFC41D1B233D00A7D09B /* ExtUISlider.swift */; };
+		3BD19FB91D33D41D00C28B69 /* BlueAndYellowDot16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD19FB81D33D41D00C28B69 /* BlueAndYellowDot16x16.png */; };
+		3BD21E1C1E25704F007C9F13 /* Muzoma Transparent Large.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3BD21E1B1E25704F007C9F13 /* Muzoma Transparent Large.PNG */; };
+		3BD383D41B984A8A006B522A /* MuzomaDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD383D31B984A8A006B522A /* MuzomaDocument.swift */; };
+		3BD42F4C1D590482009427E1 /* IAPTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD42F4B1D590482009427E1 /* IAPTableViewController.swift */; };
+		3BD42F4F1D590504009427E1 /* IAPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD42F4E1D590504009427E1 /* IAPTableViewCell.swift */; };
+		3BD513EB1C8E268D00818431 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BD513E51C8E268D00818431 /* Contents.json */; };
+		3BDBBC5D1D1021EC00F59F9E /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBBC5C1D1021EC00F59F9E /* HelpViewController.swift */; };
+		3BDD46352140013D00425D66 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD46342140013D00425D66 /* Version.swift */; };
+		3BDE1D8C1E44BE7600125E80 /* KVDownloadURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE1D8B1E44BE7600125E80 /* KVDownloadURL.swift */; };
+		3BDE8C6D1DE77B9E006640D9 /* WebSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE8C6C1DE77B9E006640D9 /* WebSongsViewController.swift */; };
+		3BDEEAF01E4BD5CA00A1387B /* FaderChannel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BDEEAEF1E4BD5CA00A1387B /* FaderChannel.xib */; };
+		3BDEEAF91E4BD68A00A1387B /* FaderChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDEEAF81E4BD68A00A1387B /* FaderChannel.swift */; };
+		3BDF31211E65DA7A00E2872F /* barmeter.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDF31201E65DA7A00E2872F /* barmeter.png */; };
+		3BDF312E1E65DC5E00E2872F /* meterRedSegment5x26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDF312B1E65DC5E00E2872F /* meterRedSegment5x26.png */; };
+		3BDF312F1E65DC5E00E2872F /* meterAmberSegment 5x26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDF312C1E65DC5E00E2872F /* meterAmberSegment 5x26.png */; };
+		3BDF31301E65DC5E00E2872F /* meterGreenSegment 5x26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDF312D1E65DC5E00E2872F /* meterGreenSegment 5x26.png */; };
+		3BDF31321E65E0BF00E2872F /* meterGreenAmbSegment 40x23 plain.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDF31311E65E0BF00E2872F /* meterGreenAmbSegment 40x23 plain.png */; };
+		3BDF31341E65E0D300E2872F /* meterGreenSegment 40x23 plain.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDF31331E65E0D300E2872F /* meterGreenSegment 40x23 plain.png */; };
+		3BDF31361E65E0E500E2872F /* meterGreenAmbRedSegment 40x23 plain.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDF31351E65E0E500E2872F /* meterGreenAmbRedSegment 40x23 plain.png */; };
+		3BE1438D1CB92D4900E7A665 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE1438C1CB92D4900E7A665 /* StoreKit.framework */; };
+		3BE2AD2B1C0F00EC00CBFBDC /* TracksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE2AD2A1C0F00EC00CBFBDC /* TracksTableViewController.swift */; };
+		3BE2AD2D1C0F031700CBFBDC /* TracksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE2AD2C1C0F031700CBFBDC /* TracksTableViewCell.swift */; };
+		3BE5CD511BFF76A80068EB95 /* NewSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CD501BFF76A80068EB95 /* NewSetViewController.swift */; };
+		3BE5CD551BFF84B80068EB95 /* PlayerDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CD541BFF84B80068EB95 /* PlayerDocumentViewController.swift */; };
+		3BE5CD571BFF903C0068EB95 /* EditTracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CD561BFF903C0068EB95 /* EditTracksViewController.swift */; };
+		3BE5CD591BFF90940068EB95 /* NewTrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CD581BFF90940068EB95 /* NewTrackViewController.swift */; };
+		3BE5CD5B1BFF91070068EB95 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CD5A1BFF91070068EB95 /* NewItemViewController.swift */; };
+		3BE86C1C1C416B2100CDAD90 /* EditorTableViewLyricCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE86C1B1C416B2100CDAD90 /* EditorTableViewLyricCell.swift */; };
+		3BED0F211E8AAEF7005091AF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BED0F201E8AAEF7005091AF /* AudioToolbox.framework */; };
+		3BEEDBB61C1AE91D009CA319 /* EditorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEDBB51C1AE91D009CA319 /* EditorTableViewCell.swift */; };
+		3BEEDBB81C1B4A36009CA319 /* ChordAndLyricTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEDBB71C1B4A36009CA319 /* ChordAndLyricTableViewController.swift */; };
+		3BEEDBBA1C1B5F7E009CA319 /* WordSelectorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEDBB91C1B5F7E009CA319 /* WordSelectorTextField.swift */; };
+		3BEEDC291C8F20800035EA70 /* ChordPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEDC281C8F20800035EA70 /* ChordPickerController.swift */; };
+		3BEFD8911CE2034B00229999 /* UISuperTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFD8901CE2034B00229999 /* UISuperTextView.swift */; };
+		3BEFD8931CE2214200229999 /* DefaultText.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFD8921CE2214200229999 /* DefaultText.rtf */; };
+		3BF808E01CF30B86006529C3 /* SetsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF808DF1CF30B86006529C3 /* SetsCollectionViewController.swift */; };
+		3BF808E21CF30BF2006529C3 /* MuzSetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF808E11CF30BF2006529C3 /* MuzSetCollectionViewCell.swift */; };
+		3BF814431DBF77A100B4136C /* Song Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BF8143F1DBF77A100B4136C /* Song Placeholder.png */; };
+		3BF8144C1DBF77F000B4136C /* Set Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BF8144B1DBF77F000B4136C /* Set Placeholder.png */; };
+		3BFE041B1C5810C900B73176 /* EditorTableViewAudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE041A1C5810C900B73176 /* EditorTableViewAudioCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B09DE371E51E95E00A74BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B09DE2A1E51E95E00A74BE8 /* MIKMIDI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D74EEA517A7129300BEE89F;
+			remoteInfo = MIKMIDI;
+		};
+		3B09DE391E51E95E00A74BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B09DE2A1E51E95E00A74BE8 /* MIKMIDI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DAF8B061A7AFF1100F46528;
+			remoteInfo = "MIKMIDI-iOS";
+		};
+		3B09DE3B1E51E95E00A74BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B09DE2A1E51E95E00A74BE8 /* MIKMIDI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D4DF13A1AAB57430065F004;
+			remoteInfo = "MIKMIDI Tests";
+		};
+		3B09DE411E51EA2F00A74BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B09DE2A1E51E95E00A74BE8 /* MIKMIDI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DAF8B051A7AFF1100F46528;
+			remoteInfo = "MIKMIDI-iOS";
+		};
+		3B15A07D239003E0006773EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B15A075239003DF006773EE /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 347E3A741C1DFFB500A11FD3;
+			remoteInfo = Zip;
+		};
+		3B15A07F239003E0006773EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B15A075239003DF006773EE /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 347E3A7E1C1DFFB500A11FD3;
+			remoteInfo = ZipTests;
+		};
+		3B15A081239003E0006773EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B15A075239003DF006773EE /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343F50FF1C8DAEEC0028C434;
+			remoteInfo = "Zip OSX";
+		};
+		3B15A083239003E0006773EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B15A075239003DF006773EE /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343F51081C8DAEEC0028C434;
+			remoteInfo = "Zip OSXTests";
+		};
+		3B15A085239003E0006773EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B15A075239003DF006773EE /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 342545B51CE525B200336074;
+			remoteInfo = "Zip tvOS";
+		};
+		3B15A08923900415006773EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B15A075239003DF006773EE /* Zip.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 347E3A731C1DFFB500A11FD3;
+			remoteInfo = Zip;
+		};
+		3B63CAEA238FF3DE00C2643A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B63CAE0238FF3DD00C2643A /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A92791BDD47210011F36F;
+			remoteInfo = "AEXML iOS";
+		};
+		3B63CAEC238FF3DE00C2643A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B63CAE0238FF3DD00C2643A /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A92DF1BDD5D330011F36F;
+			remoteInfo = "AEXML watchOS";
+		};
+		3B63CAEE238FF3DE00C2643A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B63CAE0238FF3DD00C2643A /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A92991BDD4CEF0011F36F;
+			remoteInfo = "AEXML iOS Tests";
+		};
+		3B63CAF0238FF3DE00C2643A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B63CAE0238FF3DD00C2643A /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A92BE1BDD5B300011F36F;
+			remoteInfo = "AEXML tvOS";
+		};
+		3B63CAF2238FF3DE00C2643A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B63CAE0238FF3DD00C2643A /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A92CC1BDD5BB20011F36F;
+			remoteInfo = "AEXML tvOS Tests";
+		};
+		3B63CAF4238FF3DE00C2643A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B63CAE0238FF3DD00C2643A /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A928A1BDD49390011F36F;
+			remoteInfo = "AEXML macOS";
+		};
+		3B63CAF6238FF3DE00C2643A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B63CAE0238FF3DD00C2643A /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A92AB1BDD54F50011F36F;
+			remoteInfo = "AEXML macOS Tests";
+		};
+		3B63CAFA238FF44F00C2643A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B63CAE0238FF3DD00C2643A /* AEXML.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4A92781BDD47210011F36F;
+			remoteInfo = "AEXML iOS";
+		};
+		3B6F442D212D69FA00CD45D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6F4429212D69F900CD45D4 /* SwaggerWPSite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B6F441E212D69F900CD45D4;
+			remoteInfo = SwaggerWPSite;
+		};
+		3B6F4448212D6B7B00CD45D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6F4444212D6B7A00CD45D4 /* SwaggerUserRegSite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B6F4439212D6B7A00CD45D4;
+			remoteInfo = SwaggerUserRegSite;
+		};
+		3B8BFFD3238FF0FF0040F6D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8BFFC8238FF0FF0040F6D7 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		3B8BFFD5238FF0FF0040F6D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8BFFC8238FF0FF0040F6D7 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		3B8BFFD7238FF0FF0040F6D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8BFFC8238FF0FF0040F6D7 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		3B8BFFD9238FF0FF0040F6D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8BFFC8238FF0FF0040F6D7 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		3B8BFFDB238FF0FF0040F6D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8BFFC8238FF0FF0040F6D7 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		3B8BFFDD238FF0FF0040F6D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8BFFC8238FF0FF0040F6D7 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		3B8BFFDF238FF0FF0040F6D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8BFFC8238FF0FF0040F6D7 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BA794E21CBD05A700EB9B03 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3B6F44BF212D6CE900CD45D4 /* SwaggerWPSite.framework in Embed Frameworks */,
+				3B0FA9312390689F004E4BA1 /* Alamofire.framework in Embed Frameworks */,
+				3B63CAF9238FF44F00C2643A /* AEXML.framework in Embed Frameworks */,
+				3B6F44BE212D6CE100CD45D4 /* SwaggerUserRegSite.framework in Embed Frameworks */,
+				3B09DE401E51EA2F00A74BE8 /* MIKMIDI.framework in Embed Frameworks */,
+				3B15A08823900415006773EE /* Zip.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B0042081D61F2360002ADDF /* UserRegistrationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegistrationTableViewController.swift; sourceTree = "<group>"; };
+		3B03BE391E2E8E0600599594 /* UserDownloads.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDownloads.swift; sourceTree = "<group>"; };
+		3B03CBEB1DCE15930051C425 /* PopupQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupQueue.swift; sourceTree = "<group>"; };
+		3B0697DB1E83D0AF00A770D7 /* MuzomaMidi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuzomaMidi.swift; sourceTree = "<group>"; };
+		3B0697DE1E83D17300A770D7 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		3B07D9411DE0E16C00266A18 /* Chord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chord.swift; sourceTree = "<group>"; };
+		3B09DE2A1E51E95E00A74BE8 /* MIKMIDI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MIKMIDI.xcodeproj; path = "../../MIKMIDI-master/Framework/MIKMIDI.xcodeproj"; sourceTree = "<group>"; };
+		3B0B14EA1E8C60FA00F7AE86 /* AudioShareSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioShareSDK.h; sourceTree = "<group>"; };
+		3B0B14EB1E8C60FA00F7AE86 /* AudioShareSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioShareSDK.m; sourceTree = "<group>"; };
+		3B0DFAFC1D4CEC1000ED73F7 /* MuzomaProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuzomaProducts.swift; sourceTree = "<group>"; };
+		3B0DFAFE1D4CECC900ED73F7 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		3B1025721BF9ED6300E3F78C /* DocumentsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentsCollectionViewController.swift; sourceTree = "<group>"; };
+		3B1025741BF9F36B00E3F78C /* MuzDocCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuzDocCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B11FC111D4A0B71007BCDC2 /* Muzoma.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = Muzoma.css; sourceTree = "<group>"; };
+		3B11FC121D4A0B71007BCDC2 /* Muzoma.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Muzoma.js; sourceTree = "<group>"; };
+		3B15A075239003DF006773EE /* Zip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Zip.xcodeproj; path = "../../Zip-1.0.0/Zip.xcodeproj"; sourceTree = "<group>"; };
+		3B195F571CF5BD4900907EC6 /* CreateNewSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CreateNewSetViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3B1C849B1CEDE85800032B6D /* EditorTableViewStructureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorTableViewStructureCell.swift; sourceTree = "<group>"; };
+		3B1C849D1CEDE8B900032B6D /* EditorTableViewBarBeatsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorTableViewBarBeatsCell.swift; sourceTree = "<group>"; };
+		3B1DBD721D5B97640013B852 /* ConsoleLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleLogViewController.swift; sourceTree = "<group>"; };
+		3B1DD4DC1E847088005BFA69 /* ControlSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlSettings.swift; sourceTree = "<group>"; };
+		3B1E1FE61E8A88B700946318 /* Muzoma-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Muzoma-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B1FBC8E1E412ED300B0EDD8 /* KVDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVDownload.swift; sourceTree = "<group>"; };
+		3B235F0D1DDDB40B006ABFD6 /* MultiChannelAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiChannelAudio.swift; sourceTree = "<group>"; };
+		3B272E061EA7702D00132BA2 /* TransportMidiControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportMidiControl.swift; sourceTree = "<group>"; };
+		3B272E081EA7709D00132BA2 /* MixerMidiControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixerMidiControl.swift; sourceTree = "<group>"; };
+		3B274A4D2145467D002CCE37 /* Matts Playlist.play.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Matts Playlist.play.xml"; sourceTree = "<group>"; };
+		3B274A652145469C002CCE37 /* song.set.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = song.set.xml; sourceTree = "<group>"; };
+		3B28D5251D39284C00569D89 /* 663033-airplay-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "663033-airplay-32.png"; path = "Resources/663033-airplay-32.png"; sourceTree = "<group>"; };
+		3B28D5271D392B3400569D89 /* 663033-airplay-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "663033-airplay-24.png"; path = "Resources/663033-airplay-24.png"; sourceTree = "<group>"; };
+		3B28EC901CB925F200A682FC /* Muzoma.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Muzoma.entitlements; path = ../Muzoma.entitlements; sourceTree = "<group>"; };
+		3B2A75741D2E4E7F00799158 /* MediaCloudPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaCloudPicker.swift; sourceTree = "<group>"; };
+		3B2A762E1D4623B1007F10C9 /* printer-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "printer-64.png"; path = "Resources/printer-64.png"; sourceTree = "<group>"; };
+		3B2A76331D46241F007F10C9 /* printer-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "printer-24.png"; path = "Resources/printer-24.png"; sourceTree = "<group>"; };
+		3B2A76351D46392F007F10C9 /* printed sheet-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "printed sheet-24.png"; path = "Resources/printed sheet-24.png"; sourceTree = "<group>"; };
+		3B2A76371D465615007F10C9 /* ViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewerViewController.swift; sourceTree = "<group>"; };
+		3B2C6CE21EAE09AC00C9D19A /* midi control 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "midi control 4.png"; sourceTree = "<group>"; };
+		3B2CCCE81DEEDC420057EECD /* DownloadURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadURL.swift; sourceTree = "<group>"; };
+		3B2CCCEA1DEEED120057EECD /* DiscoverRemoteDocs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverRemoteDocs.swift; sourceTree = "<group>"; };
+		3B2D1AC81EAD550200083A43 /* midi in control 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "midi in control 4.png"; path = "Resources/midi in control 4.png"; sourceTree = "<group>"; };
+		3B2D1AC91EAD550200083A43 /* midi in midi out control 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "midi in midi out control 4.png"; path = "Resources/midi in midi out control 4.png"; sourceTree = "<group>"; };
+		3B2D1ACA1EAD550200083A43 /* midi out control 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "midi out control 4.png"; path = "Resources/midi out control 4.png"; sourceTree = "<group>"; };
+		3B33B0171D2146B400FF0F8E /* TransportUIAndLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportUIAndLogic.swift; sourceTree = "<group>"; };
+		3B3465381CE9CBEB00B63F40 /* EditTimingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EditTimingViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3B3483881E47DA3400864DDF /* AudioUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioUtils.swift; sourceTree = "<group>"; };
+		3B3757831DEB143A00AA8065 /* Placeholder load.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Placeholder load.gif"; sourceTree = "<group>"; };
+		3B37578C1DEB39F400AA8065 /* RollingPlayerDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollingPlayerDocumentViewController.swift; sourceTree = "<group>"; };
+		3B3E48171E530583005A69EA /* MuzomaControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuzomaControlViewController.swift; sourceTree = "<group>"; };
+		3B40CFDE1DCA540200283AE6 /* DocumentMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentMapper.swift; sourceTree = "<group>"; };
+		3B44FFFD1E4B35E400FCF531 /* VirticalUISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirticalUISlider.swift; sourceTree = "<group>"; };
+		3B49CF961C80B92B0062DC1F /* ImportTextDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportTextDocumentViewController.swift; sourceTree = "<group>"; };
+		3B49CF9B1C84B83A0062DC1F /* _Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _Extensions.swift; sourceTree = "<group>"; };
+		3B4E33B81AD1559B00443460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4E33B91AD1559B00443460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Event Sequencer/AppDelegate.swift"; sourceTree = "<group>"; };
+		3B4E33BB1AD1559B00443460 /* EditDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EditDocumentViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3B4E33BE1AD1559B00443460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B4E33C01AD1559B00443460 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ..; sourceTree = "<group>"; };
+		3B4E33C31AD1559B00443460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B4E52271CD9118F00FE0201 /* Chord Pro Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chord Pro Icon.png"; path = "Resources/Chord Pro Icon.png"; sourceTree = "<group>"; };
+		3B4E522C1CD917EA00FE0201 /* Text Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Text Icon.png"; path = "Resources/Text Icon.png"; sourceTree = "<group>"; };
+		3B5016E61E463C8100A56344 /* KVCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B5106C01C7FBDD800DC6692 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
+		3B592A401E917F87003A6008 /* DropDownTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownTextField.swift; sourceTree = "<group>"; };
+		3B5BA2AC1DEB90D90012B316 /* MuzomaDark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = MuzomaDark.css; sourceTree = "<group>"; };
+		3B5BA2AD1DEB90D90012B316 /* MuzomaHighContrast.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = MuzomaHighContrast.css; sourceTree = "<group>"; };
+		3B5BA2AE1DEB90D90012B316 /* MuzomaLight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = MuzomaLight.css; sourceTree = "<group>"; };
+		3B5D9EA01C9FF7D3008A9736 /* dragCorner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dragCorner.png; path = Resources/dragCorner.png; sourceTree = "<group>"; };
+		3B637E2B1C9174A6005D913F /* DispatchTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DispatchTimer.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3B637E2D1C99578B005D913F /* _Muzoma A1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma A1-AcGuitar.m4a"; path = "Resources/_Muzoma A1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E2E1C99578B005D913F /* _Muzoma A1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma A1-Piano.m4a"; path = "Resources/_Muzoma A1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E2F1C99578B005D913F /* _Muzoma A3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma A3-AcGuitar.m4a"; path = "Resources/_Muzoma A3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E301C99578B005D913F /* _Muzoma A3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma A3-Piano.m4a"; path = "Resources/_Muzoma A3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E311C99578B005D913F /* _Muzoma A4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma A4-AcGuitar.m4a"; path = "Resources/_Muzoma A4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E321C99578B005D913F /* _Muzoma A4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma A4-Piano.m4a"; path = "Resources/_Muzoma A4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E331C99578B005D913F /* _Muzoma As1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma As1-AcGuitar.m4a"; path = "Resources/_Muzoma As1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E341C99578B005D913F /* _Muzoma As1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma As1-Piano.m4a"; path = "Resources/_Muzoma As1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E351C99578B005D913F /* _Muzoma As3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma As3-AcGuitar.m4a"; path = "Resources/_Muzoma As3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E361C99578B005D913F /* _Muzoma As3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma As3-Piano.m4a"; path = "Resources/_Muzoma As3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E371C99578B005D913F /* _Muzoma As4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma As4-AcGuitar.m4a"; path = "Resources/_Muzoma As4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E381C99578B005D913F /* _Muzoma As4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma As4-Piano.m4a"; path = "Resources/_Muzoma As4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E391C99578B005D913F /* _Muzoma B1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma B1-AcGuitar.m4a"; path = "Resources/_Muzoma B1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E3A1C99578B005D913F /* _Muzoma B1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma B1-Piano.m4a"; path = "Resources/_Muzoma B1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E3B1C99578B005D913F /* _Muzoma B3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma B3-AcGuitar.m4a"; path = "Resources/_Muzoma B3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E3C1C99578B005D913F /* _Muzoma B3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma B3-Piano.m4a"; path = "Resources/_Muzoma B3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E3D1C99578B005D913F /* _Muzoma B4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma B4-AcGuitar.m4a"; path = "Resources/_Muzoma B4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E3E1C99578B005D913F /* _Muzoma B4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma B4-Piano.m4a"; path = "Resources/_Muzoma B4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E3F1C99578B005D913F /* _Muzoma C1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma C1-AcGuitar.m4a"; path = "Resources/_Muzoma C1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E401C99578B005D913F /* _Muzoma C1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma C1-Piano.m4a"; path = "Resources/_Muzoma C1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E411C99578B005D913F /* _Muzoma C3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma C3-AcGuitar.m4a"; path = "Resources/_Muzoma C3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E421C99578B005D913F /* _Muzoma C3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma C3-Piano.m4a"; path = "Resources/_Muzoma C3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E431C99578B005D913F /* _Muzoma C4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma C4-AcGuitar.m4a"; path = "Resources/_Muzoma C4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E441C99578B005D913F /* _Muzoma C4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma C4-Piano.m4a"; path = "Resources/_Muzoma C4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E451C99578B005D913F /* _Muzoma Cs1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Cs1-AcGuitar.m4a"; path = "Resources/_Muzoma Cs1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E461C99578B005D913F /* _Muzoma Cs1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Cs1-Piano.m4a"; path = "Resources/_Muzoma Cs1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E471C99578B005D913F /* _Muzoma Cs3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Cs3-AcGuitar.m4a"; path = "Resources/_Muzoma Cs3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E481C99578B005D913F /* _Muzoma Cs3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Cs3-Piano.m4a"; path = "Resources/_Muzoma Cs3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E491C99578B005D913F /* _Muzoma Cs4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Cs4-AcGuitar.m4a"; path = "Resources/_Muzoma Cs4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E4A1C99578B005D913F /* _Muzoma Cs4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Cs4-Piano.m4a"; path = "Resources/_Muzoma Cs4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E4B1C99578B005D913F /* _Muzoma D1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma D1-AcGuitar.m4a"; path = "Resources/_Muzoma D1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E4C1C99578B005D913F /* _Muzoma D1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma D1-Piano.m4a"; path = "Resources/_Muzoma D1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E4D1C99578B005D913F /* _Muzoma D3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma D3-AcGuitar.m4a"; path = "Resources/_Muzoma D3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E4E1C99578B005D913F /* _Muzoma D3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma D3-Piano.m4a"; path = "Resources/_Muzoma D3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E4F1C99578B005D913F /* _Muzoma D4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma D4-AcGuitar.m4a"; path = "Resources/_Muzoma D4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E501C99578B005D913F /* _Muzoma D4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma D4-Piano.m4a"; path = "Resources/_Muzoma D4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E511C99578B005D913F /* _Muzoma Ds1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Ds1-AcGuitar.m4a"; path = "Resources/_Muzoma Ds1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E521C99578B005D913F /* _Muzoma Ds1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Ds1-Piano.m4a"; path = "Resources/_Muzoma Ds1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E531C99578B005D913F /* _Muzoma Ds3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Ds3-AcGuitar.m4a"; path = "Resources/_Muzoma Ds3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E541C99578B005D913F /* _Muzoma Ds3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Ds3-Piano.m4a"; path = "Resources/_Muzoma Ds3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E551C99578B005D913F /* _Muzoma Ds4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Ds4-AcGuitar.m4a"; path = "Resources/_Muzoma Ds4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E561C99578B005D913F /* _Muzoma Ds4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Ds4-Piano.m4a"; path = "Resources/_Muzoma Ds4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E571C99578B005D913F /* _Muzoma E1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma E1-AcGuitar.m4a"; path = "Resources/_Muzoma E1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E581C99578B005D913F /* _Muzoma E1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma E1-Piano.m4a"; path = "Resources/_Muzoma E1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E591C99578B005D913F /* _Muzoma E3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma E3-AcGuitar.m4a"; path = "Resources/_Muzoma E3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E5A1C99578B005D913F /* _Muzoma E3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma E3-Piano.m4a"; path = "Resources/_Muzoma E3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E5B1C99578B005D913F /* _Muzoma E4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma E4-AcGuitar.m4a"; path = "Resources/_Muzoma E4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E5C1C99578B005D913F /* _Muzoma E4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma E4-Piano.m4a"; path = "Resources/_Muzoma E4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E5D1C99578B005D913F /* _Muzoma F1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma F1-AcGuitar.m4a"; path = "Resources/_Muzoma F1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E5E1C99578B005D913F /* _Muzoma F1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma F1-Piano.m4a"; path = "Resources/_Muzoma F1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E5F1C99578B005D913F /* _Muzoma F3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma F3-AcGuitar.m4a"; path = "Resources/_Muzoma F3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E601C99578B005D913F /* _Muzoma F3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma F3-Piano.m4a"; path = "Resources/_Muzoma F3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E611C99578B005D913F /* _Muzoma F4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma F4-AcGuitar.m4a"; path = "Resources/_Muzoma F4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E621C99578B005D913F /* _Muzoma F4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma F4-Piano.m4a"; path = "Resources/_Muzoma F4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E631C99578B005D913F /* _Muzoma Fs1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Fs1-AcGuitar.m4a"; path = "Resources/_Muzoma Fs1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E641C99578B005D913F /* _Muzoma Fs1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Fs1-Piano.m4a"; path = "Resources/_Muzoma Fs1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E651C99578B005D913F /* _Muzoma Fs3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Fs3-AcGuitar.m4a"; path = "Resources/_Muzoma Fs3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E661C99578B005D913F /* _Muzoma Fs3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Fs3-Piano.m4a"; path = "Resources/_Muzoma Fs3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E671C99578B005D913F /* _Muzoma Fs4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Fs4-AcGuitar.m4a"; path = "Resources/_Muzoma Fs4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E681C99578B005D913F /* _Muzoma Fs4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Fs4-Piano.m4a"; path = "Resources/_Muzoma Fs4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E691C99578B005D913F /* _Muzoma G1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma G1-AcGuitar.m4a"; path = "Resources/_Muzoma G1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E6A1C99578B005D913F /* _Muzoma G1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma G1-Piano.m4a"; path = "Resources/_Muzoma G1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E6B1C99578B005D913F /* _Muzoma G3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma G3-AcGuitar.m4a"; path = "Resources/_Muzoma G3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E6C1C99578B005D913F /* _Muzoma G3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma G3-Piano.m4a"; path = "Resources/_Muzoma G3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E6D1C99578B005D913F /* _Muzoma G4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma G4-AcGuitar.m4a"; path = "Resources/_Muzoma G4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E6E1C99578B005D913F /* _Muzoma G4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma G4-Piano.m4a"; path = "Resources/_Muzoma G4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E6F1C99578B005D913F /* _Muzoma Gs-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Gs-Piano.m4a"; path = "Resources/_Muzoma Gs-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E701C99578B005D913F /* _Muzoma Gs1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Gs1-AcGuitar.m4a"; path = "Resources/_Muzoma Gs1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E711C99578B005D913F /* _Muzoma Gs1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Gs1-Piano.m4a"; path = "Resources/_Muzoma Gs1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E721C99578B005D913F /* _Muzoma Gs3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Gs3-AcGuitar.m4a"; path = "Resources/_Muzoma Gs3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E731C99578B005D913F /* _Muzoma Gs3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Gs3-Piano.m4a"; path = "Resources/_Muzoma Gs3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E741C99578B005D913F /* _Muzoma Gs4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Gs4-AcGuitar.m4a"; path = "Resources/_Muzoma Gs4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637EBD1C9AA521005D913F /* ChordPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ChordPlayer.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3B637EBF1C9ED537005D913F /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		3B63CAE0238FF3DD00C2643A /* AEXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AEXML.xcodeproj; path = "../../AEXML-4.3.3/AEXML.xcodeproj"; sourceTree = "<group>"; };
+		3B6F4429212D69F900CD45D4 /* SwaggerWPSite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwaggerWPSite.xcodeproj; path = SwaggerWPSite/SwaggerWPSite.xcodeproj; sourceTree = "<group>"; };
+		3B6F4444212D6B7A00CD45D4 /* SwaggerUserRegSite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwaggerUserRegSite.xcodeproj; path = SwaggerUserRegSite/SwaggerUserRegSite.xcodeproj; sourceTree = "<group>"; };
+		3B720C171C29E03C0052B271 /* EditorLinesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorLinesController.swift; sourceTree = "<group>"; };
+		3B7880DA1BF8DEB200A7C4DE /* MainNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
+		3B7D79611E3A1F8B0013554D /* RecorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
+		3B7ECA8A1CE6129400408B66 /* ExternalPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExternalPlayerView.xib; sourceTree = "<group>"; };
+		3B7ECA8F1CE6131F00408B66 /* ExternalPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalPlayerView.swift; sourceTree = "<group>"; };
+		3B7ECA911CE629D900408B66 /* LineEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineEventView.swift; sourceTree = "<group>"; };
+		3B7ECA931CE629F100408B66 /* LineEventView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineEventView.xib; sourceTree = "<group>"; };
+		3B847A451C033441006E6AE5 /* FileSystemHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FileSystemHelper.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3B8812941D1C268B00DD5953 /* About.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = About.rtf; path = ../About.rtf; sourceTree = "<group>"; };
+		3B8AEC77212DB6A900A9084A /* RepeatingTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingTimer.swift; sourceTree = "<group>"; };
+		3B8AF0941DF043D9003459E0 /* MuzomaContentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuzomaContentTableViewController.swift; sourceTree = "<group>"; };
+		3B8AF09D1DF04470003459E0 /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B8BFFC8238FF0FF0040F6D7 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../Alamofire-4.9.1/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		3B90D74D1D60FF76009DD0F3 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Logging.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3B9EC0A71D0F504900CEC208 /* Help Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Help Icon.png"; path = "Resources/Help Icon.png"; sourceTree = "<group>"; };
+		3BA479AD1C67A37000CEC949 /* EditorTableViewGuideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EditorTableViewGuideCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3BA858881CF33AB0005997E2 /* SetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTableViewController.swift; sourceTree = "<group>"; };
+		3BA8588A1CF34103005997E2 /* SetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTableViewCell.swift; sourceTree = "<group>"; };
+		3BA8588C1CF34919005997E2 /* MuzomaSetDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuzomaSetDocument.swift; sourceTree = "<group>"; };
+		3BACB02E1C4564C300E360C0 /* EditorTableViewChordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorTableViewChordCell.swift; sourceTree = "<group>"; };
+		3BACB0301C458F2D00E360C0 /* ChordSelectorTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordSelectorTextField.swift; sourceTree = "<group>"; };
+		3BB5F1FB2140758C0069E441 /* CymaticExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CymaticExport.swift; sourceTree = "<group>"; };
+		3BB673B11D14102500786C29 /* DirectoryMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryMonitor.swift; sourceTree = "<group>"; };
+		3BBAD3591CE39A8D001B395E /* GroupPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupPlayerViewController.swift; sourceTree = "<group>"; };
+		3BBAD35D1CE39DFA001B395E /* MuzomaMultiPeerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuzomaMultiPeerService.swift; sourceTree = "<group>"; };
+		3BBE9B5D1C3AD1A500E74AEB /* CreateNewDocViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CreateNewDocViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3BC56E9A1DF9FFF4006EC7CF /* SiteSong.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = SiteSong.html; path = "Event Sequencer/SiteSong.html"; sourceTree = "<group>"; };
+		3BC6CFC21D1B21B000A7D09B /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3BC6CFC41D1B233D00A7D09B /* ExtUISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtUISlider.swift; sourceTree = "<group>"; };
+		3BD19FB81D33D41D00C28B69 /* BlueAndYellowDot16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueAndYellowDot16x16.png; sourceTree = "<group>"; };
+		3BD21E1B1E25704F007C9F13 /* Muzoma Transparent Large.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Muzoma Transparent Large.PNG"; sourceTree = "<group>"; };
+		3BD383D31B984A8A006B522A /* MuzomaDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MuzomaDocument.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3BD42F4B1D590482009427E1 /* IAPTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPTableViewController.swift; sourceTree = "<group>"; };
+		3BD42F4E1D590504009427E1 /* IAPTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPTableViewCell.swift; sourceTree = "<group>"; };
+		3BD513E51C8E268D00818431 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		3BDBBC5C1D1021EC00F59F9E /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		3BDD46342140013D00425D66 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		3BDE1D8B1E44BE7600125E80 /* KVDownloadURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVDownloadURL.swift; sourceTree = "<group>"; };
+		3BDE8C6C1DE77B9E006640D9 /* WebSongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSongsViewController.swift; sourceTree = "<group>"; };
+		3BDEEAEF1E4BD5CA00A1387B /* FaderChannel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FaderChannel.xib; sourceTree = "<group>"; };
+		3BDEEAF81E4BD68A00A1387B /* FaderChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaderChannel.swift; sourceTree = "<group>"; };
+		3BDF31201E65DA7A00E2872F /* barmeter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barmeter.png; sourceTree = "<group>"; };
+		3BDF312B1E65DC5E00E2872F /* meterRedSegment5x26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meterRedSegment5x26.png; sourceTree = "<group>"; };
+		3BDF312C1E65DC5E00E2872F /* meterAmberSegment 5x26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meterAmberSegment 5x26.png"; sourceTree = "<group>"; };
+		3BDF312D1E65DC5E00E2872F /* meterGreenSegment 5x26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meterGreenSegment 5x26.png"; sourceTree = "<group>"; };
+		3BDF31311E65E0BF00E2872F /* meterGreenAmbSegment 40x23 plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meterGreenAmbSegment 40x23 plain.png"; sourceTree = "<group>"; };
+		3BDF31331E65E0D300E2872F /* meterGreenSegment 40x23 plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meterGreenSegment 40x23 plain.png"; sourceTree = "<group>"; };
+		3BDF31351E65E0E500E2872F /* meterGreenAmbRedSegment 40x23 plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meterGreenAmbRedSegment 40x23 plain.png"; sourceTree = "<group>"; };
+		3BE1438C1CB92D4900E7A665 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3BE2AD2A1C0F00EC00CBFBDC /* TracksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracksTableViewController.swift; sourceTree = "<group>"; };
+		3BE2AD2C1C0F031700CBFBDC /* TracksTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracksTableViewCell.swift; sourceTree = "<group>"; };
+		3BE5CD501BFF76A80068EB95 /* NewSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSetViewController.swift; sourceTree = "<group>"; };
+		3BE5CD541BFF84B80068EB95 /* PlayerDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDocumentViewController.swift; sourceTree = "<group>"; };
+		3BE5CD561BFF903C0068EB95 /* EditTracksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EditTracksViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3BE5CD581BFF90940068EB95 /* NewTrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTrackViewController.swift; sourceTree = "<group>"; };
+		3BE5CD5A1BFF91070068EB95 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		3BE86C1B1C416B2100CDAD90 /* EditorTableViewLyricCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorTableViewLyricCell.swift; sourceTree = "<group>"; };
+		3BED0F201E8AAEF7005091AF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3BEEDBB51C1AE91D009CA319 /* EditorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorTableViewCell.swift; sourceTree = "<group>"; };
+		3BEEDBB71C1B4A36009CA319 /* ChordAndLyricTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordAndLyricTableViewController.swift; sourceTree = "<group>"; };
+		3BEEDBB91C1B5F7E009CA319 /* WordSelectorTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordSelectorTextField.swift; sourceTree = "<group>"; };
+		3BEEDC281C8F20800035EA70 /* ChordPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordPickerController.swift; sourceTree = "<group>"; };
+		3BEFD8901CE2034B00229999 /* UISuperTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISuperTextView.swift; sourceTree = "<group>"; };
+		3BEFD8921CE2214200229999 /* DefaultText.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = DefaultText.rtf; sourceTree = "<group>"; };
+		3BF808DF1CF30B86006529C3 /* SetsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetsCollectionViewController.swift; sourceTree = "<group>"; };
+		3BF808E11CF30BF2006529C3 /* MuzSetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuzSetCollectionViewCell.swift; sourceTree = "<group>"; };
+		3BF8143F1DBF77A100B4136C /* Song Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Song Placeholder.png"; sourceTree = "<group>"; };
+		3BF8144B1DBF77F000B4136C /* Set Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Set Placeholder.png"; sourceTree = "<group>"; };
+		3BF8144D1DBFE86700B4136C /* Muzoma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muzoma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFDCA791C69FDDF00E5EB72 /* Event Sequencer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Event Sequencer.entitlements"; sourceTree = "<group>"; };
+		3BFE041A1C5810C900B73176 /* EditorTableViewAudioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EditorTableViewAudioCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B4E33B11AD1559B00443460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B09DE3F1E51EA2F00A74BE8 /* MIKMIDI.framework in Frameworks */,
+				3B0FA9302390689F004E4BA1 /* Alamofire.framework in Frameworks */,
+				3BED0F211E8AAEF7005091AF /* AudioToolbox.framework in Frameworks */,
+				3B63CAF8238FF44F00C2643A /* AEXML.framework in Frameworks */,
+				3BE1438D1CB92D4900E7A665 /* StoreKit.framework in Frameworks */,
+				3B15A08723900415006773EE /* Zip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B0042011D61F0F30002ADDF /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				3B0042081D61F2360002ADDF /* UserRegistrationTableViewController.swift */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+		3B0697DD1E83D16500A770D7 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				3B0697DE1E83D17300A770D7 /* Globals.swift */,
+			);
+			name = Globals;
+			sourceTree = "<group>";
+		};
+		3B09DE2B1E51E95E00A74BE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B09DE381E51E95E00A74BE8 /* MIKMIDI.framework */,
+				3B09DE3A1E51E95E00A74BE8 /* MIKMIDI.framework */,
+				3B09DE3C1E51E95E00A74BE8 /* MIKMIDI Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B0B14E91E8C60FA00F7AE86 /* AudioShareSDK-master */ = {
+			isa = PBXGroup;
+			children = (
+				3B0B14EA1E8C60FA00F7AE86 /* AudioShareSDK.h */,
+				3B0B14EB1E8C60FA00F7AE86 /* AudioShareSDK.m */,
+			);
+			path = "AudioShareSDK-master";
+			sourceTree = "<group>";
+		};
+		3B0FA92F2390689E004E4BA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B11FC091D4A0AE6007BCDC2 /* WebResources */ = {
+			isa = PBXGroup;
+			children = (
+				3BC56E9A1DF9FFF4006EC7CF /* SiteSong.html */,
+				3B5BA2AC1DEB90D90012B316 /* MuzomaDark.css */,
+				3B5BA2AD1DEB90D90012B316 /* MuzomaHighContrast.css */,
+				3B5BA2AE1DEB90D90012B316 /* MuzomaLight.css */,
+				3B11FC111D4A0B71007BCDC2 /* Muzoma.css */,
+				3B11FC121D4A0B71007BCDC2 /* Muzoma.js */,
+			);
+			name = WebResources;
+			sourceTree = "<group>";
+		};
+		3B15A076239003DF006773EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B15A07E239003E0006773EE /* Zip.framework */,
+				3B15A080239003E0006773EE /* ZipTests.xctest */,
+				3B15A082239003E0006773EE /* Zip.framework */,
+				3B15A084239003E0006773EE /* Zip OSXTests.xctest */,
+				3B15A086239003E0006773EE /* Zip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B1DBD741D5B976D0013B852 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				3B1DBD721D5B97640013B852 /* ConsoleLogViewController.swift */,
+				3B90D74D1D60FF76009DD0F3 /* Logging.swift */,
+			);
+			name = Logging;
+			sourceTree = "<group>";
+		};
+		3B2A76391D46561F007F10C9 /* Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				3B2A76371D465615007F10C9 /* ViewerViewController.swift */,
+			);
+			name = Viewer;
+			sourceTree = "<group>";
+		};
+		3B3465341CE9CB4300B63F40 /* Edit Timing */ = {
+			isa = PBXGroup;
+			children = (
+				3B3465381CE9CBEB00B63F40 /* EditTimingViewController.swift */,
+				3BEEDBB71C1B4A36009CA319 /* ChordAndLyricTableViewController.swift */,
+			);
+			name = "Edit Timing";
+			sourceTree = "<group>";
+		};
+		3B394C301E4A407D002388F1 /* Mixer */ = {
+			isa = PBXGroup;
+			children = (
+				3BDEEAEF1E4BD5CA00A1387B /* FaderChannel.xib */,
+				3BDEEAF81E4BD68A00A1387B /* FaderChannel.swift */,
+			);
+			name = Mixer;
+			sourceTree = "<group>";
+		};
+		3B3E48221E53058C005A69EA /* Muzoma Control */ = {
+			isa = PBXGroup;
+			children = (
+				3B3E48171E530583005A69EA /* MuzomaControlViewController.swift */,
+			);
+			name = "Muzoma Control";
+			sourceTree = "<group>";
+		};
+		3B49CF951C80B8AB0062DC1F /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				3B49CF961C80B92B0062DC1F /* ImportTextDocumentViewController.swift */,
+			);
+			name = Import;
+			sourceTree = "<group>";
+		};
+		3B49CF9A1C84B8120062DC1F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3B637EBF1C9ED537005D913F /* DragView.swift */,
+				3BC6CFC41D1B233D00A7D09B /* ExtUISlider.swift */,
+				3B44FFFD1E4B35E400FCF531 /* VirticalUISlider.swift */,
+				3BB673B11D14102500786C29 /* DirectoryMonitor.swift */,
+				3B49CF9B1C84B83A0062DC1F /* _Extensions.swift */,
+				3B03CBEB1DCE15930051C425 /* PopupQueue.swift */,
+				3B592A401E917F87003A6008 /* DropDownTextField.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		3B4E33AB1AD1559B00443460 = {
+			isa = PBXGroup;
+			children = (
+				3B15A075239003DF006773EE /* Zip.xcodeproj */,
+				3B63CAE0238FF3DD00C2643A /* AEXML.xcodeproj */,
+				3B8BFFC8238FF0FF0040F6D7 /* Alamofire.xcodeproj */,
+				3B6F4444212D6B7A00CD45D4 /* SwaggerUserRegSite.xcodeproj */,
+				3B6F4429212D69F900CD45D4 /* SwaggerWPSite.xcodeproj */,
+				3BED0F201E8AAEF7005091AF /* AudioToolbox.framework */,
+				3B0B14E91E8C60FA00F7AE86 /* AudioShareSDK-master */,
+				3B09DE2A1E51E95E00A74BE8 /* MIKMIDI.xcodeproj */,
+				3BE1438C1CB92D4900E7A665 /* StoreKit.framework */,
+				3B4E33BD1AD1559B00443460 /* Main.storyboard */,
+				3B4E33B91AD1559B00443460 /* AppDelegate.swift */,
+				3B4E33B71AD1559B00443460 /* Supporting Files */,
+				3B637E1C1C917226005D913F /* Resources */,
+				3B4E33B61AD1559B00443460 /* Event Sequencer */,
+				3B11FC091D4A0AE6007BCDC2 /* WebResources */,
+				3BF8144D1DBFE86700B4136C /* Muzoma.app */,
+				3B0FA92F2390689E004E4BA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B4E33B61AD1559B00443460 /* Event Sequencer */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E1FE61E8A88B700946318 /* Muzoma-Bridging-Header.h */,
+				3B0697DD1E83D16500A770D7 /* Globals */,
+				3B847A421C01D3D6006E6AE5 /* View */,
+				3B1DBD741D5B976D0013B852 /* Logging */,
+				3B847A401C01D39D006E6AE5 /* Model */,
+				3BFC5D831D115B4D00D2CB1D /* Version */,
+				3B49CF9A1C84B8120062DC1F /* Extensions */,
+				3B58E7E21C7B0F7F0062C7D5 /* Timer */,
+				3BCF50AB1C0749BD007697D0 /* Audio */,
+				3B847A441C0333D6006E6AE5 /* FileSystem */,
+				3B847A411C01D3B8006E6AE5 /* Midi */,
+			);
+			path = "Event Sequencer";
+			sourceTree = "<group>";
+		};
+		3B4E33B71AD1559B00443460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B28EC901CB925F200A682FC /* Muzoma.entitlements */,
+				3BD513E41C8E268D00818431 /* AppIcon.appiconset */,
+				3B5106C01C7FBDD800DC6692 /* Settings.bundle */,
+				3BFDCA791C69FDDF00E5EB72 /* Event Sequencer.entitlements */,
+				3B4E33C21AD1559B00443460 /* LaunchScreen.xib */,
+				3B4E33B81AD1559B00443460 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = "Event Sequencer";
+			sourceTree = "<group>";
+		};
+		3B58E7E21C7B0F7F0062C7D5 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				3B637E2B1C9174A6005D913F /* DispatchTimer.swift */,
+				3B8AEC77212DB6A900A9084A /* RepeatingTimer.swift */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
+		3B637E1C1C917226005D913F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B2C6CE21EAE09AC00C9D19A /* midi control 4.png */,
+				3B2D1AC81EAD550200083A43 /* midi in control 4.png */,
+				3B2D1AC91EAD550200083A43 /* midi in midi out control 4.png */,
+				3B2D1ACA1EAD550200083A43 /* midi out control 4.png */,
+				3BDF31351E65E0E500E2872F /* meterGreenAmbRedSegment 40x23 plain.png */,
+				3BDF31331E65E0D300E2872F /* meterGreenSegment 40x23 plain.png */,
+				3BDF31311E65E0BF00E2872F /* meterGreenAmbSegment 40x23 plain.png */,
+				3BDF312B1E65DC5E00E2872F /* meterRedSegment5x26.png */,
+				3BDF312C1E65DC5E00E2872F /* meterAmberSegment 5x26.png */,
+				3BDF312D1E65DC5E00E2872F /* meterGreenSegment 5x26.png */,
+				3BDF31201E65DA7A00E2872F /* barmeter.png */,
+				3BD21E1B1E25704F007C9F13 /* Muzoma Transparent Large.PNG */,
+				3B3757831DEB143A00AA8065 /* Placeholder load.gif */,
+				3BF8144B1DBF77F000B4136C /* Set Placeholder.png */,
+				3BF8143F1DBF77A100B4136C /* Song Placeholder.png */,
+				3B2A76351D46392F007F10C9 /* printed sheet-24.png */,
+				3B2A76331D46241F007F10C9 /* printer-24.png */,
+				3B2A762E1D4623B1007F10C9 /* printer-64.png */,
+				3B28D5271D392B3400569D89 /* 663033-airplay-24.png */,
+				3B28D5251D39284C00569D89 /* 663033-airplay-32.png */,
+				3B637E2D1C99578B005D913F /* _Muzoma A1-AcGuitar.m4a */,
+				3B637E2E1C99578B005D913F /* _Muzoma A1-Piano.m4a */,
+				3B637E2F1C99578B005D913F /* _Muzoma A3-AcGuitar.m4a */,
+				3B637E301C99578B005D913F /* _Muzoma A3-Piano.m4a */,
+				3B637E311C99578B005D913F /* _Muzoma A4-AcGuitar.m4a */,
+				3B637E321C99578B005D913F /* _Muzoma A4-Piano.m4a */,
+				3B637E331C99578B005D913F /* _Muzoma As1-AcGuitar.m4a */,
+				3B637E341C99578B005D913F /* _Muzoma As1-Piano.m4a */,
+				3B637E351C99578B005D913F /* _Muzoma As3-AcGuitar.m4a */,
+				3B637E361C99578B005D913F /* _Muzoma As3-Piano.m4a */,
+				3B637E371C99578B005D913F /* _Muzoma As4-AcGuitar.m4a */,
+				3B637E381C99578B005D913F /* _Muzoma As4-Piano.m4a */,
+				3B637E391C99578B005D913F /* _Muzoma B1-AcGuitar.m4a */,
+				3B637E3A1C99578B005D913F /* _Muzoma B1-Piano.m4a */,
+				3B637E3B1C99578B005D913F /* _Muzoma B3-AcGuitar.m4a */,
+				3B637E3C1C99578B005D913F /* _Muzoma B3-Piano.m4a */,
+				3B637E3D1C99578B005D913F /* _Muzoma B4-AcGuitar.m4a */,
+				3B637E3E1C99578B005D913F /* _Muzoma B4-Piano.m4a */,
+				3B637E3F1C99578B005D913F /* _Muzoma C1-AcGuitar.m4a */,
+				3B637E401C99578B005D913F /* _Muzoma C1-Piano.m4a */,
+				3B637E411C99578B005D913F /* _Muzoma C3-AcGuitar.m4a */,
+				3B637E421C99578B005D913F /* _Muzoma C3-Piano.m4a */,
+				3B637E431C99578B005D913F /* _Muzoma C4-AcGuitar.m4a */,
+				3B637E441C99578B005D913F /* _Muzoma C4-Piano.m4a */,
+				3B637E451C99578B005D913F /* _Muzoma Cs1-AcGuitar.m4a */,
+				3B637E461C99578B005D913F /* _Muzoma Cs1-Piano.m4a */,
+				3B637E471C99578B005D913F /* _Muzoma Cs3-AcGuitar.m4a */,
+				3B637E481C99578B005D913F /* _Muzoma Cs3-Piano.m4a */,
+				3B637E491C99578B005D913F /* _Muzoma Cs4-AcGuitar.m4a */,
+				3B637E4A1C99578B005D913F /* _Muzoma Cs4-Piano.m4a */,
+				3B637E4B1C99578B005D913F /* _Muzoma D1-AcGuitar.m4a */,
+				3B637E4C1C99578B005D913F /* _Muzoma D1-Piano.m4a */,
+				3B637E4D1C99578B005D913F /* _Muzoma D3-AcGuitar.m4a */,
+				3B637E4E1C99578B005D913F /* _Muzoma D3-Piano.m4a */,
+				3B637E4F1C99578B005D913F /* _Muzoma D4-AcGuitar.m4a */,
+				3B637E501C99578B005D913F /* _Muzoma D4-Piano.m4a */,
+				3B637E511C99578B005D913F /* _Muzoma Ds1-AcGuitar.m4a */,
+				3B637E521C99578B005D913F /* _Muzoma Ds1-Piano.m4a */,
+				3B637E531C99578B005D913F /* _Muzoma Ds3-AcGuitar.m4a */,
+				3B637E541C99578B005D913F /* _Muzoma Ds3-Piano.m4a */,
+				3B637E551C99578B005D913F /* _Muzoma Ds4-AcGuitar.m4a */,
+				3B637E561C99578B005D913F /* _Muzoma Ds4-Piano.m4a */,
+				3B637E571C99578B005D913F /* _Muzoma E1-AcGuitar.m4a */,
+				3B637E581C99578B005D913F /* _Muzoma E1-Piano.m4a */,
+				3B637E591C99578B005D913F /* _Muzoma E3-AcGuitar.m4a */,
+				3B637E5A1C99578B005D913F /* _Muzoma E3-Piano.m4a */,
+				3B637E5B1C99578B005D913F /* _Muzoma E4-AcGuitar.m4a */,
+				3B637E5C1C99578B005D913F /* _Muzoma E4-Piano.m4a */,
+				3B637E5D1C99578B005D913F /* _Muzoma F1-AcGuitar.m4a */,
+				3B637E5E1C99578B005D913F /* _Muzoma F1-Piano.m4a */,
+				3B637E5F1C99578B005D913F /* _Muzoma F3-AcGuitar.m4a */,
+				3B637E601C99578B005D913F /* _Muzoma F3-Piano.m4a */,
+				3B637E611C99578B005D913F /* _Muzoma F4-AcGuitar.m4a */,
+				3B637E621C99578B005D913F /* _Muzoma F4-Piano.m4a */,
+				3B637E631C99578B005D913F /* _Muzoma Fs1-AcGuitar.m4a */,
+				3B637E641C99578B005D913F /* _Muzoma Fs1-Piano.m4a */,
+				3B637E651C99578B005D913F /* _Muzoma Fs3-AcGuitar.m4a */,
+				3B637E661C99578B005D913F /* _Muzoma Fs3-Piano.m4a */,
+				3B637E671C99578B005D913F /* _Muzoma Fs4-AcGuitar.m4a */,
+				3B637E681C99578B005D913F /* _Muzoma Fs4-Piano.m4a */,
+				3B637E691C99578B005D913F /* _Muzoma G1-AcGuitar.m4a */,
+				3B637E6A1C99578B005D913F /* _Muzoma G1-Piano.m4a */,
+				3B637E6B1C99578B005D913F /* _Muzoma G3-AcGuitar.m4a */,
+				3B637E6C1C99578B005D913F /* _Muzoma G3-Piano.m4a */,
+				3B637E6D1C99578B005D913F /* _Muzoma G4-AcGuitar.m4a */,
+				3B637E6E1C99578B005D913F /* _Muzoma G4-Piano.m4a */,
+				3B637E6F1C99578B005D913F /* _Muzoma Gs-Piano.m4a */,
+				3B637E701C99578B005D913F /* _Muzoma Gs1-AcGuitar.m4a */,
+				3B637E711C99578B005D913F /* _Muzoma Gs1-Piano.m4a */,
+				3B637E721C99578B005D913F /* _Muzoma Gs3-AcGuitar.m4a */,
+				3B637E731C99578B005D913F /* _Muzoma Gs3-Piano.m4a */,
+				3B637E741C99578B005D913F /* _Muzoma Gs4-AcGuitar.m4a */,
+				3BD19FB81D33D41D00C28B69 /* BlueAndYellowDot16x16.png */,
+				3B4E52271CD9118F00FE0201 /* Chord Pro Icon.png */,
+				3BEFD8921CE2214200229999 /* DefaultText.rtf */,
+				3B5D9EA01C9FF7D3008A9736 /* dragCorner.png */,
+				3B9EC0A71D0F504900CEC208 /* Help Icon.png */,
+				3B4E522C1CD917EA00FE0201 /* Text Icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B63CAE1238FF3DD00C2643A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B63CAEB238FF3DE00C2643A /* AEXML.framework */,
+				3B63CAED238FF3DE00C2643A /* AEXML.framework */,
+				3B63CAEF238FF3DE00C2643A /* AEXML iOS Tests.xctest */,
+				3B63CAF1238FF3DE00C2643A /* AEXML.framework */,
+				3B63CAF3238FF3DE00C2643A /* AEXML tvOS Tests.xctest */,
+				3B63CAF5238FF3DE00C2643A /* AEXML.framework */,
+				3B63CAF7238FF3DE00C2643A /* AEXML macOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6F442A212D69F900CD45D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B6F442E212D69FA00CD45D4 /* SwaggerWPSite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6F4445212D6B7A00CD45D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B6F4449212D6B7B00CD45D4 /* SwaggerUserRegSite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B7D79631E3A1F980013554D /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				3B7D79611E3A1F8B0013554D /* RecorderViewController.swift */,
+			);
+			name = Recorder;
+			sourceTree = "<group>";
+		};
+		3B847A401C01D39D006E6AE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BD383D31B984A8A006B522A /* MuzomaDocument.swift */,
+				3B40CFDE1DCA540200283AE6 /* DocumentMapper.swift */,
+				3BA8588C1CF34919005997E2 /* MuzomaSetDocument.swift */,
+				3B07D9411DE0E16C00266A18 /* Chord.swift */,
+				3B1DD4DC1E847088005BFA69 /* ControlSettings.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3B847A411C01D3B8006E6AE5 /* Midi */ = {
+			isa = PBXGroup;
+			children = (
+				3B0697DB1E83D0AF00A770D7 /* MuzomaMidi.swift */,
+				3B272E061EA7702D00132BA2 /* TransportMidiControl.swift */,
+				3B272E081EA7709D00132BA2 /* MixerMidiControl.swift */,
+			);
+			name = Midi;
+			sourceTree = "<group>";
+		};
+		3B847A421C01D3D6006E6AE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BB5F1E4214075650069E441 /* Cymatic */,
+				3B0042011D61F0F30002ADDF /* Registration */,
+				3B3E48221E53058C005A69EA /* Muzoma Control */,
+				3B7880DA1BF8DEB200A7C4DE /* MainNavViewController.swift */,
+				3B394C301E4A407D002388F1 /* Mixer */,
+				3B7D79631E3A1F980013554D /* Recorder */,
+				3BD42F4D1D59048E009427E1 /* IAP */,
+				3B2A76391D46561F007F10C9 /* Viewer */,
+				3BB7F8AD1D23D8A000E6D251 /* Transport */,
+				3BBAD3551CE39A43001B395E /* Group Player */,
+				3BEFD88C1CE202E000229999 /* SuperTextView */,
+				3BEEDC271C8F20250035EA70 /* Chord Picker */,
+				3B49CF951C80B8AB0062DC1F /* Import */,
+				3BEEDBB21C1AD801009CA319 /* Editor */,
+				3B3465341CE9CB4300B63F40 /* Edit Timing */,
+				3BEEDBB11C1AD7C8009CA319 /* Player */,
+				3BEEDBB01C1AD781009CA319 /* Document */,
+				3BEEDBAE1C1AD72B009CA319 /* Sets */,
+				3BEEDBAD1C1AD6F3009CA319 /* Tracks */,
+				3BDE8C751DE77DCC006640D9 /* Market */,
+				3BDBBC581D10215100F59F9E /* Help */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3B847A441C0333D6006E6AE5 /* FileSystem */ = {
+			isa = PBXGroup;
+			children = (
+				3B847A451C033441006E6AE5 /* FileSystemHelper.swift */,
+				3B2CCCE81DEEDC420057EECD /* DownloadURL.swift */,
+				3B2CCCEA1DEEED120057EECD /* DiscoverRemoteDocs.swift */,
+			);
+			name = FileSystem;
+			sourceTree = "<group>";
+		};
+		3B8BFFC9238FF0FF0040F6D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B8BFFD4238FF0FF0040F6D7 /* Alamofire.framework */,
+				3B8BFFD6238FF0FF0040F6D7 /* Alamofire iOS Tests.xctest */,
+				3B8BFFD8238FF0FF0040F6D7 /* Alamofire.framework */,
+				3B8BFFDA238FF0FF0040F6D7 /* Alamofire macOS Tests.xctest */,
+				3B8BFFDC238FF0FF0040F6D7 /* Alamofire.framework */,
+				3B8BFFDE238FF0FF0040F6D7 /* Alamofire tvOS Tests.xctest */,
+				3B8BFFE0238FF0FF0040F6D7 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BB5F1E4214075650069E441 /* Cymatic */ = {
+			isa = PBXGroup;
+			children = (
+				3B274A652145469C002CCE37 /* song.set.xml */,
+				3B274A4D2145467D002CCE37 /* Matts Playlist.play.xml */,
+				3BB5F1FB2140758C0069E441 /* CymaticExport.swift */,
+			);
+			name = Cymatic;
+			sourceTree = "<group>";
+		};
+		3BB7F8AD1D23D8A000E6D251 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				3BBAD35D1CE39DFA001B395E /* MuzomaMultiPeerService.swift */,
+				3B33B0171D2146B400FF0F8E /* TransportUIAndLogic.swift */,
+				3B2A75741D2E4E7F00799158 /* MediaCloudPicker.swift */,
+			);
+			name = Transport;
+			sourceTree = "<group>";
+		};
+		3BBAD3551CE39A43001B395E /* Group Player */ = {
+			isa = PBXGroup;
+			children = (
+				3BBAD3591CE39A8D001B395E /* GroupPlayerViewController.swift */,
+			);
+			name = "Group Player";
+			sourceTree = "<group>";
+		};
+		3BCF50AB1C0749BD007697D0 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3B637EBD1C9AA521005D913F /* ChordPlayer.swift */,
+				3B235F0D1DDDB40B006ABFD6 /* MultiChannelAudio.swift */,
+				3B3483881E47DA3400864DDF /* AudioUtils.swift */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		3BD42F4D1D59048E009427E1 /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				3B0DFAFC1D4CEC1000ED73F7 /* MuzomaProducts.swift */,
+				3B0DFAFE1D4CECC900ED73F7 /* IAPHelper.swift */,
+				3BD42F4B1D590482009427E1 /* IAPTableViewController.swift */,
+				3BD42F4E1D590504009427E1 /* IAPTableViewCell.swift */,
+			);
+			name = IAP;
+			sourceTree = "<group>";
+		};
+		3BD513E41C8E268D00818431 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				3B4E33C01AD1559B00443460 /* Images.xcassets */,
+				3BD513E51C8E268D00818431 /* Contents.json */,
+			);
+			name = AppIcon.appiconset;
+			path = Images.xcassets/AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		3BDBBC581D10215100F59F9E /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				3B8812941D1C268B00DD5953 /* About.rtf */,
+				3BC6CFC21D1B21B000A7D09B /* AboutViewController.swift */,
+				3BDBBC5C1D1021EC00F59F9E /* HelpViewController.swift */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		3BDE8C751DE77DCC006640D9 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				3B8AF09D1DF04470003459E0 /* ContentCollectionViewCell.swift */,
+				3B5016E61E463C8100A56344 /* KVCollectionViewCell.swift */,
+				3B8AF0941DF043D9003459E0 /* MuzomaContentTableViewController.swift */,
+				3BDE8C6C1DE77B9E006640D9 /* WebSongsViewController.swift */,
+				3B03BE391E2E8E0600599594 /* UserDownloads.swift */,
+				3B1FBC8E1E412ED300B0EDD8 /* KVDownload.swift */,
+				3BDE1D8B1E44BE7600125E80 /* KVDownloadURL.swift */,
+			);
+			name = Market;
+			sourceTree = "<group>";
+		};
+		3BEEDBAD1C1AD6F3009CA319 /* Tracks */ = {
+			isa = PBXGroup;
+			children = (
+				3BE2AD2A1C0F00EC00CBFBDC /* TracksTableViewController.swift */,
+				3BE5CD581BFF90940068EB95 /* NewTrackViewController.swift */,
+				3BE5CD561BFF903C0068EB95 /* EditTracksViewController.swift */,
+				3BE2AD2C1C0F031700CBFBDC /* TracksTableViewCell.swift */,
+			);
+			name = Tracks;
+			sourceTree = "<group>";
+		};
+		3BEEDBAE1C1AD72B009CA319 /* Sets */ = {
+			isa = PBXGroup;
+			children = (
+				3BF808E11CF30BF2006529C3 /* MuzSetCollectionViewCell.swift */,
+				3BA858881CF33AB0005997E2 /* SetTableViewController.swift */,
+				3BF808DF1CF30B86006529C3 /* SetsCollectionViewController.swift */,
+				3B195F571CF5BD4900907EC6 /* CreateNewSetViewController.swift */,
+				3BA8588A1CF34103005997E2 /* SetTableViewCell.swift */,
+				3BE5CD501BFF76A80068EB95 /* NewSetViewController.swift */,
+			);
+			name = Sets;
+			sourceTree = "<group>";
+		};
+		3BEEDBB01C1AD781009CA319 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				3B1025741BF9F36B00E3F78C /* MuzDocCollectionViewCell.swift */,
+				3B1025721BF9ED6300E3F78C /* DocumentsCollectionViewController.swift */,
+				3BBE9B5D1C3AD1A500E74AEB /* CreateNewDocViewController.swift */,
+			);
+			name = Document;
+			sourceTree = "<group>";
+		};
+		3BEEDBB11C1AD7C8009CA319 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				3BE5CD541BFF84B80068EB95 /* PlayerDocumentViewController.swift */,
+				3B37578C1DEB39F400AA8065 /* RollingPlayerDocumentViewController.swift */,
+				3B7ECA8A1CE6129400408B66 /* ExternalPlayerView.xib */,
+				3B7ECA8F1CE6131F00408B66 /* ExternalPlayerView.swift */,
+				3BE5CD5A1BFF91070068EB95 /* NewItemViewController.swift */,
+				3B7ECA911CE629D900408B66 /* LineEventView.swift */,
+				3B7ECA931CE629F100408B66 /* LineEventView.xib */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		3BEEDBB21C1AD801009CA319 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				3B4E33BB1AD1559B00443460 /* EditDocumentViewController.swift */,
+				3B720C171C29E03C0052B271 /* EditorLinesController.swift */,
+				3BEEDBB51C1AE91D009CA319 /* EditorTableViewCell.swift */,
+				3B1C849D1CEDE8B900032B6D /* EditorTableViewBarBeatsCell.swift */,
+				3B1C849B1CEDE85800032B6D /* EditorTableViewStructureCell.swift */,
+				3BE86C1B1C416B2100CDAD90 /* EditorTableViewLyricCell.swift */,
+				3BFE041A1C5810C900B73176 /* EditorTableViewAudioCell.swift */,
+				3BA479AD1C67A37000CEC949 /* EditorTableViewGuideCell.swift */,
+				3BACB02E1C4564C300E360C0 /* EditorTableViewChordCell.swift */,
+				3BEEDBB91C1B5F7E009CA319 /* WordSelectorTextField.swift */,
+				3BACB0301C458F2D00E360C0 /* ChordSelectorTextField.swift */,
+			);
+			name = Editor;
+			sourceTree = "<group>";
+		};
+		3BEEDC271C8F20250035EA70 /* Chord Picker */ = {
+			isa = PBXGroup;
+			children = (
+				3BEEDC281C8F20800035EA70 /* ChordPickerController.swift */,
+			);
+			name = "Chord Picker";
+			sourceTree = "<group>";
+		};
+		3BEFD88C1CE202E000229999 /* SuperTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3BEFD8901CE2034B00229999 /* UISuperTextView.swift */,
+			);
+			name = SuperTextView;
+			sourceTree = "<group>";
+		};
+		3BFC5D831D115B4D00D2CB1D /* Version */ = {
+			isa = PBXGroup;
+			children = (
+				3BDD46342140013D00425D66 /* Version.swift */,
+			);
+			name = Version;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B4E33B31AD1559B00443460 /* Muzoma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4E33D31AD1559C00443460 /* Build configuration list for PBXNativeTarget "Muzoma" */;
+			buildPhases = (
+				3B4E33B01AD1559B00443460 /* Sources */,
+				3B4E33B11AD1559B00443460 /* Frameworks */,
+				3B4E33B21AD1559B00443460 /* Resources */,
+				3BA794E21CBD05A700EB9B03 /* Embed Frameworks */,
+				3BE0FC1D1D12A74100216463 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B09DE421E51EA2F00A74BE8 /* PBXTargetDependency */,
+				3B63CAFB238FF44F00C2643A /* PBXTargetDependency */,
+				3B15A08A23900415006773EE /* PBXTargetDependency */,
+			);
+			name = Muzoma;
+			productName = "Event Sequencer";
+			productReference = 3BF8144D1DBFE86700B4136C /* Muzoma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B4E33AC1AD1559B00443460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Muzoma.com;
+				TargetAttributes = {
+					3B4E33B31AD1559B00443460 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4SW73Q7M6X;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3B4E33AF1AD1559B00443460 /* Build configuration list for PBXProject "Muzoma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B4E33AB1AD1559B00443460;
+			productRefGroup = 3B4E33AB1AD1559B00443460;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3B63CAE1238FF3DD00C2643A /* Products */;
+					ProjectRef = 3B63CAE0238FF3DD00C2643A /* AEXML.xcodeproj */;
+				},
+				{
+					ProductGroup = 3B8BFFC9238FF0FF0040F6D7 /* Products */;
+					ProjectRef = 3B8BFFC8238FF0FF0040F6D7 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 3B09DE2B1E51E95E00A74BE8 /* Products */;
+					ProjectRef = 3B09DE2A1E51E95E00A74BE8 /* MIKMIDI.xcodeproj */;
+				},
+				{
+					ProductGroup = 3B6F4445212D6B7A00CD45D4 /* Products */;
+					ProjectRef = 3B6F4444212D6B7A00CD45D4 /* SwaggerUserRegSite.xcodeproj */;
+				},
+				{
+					ProductGroup = 3B6F442A212D69F900CD45D4 /* Products */;
+					ProjectRef = 3B6F4429212D69F900CD45D4 /* SwaggerWPSite.xcodeproj */;
+				},
+				{
+					ProductGroup = 3B15A076239003DF006773EE /* Products */;
+					ProjectRef = 3B15A075239003DF006773EE /* Zip.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3B4E33B31AD1559B00443460 /* Muzoma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3B09DE381E51E95E00A74BE8 /* MIKMIDI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MIKMIDI.framework;
+			remoteRef = 3B09DE371E51E95E00A74BE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B09DE3A1E51E95E00A74BE8 /* MIKMIDI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MIKMIDI.framework;
+			remoteRef = 3B09DE391E51E95E00A74BE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B09DE3C1E51E95E00A74BE8 /* MIKMIDI Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "MIKMIDI Tests.xctest";
+			remoteRef = 3B09DE3B1E51E95E00A74BE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B15A07E239003E0006773EE /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = 3B15A07D239003E0006773EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B15A080239003E0006773EE /* ZipTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZipTests.xctest;
+			remoteRef = 3B15A07F239003E0006773EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B15A082239003E0006773EE /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = 3B15A081239003E0006773EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B15A084239003E0006773EE /* Zip OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Zip OSXTests.xctest";
+			remoteRef = 3B15A083239003E0006773EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B15A086239003E0006773EE /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = 3B15A085239003E0006773EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B63CAEB238FF3DE00C2643A /* AEXML.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEXML.framework;
+			remoteRef = 3B63CAEA238FF3DE00C2643A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B63CAED238FF3DE00C2643A /* AEXML.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEXML.framework;
+			remoteRef = 3B63CAEC238FF3DE00C2643A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B63CAEF238FF3DE00C2643A /* AEXML iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AEXML iOS Tests.xctest";
+			remoteRef = 3B63CAEE238FF3DE00C2643A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B63CAF1238FF3DE00C2643A /* AEXML.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEXML.framework;
+			remoteRef = 3B63CAF0238FF3DE00C2643A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B63CAF3238FF3DE00C2643A /* AEXML tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AEXML tvOS Tests.xctest";
+			remoteRef = 3B63CAF2238FF3DE00C2643A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B63CAF5238FF3DE00C2643A /* AEXML.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEXML.framework;
+			remoteRef = 3B63CAF4238FF3DE00C2643A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B63CAF7238FF3DE00C2643A /* AEXML macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AEXML macOS Tests.xctest";
+			remoteRef = 3B63CAF6238FF3DE00C2643A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B6F442E212D69FA00CD45D4 /* SwaggerWPSite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwaggerWPSite.framework;
+			remoteRef = 3B6F442D212D69FA00CD45D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B6F4449212D6B7B00CD45D4 /* SwaggerUserRegSite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwaggerUserRegSite.framework;
+			remoteRef = 3B6F4448212D6B7B00CD45D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B8BFFD4238FF0FF0040F6D7 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 3B8BFFD3238FF0FF0040F6D7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B8BFFD6238FF0FF0040F6D7 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 3B8BFFD5238FF0FF0040F6D7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B8BFFD8238FF0FF0040F6D7 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 3B8BFFD7238FF0FF0040F6D7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B8BFFDA238FF0FF0040F6D7 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 3B8BFFD9238FF0FF0040F6D7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B8BFFDC238FF0FF0040F6D7 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 3B8BFFDB238FF0FF0040F6D7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B8BFFDE238FF0FF0040F6D7 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 3B8BFFDD238FF0FF0040F6D7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B8BFFE0238FF0FF0040F6D7 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 3B8BFFDF238FF0FF0040F6D7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B4E33B21AD1559B00443460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2F4BBC1D22C5C500A5941A /* LineEventView.xib in Resources */,
+				3B637EA91C99578B005D913F /* _Muzoma F4-AcGuitar.m4a in Resources */,
+				3B637EA21C99578B005D913F /* _Muzoma E3-Piano.m4a in Resources */,
+				3BDF31341E65E0D300E2872F /* meterGreenSegment 40x23 plain.png in Resources */,
+				3B637E891C99578B005D913F /* _Muzoma C3-AcGuitar.m4a in Resources */,
+				3B637EAB1C99578B005D913F /* _Muzoma Fs1-AcGuitar.m4a in Resources */,
+				3B637E9E1C99578B005D913F /* _Muzoma Ds4-Piano.m4a in Resources */,
+				3B2A76341D46241F007F10C9 /* printer-24.png in Resources */,
+				3B637E9F1C99578B005D913F /* _Muzoma E1-AcGuitar.m4a in Resources */,
+				3B2D1ACC1EAD550200083A43 /* midi in control 4.png in Resources */,
+				3B637E771C99578B005D913F /* _Muzoma A3-AcGuitar.m4a in Resources */,
+				3BDF31321E65E0BF00E2872F /* meterGreenAmbSegment 40x23 plain.png in Resources */,
+				3B637E9C1C99578B005D913F /* _Muzoma Ds3-Piano.m4a in Resources */,
+				3B637EB11C99578B005D913F /* _Muzoma G1-AcGuitar.m4a in Resources */,
+				3B637E811C99578B005D913F /* _Muzoma B1-AcGuitar.m4a in Resources */,
+				3BF8144C1DBF77F000B4136C /* Set Placeholder.png in Resources */,
+				3B637EB31C99578B005D913F /* _Muzoma G3-AcGuitar.m4a in Resources */,
+				3B637EA11C99578B005D913F /* _Muzoma E3-AcGuitar.m4a in Resources */,
+				3B637E9B1C99578B005D913F /* _Muzoma Ds3-AcGuitar.m4a in Resources */,
+				3BF814431DBF77A100B4136C /* Song Placeholder.png in Resources */,
+				3B637E971C99578B005D913F /* _Muzoma D4-AcGuitar.m4a in Resources */,
+				3B637E951C99578B005D913F /* _Muzoma D3-AcGuitar.m4a in Resources */,
+				3B274A662145469C002CCE37 /* song.set.xml in Resources */,
+				3BD513EB1C8E268D00818431 /* Contents.json in Resources */,
+				3B637EBA1C99578B005D913F /* _Muzoma Gs3-AcGuitar.m4a in Resources */,
+				3B2A762F1D4623B1007F10C9 /* printer-64.png in Resources */,
+				3B637E7D1C99578B005D913F /* _Muzoma As3-AcGuitar.m4a in Resources */,
+				3B637E851C99578B005D913F /* _Muzoma B4-AcGuitar.m4a in Resources */,
+				3B637E9A1C99578B005D913F /* _Muzoma Ds1-Piano.m4a in Resources */,
+				3B637E7B1C99578B005D913F /* _Muzoma As1-AcGuitar.m4a in Resources */,
+				3B4E33BF1AD1559B00443460 /* Main.storyboard in Resources */,
+				3B637E751C99578B005D913F /* _Muzoma A1-AcGuitar.m4a in Resources */,
+				3B2D1ACD1EAD550200083A43 /* midi in midi out control 4.png in Resources */,
+				3B637E8E1C99578B005D913F /* _Muzoma Cs1-Piano.m4a in Resources */,
+				3B637E821C99578B005D913F /* _Muzoma B1-Piano.m4a in Resources */,
+				3B637E801C99578B005D913F /* _Muzoma As4-Piano.m4a in Resources */,
+				3B637EAA1C99578B005D913F /* _Muzoma F4-Piano.m4a in Resources */,
+				3B2C6CE31EAE09AC00C9D19A /* midi control 4.png in Resources */,
+				3B637E981C99578B005D913F /* _Muzoma D4-Piano.m4a in Resources */,
+				3B637E7C1C99578B005D913F /* _Muzoma As1-Piano.m4a in Resources */,
+				3B637EB61C99578B005D913F /* _Muzoma G4-Piano.m4a in Resources */,
+				3B11FC131D4A0B71007BCDC2 /* Muzoma.css in Resources */,
+				3B7ECA8B1CE6129400408B66 /* ExternalPlayerView.xib in Resources */,
+				3B637E871C99578B005D913F /* _Muzoma C1-AcGuitar.m4a in Resources */,
+				3B637E881C99578B005D913F /* _Muzoma C1-Piano.m4a in Resources */,
+				3B2D1ACE1EAD550200083A43 /* midi out control 4.png in Resources */,
+				3B637EB41C99578B005D913F /* _Muzoma G3-Piano.m4a in Resources */,
+				3B637EB01C99578B005D913F /* _Muzoma Fs4-Piano.m4a in Resources */,
+				3B637E781C99578B005D913F /* _Muzoma A3-Piano.m4a in Resources */,
+				3B637E8C1C99578B005D913F /* _Muzoma C4-Piano.m4a in Resources */,
+				3B637EAE1C99578B005D913F /* _Muzoma Fs3-Piano.m4a in Resources */,
+				3B37578B1DEB187B00AA8065 /* Placeholder load.gif in Resources */,
+				3BDF31301E65DC5E00E2872F /* meterGreenSegment 5x26.png in Resources */,
+				3B11FC141D4A0B71007BCDC2 /* Muzoma.js in Resources */,
+				3B637EAD1C99578B005D913F /* _Muzoma Fs3-AcGuitar.m4a in Resources */,
+				3B637E841C99578B005D913F /* _Muzoma B3-Piano.m4a in Resources */,
+				3B637E7F1C99578B005D913F /* _Muzoma As4-AcGuitar.m4a in Resources */,
+				3B637E831C99578B005D913F /* _Muzoma B3-AcGuitar.m4a in Resources */,
+				3B637E931C99578B005D913F /* _Muzoma D1-AcGuitar.m4a in Resources */,
+				3B637E8B1C99578B005D913F /* _Muzoma C4-AcGuitar.m4a in Resources */,
+				3B4E33C41AD1559B00443460 /* LaunchScreen.xib in Resources */,
+				3B637E911C99578B005D913F /* _Muzoma Cs4-AcGuitar.m4a in Resources */,
+				3B637EA81C99578B005D913F /* _Muzoma F3-Piano.m4a in Resources */,
+				3B5BA2B01DEB90D90012B316 /* MuzomaHighContrast.css in Resources */,
+				3B637EBC1C99578B005D913F /* _Muzoma Gs4-AcGuitar.m4a in Resources */,
+				3BDF312E1E65DC5E00E2872F /* meterRedSegment5x26.png in Resources */,
+				3B637E7E1C99578B005D913F /* _Muzoma As3-Piano.m4a in Resources */,
+				3B637E921C99578B005D913F /* _Muzoma Cs4-Piano.m4a in Resources */,
+				3B4E33C11AD1559B00443460 /* Images.xcassets in Resources */,
+				3B637E8A1C99578B005D913F /* _Muzoma C3-Piano.m4a in Resources */,
+				3BDEEAF01E4BD5CA00A1387B /* FaderChannel.xib in Resources */,
+				3B274A642145467D002CCE37 /* Matts Playlist.play.xml in Resources */,
+				3B637EA51C99578B005D913F /* _Muzoma F1-AcGuitar.m4a in Resources */,
+				3BDF31211E65DA7A00E2872F /* barmeter.png in Resources */,
+				3B5BA2AF1DEB90D90012B316 /* MuzomaDark.css in Resources */,
+				3B637E941C99578B005D913F /* _Muzoma D1-Piano.m4a in Resources */,
+				3BEFD8931CE2214200229999 /* DefaultText.rtf in Resources */,
+				3BC56E9B1DF9FFF4006EC7CF /* SiteSong.html in Resources */,
+				3B637E901C99578B005D913F /* _Muzoma Cs3-Piano.m4a in Resources */,
+				3BD19FB91D33D41D00C28B69 /* BlueAndYellowDot16x16.png in Resources */,
+				3B637E961C99578B005D913F /* _Muzoma D3-Piano.m4a in Resources */,
+				3B4E522D1CD917EA00FE0201 /* Text Icon.png in Resources */,
+				3B5D9EA11C9FF7D3008A9736 /* dragCorner.png in Resources */,
+				3B637EB91C99578B005D913F /* _Muzoma Gs1-Piano.m4a in Resources */,
+				3B637E9D1C99578B005D913F /* _Muzoma Ds4-AcGuitar.m4a in Resources */,
+				3B28D5281D392B3400569D89 /* 663033-airplay-24.png in Resources */,
+				3B637EA61C99578B005D913F /* _Muzoma F1-Piano.m4a in Resources */,
+				3B637EA31C99578B005D913F /* _Muzoma E4-AcGuitar.m4a in Resources */,
+				3B637EAF1C99578B005D913F /* _Muzoma Fs4-AcGuitar.m4a in Resources */,
+				3B637EA01C99578B005D913F /* _Muzoma E1-Piano.m4a in Resources */,
+				3BDF312F1E65DC5E00E2872F /* meterAmberSegment 5x26.png in Resources */,
+				3B637EA71C99578B005D913F /* _Muzoma F3-AcGuitar.m4a in Resources */,
+				3B5BA2B11DEB90D90012B316 /* MuzomaLight.css in Resources */,
+				3B637E861C99578B005D913F /* _Muzoma B4-Piano.m4a in Resources */,
+				3B637EA41C99578B005D913F /* _Muzoma E4-Piano.m4a in Resources */,
+				3B5106C11C7FBDD800DC6692 /* Settings.bundle in Resources */,
+				3B637E7A1C99578B005D913F /* _Muzoma A4-Piano.m4a in Resources */,
+				3B8812951D1C268B00DD5953 /* About.rtf in Resources */,
+				3B9EC0A81D0F504900CEC208 /* Help Icon.png in Resources */,
+				3B637EB51C99578B005D913F /* _Muzoma G4-AcGuitar.m4a in Resources */,
+				3BD21E1C1E25704F007C9F13 /* Muzoma Transparent Large.PNG in Resources */,
+				3B637EB81C99578B005D913F /* _Muzoma Gs1-AcGuitar.m4a in Resources */,
+				3B637EAC1C99578B005D913F /* _Muzoma Fs1-Piano.m4a in Resources */,
+				3B637E791C99578B005D913F /* _Muzoma A4-AcGuitar.m4a in Resources */,
+				3B2A76361D46392F007F10C9 /* printed sheet-24.png in Resources */,
+				3B637EB71C99578B005D913F /* _Muzoma Gs-Piano.m4a in Resources */,
+				3B637E8D1C99578B005D913F /* _Muzoma Cs1-AcGuitar.m4a in Resources */,
+				3BDF31361E65E0E500E2872F /* meterGreenAmbRedSegment 40x23 plain.png in Resources */,
+				3B4E52281CD9119000FE0201 /* Chord Pro Icon.png in Resources */,
+				3B637EB21C99578B005D913F /* _Muzoma G1-Piano.m4a in Resources */,
+				3B637E8F1C99578B005D913F /* _Muzoma Cs3-AcGuitar.m4a in Resources */,
+				3B637E761C99578B005D913F /* _Muzoma A1-Piano.m4a in Resources */,
+				3B637EBB1C99578B005D913F /* _Muzoma Gs3-Piano.m4a in Resources */,
+				3B637E991C99578B005D913F /* _Muzoma Ds1-AcGuitar.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BE0FC1D1D12A74100216463 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B4E33B01AD1559B00443460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA8588B1CF34103005997E2 /* SetTableViewCell.swift in Sources */,
+				3B1C849E1CEDE8B900032B6D /* EditorTableViewBarBeatsCell.swift in Sources */,
+				3BB5F1FC2140758C0069E441 /* CymaticExport.swift in Sources */,
+				3BC6CFC51D1B233D00A7D09B /* ExtUISlider.swift in Sources */,
+				3BACB02F1C4564C300E360C0 /* EditorTableViewChordCell.swift in Sources */,
+				3BF808E21CF30BF2006529C3 /* MuzSetCollectionViewCell.swift in Sources */,
+				3B37578D1DEB39F400AA8065 /* RollingPlayerDocumentViewController.swift in Sources */,
+				3BE5CD5B1BFF91070068EB95 /* NewItemViewController.swift in Sources */,
+				3B8AF0951DF043D9003459E0 /* MuzomaContentTableViewController.swift in Sources */,
+				3BFE041B1C5810C900B73176 /* EditorTableViewAudioCell.swift in Sources */,
+				3BA858891CF33AB0005997E2 /* SetTableViewController.swift in Sources */,
+				3B0697DC1E83D0AF00A770D7 /* MuzomaMidi.swift in Sources */,
+				3BE2AD2B1C0F00EC00CBFBDC /* TracksTableViewController.swift in Sources */,
+				3B7880DB1BF8DEB200A7C4DE /* MainNavViewController.swift in Sources */,
+				3BE86C1C1C416B2100CDAD90 /* EditorTableViewLyricCell.swift in Sources */,
+				3BB673B21D14102500786C29 /* DirectoryMonitor.swift in Sources */,
+				3BE5CD591BFF90940068EB95 /* NewTrackViewController.swift in Sources */,
+				3B7D79621E3A1F8B0013554D /* RecorderViewController.swift in Sources */,
+				3BEEDBB81C1B4A36009CA319 /* ChordAndLyricTableViewController.swift in Sources */,
+				3B637E2C1C9174A6005D913F /* DispatchTimer.swift in Sources */,
+				3B2CCCEB1DEEED120057EECD /* DiscoverRemoteDocs.swift in Sources */,
+				3B0DFAFF1D4CECC900ED73F7 /* IAPHelper.swift in Sources */,
+				3B33B0181D2146B400FF0F8E /* TransportUIAndLogic.swift in Sources */,
+				3B49CF971C80B92B0062DC1F /* ImportTextDocumentViewController.swift in Sources */,
+				3B3465391CE9CBEB00B63F40 /* EditTimingViewController.swift in Sources */,
+				3B272E071EA7702D00132BA2 /* TransportMidiControl.swift in Sources */,
+				3B07D9421DE0E16C00266A18 /* Chord.swift in Sources */,
+				3BDE1D8C1E44BE7600125E80 /* KVDownloadURL.swift in Sources */,
+				3B03BE3A1E2E8E0600599594 /* UserDownloads.swift in Sources */,
+				3BE5CD571BFF903C0068EB95 /* EditTracksViewController.swift in Sources */,
+				3B44FFFE1E4B35E400FCF531 /* VirticalUISlider.swift in Sources */,
+				3B195F581CF5BD4900907EC6 /* CreateNewSetViewController.swift in Sources */,
+				3BC6CFC31D1B21B000A7D09B /* AboutViewController.swift in Sources */,
+				3BEEDBBA1C1B5F7E009CA319 /* WordSelectorTextField.swift in Sources */,
+				3BBAD35E1CE39DFA001B395E /* MuzomaMultiPeerService.swift in Sources */,
+				3B0697DF1E83D17300A770D7 /* Globals.swift in Sources */,
+				3B847A461C033441006E6AE5 /* FileSystemHelper.swift in Sources */,
+				3BACB0311C458F2D00E360C0 /* ChordSelectorTextField.swift in Sources */,
+				3BBAD35A1CE39A8D001B395E /* GroupPlayerViewController.swift in Sources */,
+				3B637EC01C9ED537005D913F /* DragView.swift in Sources */,
+				3B1DBD731D5B97640013B852 /* ConsoleLogViewController.swift in Sources */,
+				3BEEDBB61C1AE91D009CA319 /* EditorTableViewCell.swift in Sources */,
+				3BDE8C6D1DE77B9E006640D9 /* WebSongsViewController.swift in Sources */,
+				3B49CF9C1C84B83A0062DC1F /* _Extensions.swift in Sources */,
+				3B2A76381D465615007F10C9 /* ViewerViewController.swift in Sources */,
+				3B8AF09E1DF04470003459E0 /* ContentCollectionViewCell.swift in Sources */,
+				3B4E33BC1AD1559B00443460 /* EditDocumentViewController.swift in Sources */,
+				3BBE9B5E1C3AD1A500E74AEB /* CreateNewDocViewController.swift in Sources */,
+				3B5016E71E463C8100A56344 /* KVCollectionViewCell.swift in Sources */,
+				3B1DD4DD1E847088005BFA69 /* ControlSettings.swift in Sources */,
+				3B4E33BA1AD1559B00443460 /* AppDelegate.swift in Sources */,
+				3BA479AE1C67A37000CEC949 /* EditorTableViewGuideCell.swift in Sources */,
+				3B592A411E917F88003A6008 /* DropDownTextField.swift in Sources */,
+				3BEEDC291C8F20800035EA70 /* ChordPickerController.swift in Sources */,
+				3BDD46352140013D00425D66 /* Version.swift in Sources */,
+				3B40CFDF1DCA540200283AE6 /* DocumentMapper.swift in Sources */,
+				3B90D74E1D60FF76009DD0F3 /* Logging.swift in Sources */,
+				3BF808E01CF30B86006529C3 /* SetsCollectionViewController.swift in Sources */,
+				3B1025731BF9ED6300E3F78C /* DocumentsCollectionViewController.swift in Sources */,
+				3B272E091EA7709D00132BA2 /* MixerMidiControl.swift in Sources */,
+				3B7ECA921CE629D900408B66 /* LineEventView.swift in Sources */,
+				3B1025751BF9F36B00E3F78C /* MuzDocCollectionViewCell.swift in Sources */,
+				3B0042091D61F2360002ADDF /* UserRegistrationTableViewController.swift in Sources */,
+				3B8AEC78212DB6A900A9084A /* RepeatingTimer.swift in Sources */,
+				3BDEEAF91E4BD68A00A1387B /* FaderChannel.swift in Sources */,
+				3BD383D41B984A8A006B522A /* MuzomaDocument.swift in Sources */,
+				3B0DFAFD1D4CEC1000ED73F7 /* MuzomaProducts.swift in Sources */,
+				3B3E48181E530583005A69EA /* MuzomaControlViewController.swift in Sources */,
+				3B03CBEC1DCE15930051C425 /* PopupQueue.swift in Sources */,
+				3BE5CD551BFF84B80068EB95 /* PlayerDocumentViewController.swift in Sources */,
+				3B1C849C1CEDE85800032B6D /* EditorTableViewStructureCell.swift in Sources */,
+				3B720C181C29E03C0052B271 /* EditorLinesController.swift in Sources */,
+				3BD42F4F1D590504009427E1 /* IAPTableViewCell.swift in Sources */,
+				3B3483891E47DA3400864DDF /* AudioUtils.swift in Sources */,
+				3BE5CD511BFF76A80068EB95 /* NewSetViewController.swift in Sources */,
+				3B1FBC8F1E412ED300B0EDD8 /* KVDownload.swift in Sources */,
+				3B2A75751D2E4E7F00799158 /* MediaCloudPicker.swift in Sources */,
+				3B637EBE1C9AA522005D913F /* ChordPlayer.swift in Sources */,
+				3BEFD8911CE2034B00229999 /* UISuperTextView.swift in Sources */,
+				3B2CCCE91DEEDC420057EECD /* DownloadURL.swift in Sources */,
+				3B235F0E1DDDB40B006ABFD6 /* MultiChannelAudio.swift in Sources */,
+				3B7ECA901CE6131F00408B66 /* ExternalPlayerView.swift in Sources */,
+				3BA8588D1CF34919005997E2 /* MuzomaSetDocument.swift in Sources */,
+				3BE2AD2D1C0F031700CBFBDC /* TracksTableViewCell.swift in Sources */,
+				3BD42F4C1D590482009427E1 /* IAPTableViewController.swift in Sources */,
+				3B0B14ED1E8C60FA00F7AE86 /* AudioShareSDK.m in Sources */,
+				3BDBBC5D1D1021EC00F59F9E /* HelpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B09DE421E51EA2F00A74BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MIKMIDI-iOS";
+			targetProxy = 3B09DE411E51EA2F00A74BE8 /* PBXContainerItemProxy */;
+		};
+		3B15A08A23900415006773EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Zip;
+			targetProxy = 3B15A08923900415006773EE /* PBXContainerItemProxy */;
+		};
+		3B63CAFB238FF44F00C2643A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AEXML iOS";
+			targetProxy = 3B63CAFA238FF44F00C2643A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B4E33BD1AD1559B00443460 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B4E33BE1AD1559B00443460 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "Event Sequencer";
+			sourceTree = "<group>";
+		};
+		3B4E33C21AD1559B00443460 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B4E33C31AD1559B00443460 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B4E33D11AD1559C00443460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matt Hopkins (E6FLWYUSM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /Applications;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B4E33D21AD1559C00443460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matt Hopkins (E6FLWYUSM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /Applications;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B4E33D41AD1559C00443460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Muzoma.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matt Hopkins (E6FLWYUSM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioCopy3",
+				);
+				INFOPLIST_FILE = "Event Sequencer/Info.plist";
+				INSTALL_PATH = /Applications;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Muzoma.com.Muzoma;
+				PRODUCT_NAME = Muzoma;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				"SWIFT_INCLUDE_PATHS[arch=*]" = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Event Sequencer/Muzoma-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		3B4E33D51AD1559C00443460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Muzoma.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matt Hopkins (E6FLWYUSM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioCopy3",
+				);
+				INFOPLIST_FILE = "Event Sequencer/Info.plist";
+				INSTALL_PATH = /Applications;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Muzoma.com.Muzoma;
+				PRODUCT_NAME = Muzoma;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Event Sequencer/Muzoma-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B4E33AF1AD1559B00443460 /* Build configuration list for PBXProject "Muzoma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4E33D11AD1559C00443460 /* Debug */,
+				3B4E33D21AD1559C00443460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B4E33D31AD1559C00443460 /* Build configuration list for PBXNativeTarget "Muzoma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4E33D41AD1559C00443460 /* Debug */,
+				3B4E33D51AD1559C00443460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B4E33AC1AD1559B00443460 /* Project object */;
+}

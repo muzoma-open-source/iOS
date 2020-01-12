@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<song_settings>
+  <version>2.0</version>
+  <timestamp>1536329723352</timestamp>
+  <creator>cymatic audio uTool</creator>
+  <target_device>LP-16</target_device>
+  <song_name>Muzoma - Impossible Dream</song_name>
+  <validationcode>cf1f00a02ff8bb24e9bf539f7c69ec1c</validationcode>
+  <playback_type>multitrack</playback_type>
+  <channel_count>12</channel_count>
+  <sampling_rate>44100</sampling_rate>
+  <resolution>16</resolution>
+  <output_level>
+    <chan id="3">0.0</chan>
+    <chan id="4">0.0</chan>
+    <chan id="7">0.0</chan>
+    <chan id="8">0.0</chan>
+    <chan id="9">0.0</chan>
+    <chan id="10">0.0</chan>
+    <chan id="11">0.0</chan>
+    <chan id="12">0.0</chan>
+    <chan id="13">0.0</chan>
+    <chan id="14">0.0</chan>
+    <chan id="15">0.0</chan>
+    <chan id="16">0.0</chan>
+  </output_level>
+  <monitor_pan>
+    <chan id="3">0</chan>
+    <chan id="4">0</chan>
+    <chan id="7">0</chan>
+    <chan id="8">0</chan>
+    <chan id="9">0</chan>
+    <chan id="10">0</chan>
+    <chan id="11">0</chan>
+    <chan id="12">0</chan>
+    <chan id="13">0</chan>
+    <chan id="14">0</chan>
+    <chan id="15">0</chan>
+    <chan id="16">0</chan>
+  </monitor_pan>
+  <channel_mute>
+    <chan id="3">0</chan>
+    <chan id="4">0</chan>
+    <chan id="7">0</chan>
+    <chan id="8">0</chan>
+    <chan id="9">0</chan>
+    <chan id="10">0</chan>
+    <chan id="11">0</chan>
+    <chan id="12">0</chan>
+    <chan id="13">0</chan>
+    <chan id="14">0</chan>
+    <chan id="15">0</chan>
+    <chan id="16">0</chan>
+  </channel_mute>
+</song_settings>

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SetTableViewController.prepareForSegue(UIStoryboardSegue, sender : AnyObject?) -&gt; ():SetTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(sender as! UIBarButtonItem).action.description">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SetsCollectionViewController.DeleteButtonClicked(AnyObject) -&gt; ():SetsCollectionViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_transport">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ContentCollectionViewCell.SetDocument(Attachment!, vc : MuzomaContentTableViewController, indexPath : NSIndexPath, table : UITableView!) -&gt; ():ContentCollectionViewCell.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaMidi.saveMappingItem(_:):MuzomaMidi.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mapping.controllerName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ImportTextDocumentViewController.panChord(_:):ImportTextDocumentViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedView.debugDescription">
+            </PersistentString>
+            <PersistentString
+               value = "selectedView == (_contextToolBar!.items![2].value(forKey: &quot;view&quot;) as! UIView)">
+            </PersistentString>
+            <PersistentString
+               value = "_contextToolBar!.items![0].value(forKey: &quot;view&quot;) as UIView">
+            </PersistentString>
+            <PersistentString
+               value = "selectedView.accessibilityIdentifier">
+            </PersistentString>
+            <PersistentString
+               value = "selectedView!">
+            </PersistentString>
+            <PersistentString
+               value = " _contextToolBar.items[0].frame">
+            </PersistentString>
+            <PersistentString
+               value = "selectedView.value(forKey: &quot;accessibilityIdentifier&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "selectedView?.tag">
+            </PersistentString>
+            <PersistentString
+               value = " selectedView!.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UserRegistration.restoreCredentialsFromTransaction():UserRegistrationTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DocumentMapper.getDocFromPhysicalLocation(NSURL) -&gt; MuzomaDocument!:DocumentMapper.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_documents">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaContentTableViewController.webView(UIWebView, shouldStartLoadWithRequest : NSURLRequest, navigationType : UIWebViewNavigationType) -&gt; Bool:MuzomaContentTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "webView.stringByEvaluatingJavaScriptFromString(&quot;document.documentElement.innerHTML&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.applicationWillEnterForeground(UIApplication) -&gt; ():AppDelegate.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ImportTextDocumentViewController.viewDidLoad():ImportTextDocumentViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "timeSigButton">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PlayerDocumentViewController.(ShareActionPress(UIBarButtonItem) -&gt; ()).(closure #1).(closure #1):PlayerDocumentViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.zip">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaContentTableViewController.pollKVFileDownload(_:):MuzomaContentTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "downloadPageHtmlString.substring( to: (downloadManualEnd?.lowerBound)! )">
+            </PersistentString>
+            <PersistentString
+               value = "downloadPageHtmlNSString.contains(&quot;http-equiv=\&quot;refresh\&quot;&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.processURL(openURL:):AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "URL.checkPromisedItemIsReachable(urlIn)!">
+            </PersistentString>
+            <PersistentString
+               value = "_gFSH.isUbiquitousItem(at: urlIn)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DocumentsCollectionViewController.checkForReload() -&gt; ():DocumentsCollectionViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AlamofireRequestBuilder.processRequest(request:_:_:):AlamofireImplementations.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "T.self">
+            </PersistentString>
+            <PersistentString
+               value = "validatedRequest.reso">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MixerMidiControl.handle(_:):MixerMidiControl.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "command.statusByte">
+            </PersistentString>
+            <PersistentString
+               value = "command as MIKMIDIChannelEventType">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewerViewController.(documentPicker(UIDocumentPickerViewController, didPickDocumentAtURL : NSURL) -&gt; ()).(closure #1):ViewerViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "url.absoluteURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AudioTrack.doPlaySilent():MultiChannelAudio.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_player">
+            </PersistentString>
+            <PersistentString
+               value = "self._stopSilent">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaDocument.deserialize(_:srcURL:):MuzomaDocument.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "trackEle">
+            </PersistentString>
+            <PersistentString
+               value = "_title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AlamofireRequestBuilder.execute(_:):AlamofireImplementations.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "isBody">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.(application(UIApplication, openURL : NSURL, options : [String : AnyObject]) -&gt; Bool).(closure #1):AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "options">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.application(_:didFinishLaunchingWithOptions:):AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIApplication.shared.isIdleTimerDisabled">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PlayerDocumentViewController.(ShareActionPress(UIBarButtonItem) -&gt; ()).(closure #1):PlayerDocumentViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "zip.absoluteString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in closure #1 in ImportTextDocumentViewController.importProFromURL(_:):ImportTextDocumentViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self._textView.endOfDocument">
+            </PersistentString>
+            <PersistentString
+               value = "self._textView.beginningOfDocument">
+            </PersistentString>
+            <PersistentString
+               value = "self._textView.selectedTextRange">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaMidi.(processMidiCommands in _0D1BACC0F439FD1E4CA45260B985E5F9)(MIKMIDIEndpoint, arrCmds : [MIKMIDICommand]) -&gt; ():MuzomaMidi.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_midiState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaMPServiceManager.session(_:peer:didChange:):MuzomaMultiPeerService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "$0.displayName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FileSystemHelper.getMuzDocFromZip(_:callingVC:):FileSystemHelper.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "newZipURL?.deletingPathExtension().deletingPathExtension()">
+            </PersistentString>
+            <PersistentString
+               value = "newZipURL.deleteLastPathComponent()!">
+            </PersistentString>
+            <PersistentString
+               value = "(newZipURL as NSURL).deletingPathExtension!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Transport.muzomaDoc.setter:TransportUIAndLogic.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "newValue!._isSlaveForBandPlay">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaMPServiceManager.sendDoc(_:):MuzomaMultiPeerService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "session.connectedPeers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AudioUtils.toWav(_:synchronous:):AudioUtils.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "AVAssetExportSession.allExportPresets()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaDocument.getHTML(Bool, ignoreZoom : Bool, ignoreColourScheme : Bool, isAirPlay : Bool) -&gt; String:MuzomaDocument.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(String)htmlOut">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DocumentsCollectionViewController.collectionView(UICollectionView, willDisplayCell : UICollectionViewCell, forItemAtIndexPath : NSIndexPath) -&gt; ():DocumentsCollectionViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_needsReload">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaDocument.deserialize(String, srcURL : NSURL) -&gt; ():MuzomaDocument.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "srcURL.debugDescription">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ImportTextDocumentViewController.(importClicked(AnyObject) -&gt; ()).(closure #1):ImportTextDocumentViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSAttributedString!)attrText">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Transport.remotePlay(_:):TransportUIAndLogic.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.muzomaSetDoc">
+            </PersistentString>
+            <PersistentString
+               value = "self.isSetPlayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Decoders.decode&lt;A&gt;(clazz:source:instance:):Models.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "T.Type">
+            </PersistentString>
+            <PersistentString
+               value = "decoders[&quot;Attachment&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "decoders">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in CymaticExport.exportLP16Audio(withGuideAudio:):CymaticExport.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fileNameChan.substring(from: fileNameChan.index(fileNameChan.endIndex, offsetBy: -4)).first == &quot;M&quot;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewerViewController.sendEmail(NSURL) -&gt; ():ViewerViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "FileSystemHelper.getMuzZip(MuzomaDocument!) -&gt; AutoDeleteURL?:FileSystemHelper.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "ret.absoluteString">
+            </PersistentString>
+            <PersistentString
+               value = "fileURL.absoluteString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ImportTextDocumentViewController.importProFromURL(_:):ImportTextDocumentViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.application(UIApplication, openURL : NSURL, options : [String : AnyObject]) -&gt; Bool:AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "url">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in static AccountAPI.accountPostRegister(model:completion:):AccountAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "error">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "specialized closure #1 in MuzomaDocument.play(_:offsetTime:withRecord:):MuzomaDocument.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "guideTrackSpecifics?.pan">
+            </PersistentString>
+            <PersistentString
+               value = "guideplayer?.pan">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaMidi.processMidiCommands(_:arrCmds:):MuzomaMidi.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mappingItem.CommandID">
+            </PersistentString>
+            <PersistentString
+               value = "self._learningMappingResponder">
+            </PersistentString>
+            <PersistentString
+               value = " sysExCmd.sysexData[0]">
+            </PersistentString>
+            <PersistentString
+               value = "self._learningMappingResponder.midiIdentifier()">
+            </PersistentString>
+            <PersistentString
+               value = "mappingItem.commandIdentifier">
+            </PersistentString>
+            <PersistentString
+               value = "mappingItem.commandType">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in UserRegistration.saveToMuzoma():UserRegistrationTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "error">
+            </PersistentString>
+            <PersistentString
+               value = "error?.localizedDescription">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ImportTextDocumentViewController.refreshChordPallet():ImportTextDocumentViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "chordBut.accessibilityIdentifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Transport.muzomaSetDoc.setter:TransportUIAndLogic.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Transport._muzomaSetDoc?._loopSet = self.inLoop">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ImportTextDocumentViewController.importProFromURL(_:):ImportTextDocumentViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AudioUtils.splitStereo(_:):AudioUtils.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "srcBuffer.count / 2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzEvent.deserialize(_:):MuzomaDocument.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_data">
+            </PersistentString>
+            <PersistentString
+               value = "_eventType">
+            </PersistentString>
+            <PersistentString
+               value = "child.string.removingPercentEncoding!.removingPercentEncoding!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaContentTableViewController.webViewDidFinishLoad(UIWebView) -&gt; ():MuzomaContentTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "addr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DocumentsCollectionViewController.viewDidAppear(Bool) -&gt; ():DocumentsCollectionViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaContentTableViewController.getKVImageFile(_:):MuzomaContentTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fileSource?.substring(to: 2) ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in UserRegistration.restoreCredentialsFromTransaction():UserRegistrationTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "txId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.(applicationWillEnterForeground(UIApplication) -&gt; ()).(closure #1):AppDelegate.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewerViewController.documentPicker(UIDocumentPickerViewController, didPickDocumentAtURL : NSURL) -&gt; ():ViewerViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "request">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TemporaryFileURL.deinit:_Extensions.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaMidi.midiSetupChanged():MuzomaMidi.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.inEp.displayName">
+            </PersistentString>
+            <PersistentString
+               value = "_settings.controlMidiInPort">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaContentTableViewController.getKVImageFile(String) -&gt; Bool:MuzomaContentTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imgURL!.host">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MuzomaSetDocument.deserialize(String, srcURL : NSURL) -&gt; ():MuzomaSetDocument.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "docPhysicalLocation">
+            </PersistentString>
+            <PersistentString
+               value = "docPhysicalLocationURL.absoluteString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,1211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B1025731BF9ED6300E3F78C /* DocumentsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1025721BF9ED6300E3F78C /* DocumentsCollectionViewController.swift */; };
+		3B1025751BF9F36B00E3F78C /* MuzDocCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1025741BF9F36B00E3F78C /* MuzDocCollectionViewCell.swift */; };
+		3B1C849C1CEDE85800032B6D /* EditorTableViewStructureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C849B1CEDE85800032B6D /* EditorTableViewStructureCell.swift */; };
+		3B1C849E1CEDE8B900032B6D /* EditorTableViewBarBeatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C849D1CEDE8B900032B6D /* EditorTableViewBarBeatsCell.swift */; };
+		3B3465391CE9CBEB00B63F40 /* EditTimingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3465381CE9CBEB00B63F40 /* EditTimingViewController.swift */; };
+		3B49CF971C80B92B0062DC1F /* ImportTextDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49CF961C80B92B0062DC1F /* ImportTextDocumentViewController.swift */; };
+		3B49CF9C1C84B83A0062DC1F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49CF9B1C84B83A0062DC1F /* Extensions.swift */; };
+		3B4D8C421B9742A10051F4BE /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D8C411B9742A10051F4BE /* AEXML.swift */; };
+		3B4E33BA1AD1559B00443460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4E33B91AD1559B00443460 /* AppDelegate.swift */; };
+		3B4E33BC1AD1559B00443460 /* EditDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4E33BB1AD1559B00443460 /* EditDocumentViewController.swift */; };
+		3B4E33BF1AD1559B00443460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4E33BD1AD1559B00443460 /* Main.storyboard */; };
+		3B4E33C11AD1559B00443460 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4E33C01AD1559B00443460 /* Images.xcassets */; };
+		3B4E33C41AD1559B00443460 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B4E33C21AD1559B00443460 /* LaunchScreen.xib */; };
+		3B4E52281CD9119000FE0201 /* Chord Pro Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4E52271CD9118F00FE0201 /* Chord Pro Icon.png */; };
+		3B4E522D1CD917EA00FE0201 /* Text Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4E522C1CD917EA00FE0201 /* Text Icon.png */; };
+		3B5106C11C7FBDD800DC6692 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B5106C01C7FBDD800DC6692 /* Settings.bundle */; };
+		3B58E7E41C7B18A80062C7D5 /* todo.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3B58E7E31C7B18A80062C7D5 /* todo.rtf */; };
+		3B5D9EA11C9FF7D3008A9736 /* dragCorner.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D9EA01C9FF7D3008A9736 /* dragCorner.png */; };
+		3B637E1B1C917080005D913F /* Version History.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E1A1C917080005D913F /* Version History.rtf */; };
+		3B637E2C1C9174A6005D913F /* DispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B637E2B1C9174A6005D913F /* DispatchTimer.swift */; };
+		3B637E751C99578B005D913F /* _Muzoma A1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E2D1C99578B005D913F /* _Muzoma A1-AcGuitar.m4a */; };
+		3B637E761C99578B005D913F /* _Muzoma A1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E2E1C99578B005D913F /* _Muzoma A1-Piano.m4a */; };
+		3B637E771C99578B005D913F /* _Muzoma A3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E2F1C99578B005D913F /* _Muzoma A3-AcGuitar.m4a */; };
+		3B637E781C99578B005D913F /* _Muzoma A3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E301C99578B005D913F /* _Muzoma A3-Piano.m4a */; };
+		3B637E791C99578B005D913F /* _Muzoma A4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E311C99578B005D913F /* _Muzoma A4-AcGuitar.m4a */; };
+		3B637E7A1C99578B005D913F /* _Muzoma A4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E321C99578B005D913F /* _Muzoma A4-Piano.m4a */; };
+		3B637E7B1C99578B005D913F /* _Muzoma As1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E331C99578B005D913F /* _Muzoma As1-AcGuitar.m4a */; };
+		3B637E7C1C99578B005D913F /* _Muzoma As1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E341C99578B005D913F /* _Muzoma As1-Piano.m4a */; };
+		3B637E7D1C99578B005D913F /* _Muzoma As3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E351C99578B005D913F /* _Muzoma As3-AcGuitar.m4a */; };
+		3B637E7E1C99578B005D913F /* _Muzoma As3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E361C99578B005D913F /* _Muzoma As3-Piano.m4a */; };
+		3B637E7F1C99578B005D913F /* _Muzoma As4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E371C99578B005D913F /* _Muzoma As4-AcGuitar.m4a */; };
+		3B637E801C99578B005D913F /* _Muzoma As4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E381C99578B005D913F /* _Muzoma As4-Piano.m4a */; };
+		3B637E811C99578B005D913F /* _Muzoma B1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E391C99578B005D913F /* _Muzoma B1-AcGuitar.m4a */; };
+		3B637E821C99578B005D913F /* _Muzoma B1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E3A1C99578B005D913F /* _Muzoma B1-Piano.m4a */; };
+		3B637E831C99578B005D913F /* _Muzoma B3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E3B1C99578B005D913F /* _Muzoma B3-AcGuitar.m4a */; };
+		3B637E841C99578B005D913F /* _Muzoma B3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E3C1C99578B005D913F /* _Muzoma B3-Piano.m4a */; };
+		3B637E851C99578B005D913F /* _Muzoma B4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E3D1C99578B005D913F /* _Muzoma B4-AcGuitar.m4a */; };
+		3B637E861C99578B005D913F /* _Muzoma B4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E3E1C99578B005D913F /* _Muzoma B4-Piano.m4a */; };
+		3B637E871C99578B005D913F /* _Muzoma C1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E3F1C99578B005D913F /* _Muzoma C1-AcGuitar.m4a */; };
+		3B637E881C99578B005D913F /* _Muzoma C1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E401C99578B005D913F /* _Muzoma C1-Piano.m4a */; };
+		3B637E891C99578B005D913F /* _Muzoma C3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E411C99578B005D913F /* _Muzoma C3-AcGuitar.m4a */; };
+		3B637E8A1C99578B005D913F /* _Muzoma C3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E421C99578B005D913F /* _Muzoma C3-Piano.m4a */; };
+		3B637E8B1C99578B005D913F /* _Muzoma C4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E431C99578B005D913F /* _Muzoma C4-AcGuitar.m4a */; };
+		3B637E8C1C99578B005D913F /* _Muzoma C4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E441C99578B005D913F /* _Muzoma C4-Piano.m4a */; };
+		3B637E8D1C99578B005D913F /* _Muzoma Cs1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E451C99578B005D913F /* _Muzoma Cs1-AcGuitar.m4a */; };
+		3B637E8E1C99578B005D913F /* _Muzoma Cs1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E461C99578B005D913F /* _Muzoma Cs1-Piano.m4a */; };
+		3B637E8F1C99578B005D913F /* _Muzoma Cs3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E471C99578B005D913F /* _Muzoma Cs3-AcGuitar.m4a */; };
+		3B637E901C99578B005D913F /* _Muzoma Cs3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E481C99578B005D913F /* _Muzoma Cs3-Piano.m4a */; };
+		3B637E911C99578B005D913F /* _Muzoma Cs4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E491C99578B005D913F /* _Muzoma Cs4-AcGuitar.m4a */; };
+		3B637E921C99578B005D913F /* _Muzoma Cs4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E4A1C99578B005D913F /* _Muzoma Cs4-Piano.m4a */; };
+		3B637E931C99578B005D913F /* _Muzoma D1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E4B1C99578B005D913F /* _Muzoma D1-AcGuitar.m4a */; };
+		3B637E941C99578B005D913F /* _Muzoma D1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E4C1C99578B005D913F /* _Muzoma D1-Piano.m4a */; };
+		3B637E951C99578B005D913F /* _Muzoma D3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E4D1C99578B005D913F /* _Muzoma D3-AcGuitar.m4a */; };
+		3B637E961C99578B005D913F /* _Muzoma D3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E4E1C99578B005D913F /* _Muzoma D3-Piano.m4a */; };
+		3B637E971C99578B005D913F /* _Muzoma D4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E4F1C99578B005D913F /* _Muzoma D4-AcGuitar.m4a */; };
+		3B637E981C99578B005D913F /* _Muzoma D4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E501C99578B005D913F /* _Muzoma D4-Piano.m4a */; };
+		3B637E991C99578B005D913F /* _Muzoma Ds1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E511C99578B005D913F /* _Muzoma Ds1-AcGuitar.m4a */; };
+		3B637E9A1C99578B005D913F /* _Muzoma Ds1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E521C99578B005D913F /* _Muzoma Ds1-Piano.m4a */; };
+		3B637E9B1C99578B005D913F /* _Muzoma Ds3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E531C99578B005D913F /* _Muzoma Ds3-AcGuitar.m4a */; };
+		3B637E9C1C99578B005D913F /* _Muzoma Ds3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E541C99578B005D913F /* _Muzoma Ds3-Piano.m4a */; };
+		3B637E9D1C99578B005D913F /* _Muzoma Ds4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E551C99578B005D913F /* _Muzoma Ds4-AcGuitar.m4a */; };
+		3B637E9E1C99578B005D913F /* _Muzoma Ds4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E561C99578B005D913F /* _Muzoma Ds4-Piano.m4a */; };
+		3B637E9F1C99578B005D913F /* _Muzoma E1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E571C99578B005D913F /* _Muzoma E1-AcGuitar.m4a */; };
+		3B637EA01C99578B005D913F /* _Muzoma E1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E581C99578B005D913F /* _Muzoma E1-Piano.m4a */; };
+		3B637EA11C99578B005D913F /* _Muzoma E3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E591C99578B005D913F /* _Muzoma E3-AcGuitar.m4a */; };
+		3B637EA21C99578B005D913F /* _Muzoma E3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E5A1C99578B005D913F /* _Muzoma E3-Piano.m4a */; };
+		3B637EA31C99578B005D913F /* _Muzoma E4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E5B1C99578B005D913F /* _Muzoma E4-AcGuitar.m4a */; };
+		3B637EA41C99578B005D913F /* _Muzoma E4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E5C1C99578B005D913F /* _Muzoma E4-Piano.m4a */; };
+		3B637EA51C99578B005D913F /* _Muzoma F1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E5D1C99578B005D913F /* _Muzoma F1-AcGuitar.m4a */; };
+		3B637EA61C99578B005D913F /* _Muzoma F1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E5E1C99578B005D913F /* _Muzoma F1-Piano.m4a */; };
+		3B637EA71C99578B005D913F /* _Muzoma F3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E5F1C99578B005D913F /* _Muzoma F3-AcGuitar.m4a */; };
+		3B637EA81C99578B005D913F /* _Muzoma F3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E601C99578B005D913F /* _Muzoma F3-Piano.m4a */; };
+		3B637EA91C99578B005D913F /* _Muzoma F4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E611C99578B005D913F /* _Muzoma F4-AcGuitar.m4a */; };
+		3B637EAA1C99578B005D913F /* _Muzoma F4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E621C99578B005D913F /* _Muzoma F4-Piano.m4a */; };
+		3B637EAB1C99578B005D913F /* _Muzoma Fs1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E631C99578B005D913F /* _Muzoma Fs1-AcGuitar.m4a */; };
+		3B637EAC1C99578B005D913F /* _Muzoma Fs1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E641C99578B005D913F /* _Muzoma Fs1-Piano.m4a */; };
+		3B637EAD1C99578B005D913F /* _Muzoma Fs3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E651C99578B005D913F /* _Muzoma Fs3-AcGuitar.m4a */; };
+		3B637EAE1C99578B005D913F /* _Muzoma Fs3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E661C99578B005D913F /* _Muzoma Fs3-Piano.m4a */; };
+		3B637EAF1C99578B005D913F /* _Muzoma Fs4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E671C99578B005D913F /* _Muzoma Fs4-AcGuitar.m4a */; };
+		3B637EB01C99578B005D913F /* _Muzoma Fs4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E681C99578B005D913F /* _Muzoma Fs4-Piano.m4a */; };
+		3B637EB11C99578B005D913F /* _Muzoma G1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E691C99578B005D913F /* _Muzoma G1-AcGuitar.m4a */; };
+		3B637EB21C99578B005D913F /* _Muzoma G1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E6A1C99578B005D913F /* _Muzoma G1-Piano.m4a */; };
+		3B637EB31C99578B005D913F /* _Muzoma G3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E6B1C99578B005D913F /* _Muzoma G3-AcGuitar.m4a */; };
+		3B637EB41C99578B005D913F /* _Muzoma G3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E6C1C99578B005D913F /* _Muzoma G3-Piano.m4a */; };
+		3B637EB51C99578B005D913F /* _Muzoma G4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E6D1C99578B005D913F /* _Muzoma G4-AcGuitar.m4a */; };
+		3B637EB61C99578B005D913F /* _Muzoma G4-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E6E1C99578B005D913F /* _Muzoma G4-Piano.m4a */; };
+		3B637EB71C99578B005D913F /* _Muzoma Gs-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E6F1C99578B005D913F /* _Muzoma Gs-Piano.m4a */; };
+		3B637EB81C99578B005D913F /* _Muzoma Gs1-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E701C99578B005D913F /* _Muzoma Gs1-AcGuitar.m4a */; };
+		3B637EB91C99578B005D913F /* _Muzoma Gs1-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E711C99578B005D913F /* _Muzoma Gs1-Piano.m4a */; };
+		3B637EBA1C99578B005D913F /* _Muzoma Gs3-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E721C99578B005D913F /* _Muzoma Gs3-AcGuitar.m4a */; };
+		3B637EBB1C99578B005D913F /* _Muzoma Gs3-Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E731C99578B005D913F /* _Muzoma Gs3-Piano.m4a */; };
+		3B637EBC1C99578B005D913F /* _Muzoma Gs4-AcGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B637E741C99578B005D913F /* _Muzoma Gs4-AcGuitar.m4a */; };
+		3B637EBE1C9AA522005D913F /* ChordPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B637EBD1C9AA521005D913F /* ChordPlayer.swift */; };
+		3B637EC01C9ED537005D913F /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B637EBF1C9ED537005D913F /* DragView.swift */; };
+		3B6F49031B4D54660055B604 /* MuzomaMidiOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BABBC501B4D2FF40058C65E /* MuzomaMidiOut.swift */; };
+		3B720C181C29E03C0052B271 /* EditorLinesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720C171C29E03C0052B271 /* EditorLinesController.swift */; };
+		3B7601811C710E3F0039320C /* OldMuzSetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7601801C710E3F0039320C /* OldMuzSetCollectionViewCell.swift */; };
+		3B7880D91BF8D8E300A7C4DE /* NewDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7880D81BF8D8E300A7C4DE /* NewDocumentViewController.swift */; };
+		3B7880DB1BF8DEB200A7C4DE /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7880DA1BF8DEB200A7C4DE /* MainNavViewController.swift */; };
+		3B7880DD1BF8E23600A7C4DE /* OldDocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7880DC1BF8E23600A7C4DE /* OldDocumentsViewController.swift */; };
+		3B7880DF1BF8E32B00A7C4DE /* ShareDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7880DE1BF8E32B00A7C4DE /* ShareDocumentViewController.swift */; };
+		3B7ECA8B1CE6129400408B66 /* ExternalPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7ECA8A1CE6129400408B66 /* ExternalPlayerView.xib */; };
+		3B7ECA901CE6131F00408B66 /* ExternalPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7ECA8F1CE6131F00408B66 /* ExternalPlayerView.swift */; };
+		3B7ECA921CE629D900408B66 /* LineEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7ECA911CE629D900408B66 /* LineEventView.swift */; };
+		3B7ECA941CE629F100408B66 /* LineEventView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7ECA931CE629F100408B66 /* LineEventView.xib */; };
+		3B847A461C033441006E6AE5 /* FileSystemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B847A451C033441006E6AE5 /* FileSystemHelper.swift */; };
+		3BA479AE1C67A37000CEC949 /* EditorTableViewGuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA479AD1C67A37000CEC949 /* EditorTableViewGuideCell.swift */; };
+		3BA794DE1CBD05A700EB9B03 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE143AB1CB97BCE00E7A665 /* Zip.framework */; };
+		3BA794DF1CBD05A700EB9B03 /* Zip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE143AB1CB97BCE00E7A665 /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3BA858891CF33AB0005997E2 /* SetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA858881CF33AB0005997E2 /* SetTableViewController.swift */; };
+		3BA8588B1CF34103005997E2 /* SetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8588A1CF34103005997E2 /* SetTableViewCell.swift */; };
+		3BA8588D1CF34919005997E2 /* MuzomaSetDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8588C1CF34919005997E2 /* MuzomaSetDocument.swift */; };
+		3BACB02F1C4564C300E360C0 /* EditorTableViewChordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACB02E1C4564C300E360C0 /* EditorTableViewChordCell.swift */; };
+		3BACB0311C458F2D00E360C0 /* ChordSelectorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACB0301C458F2D00E360C0 /* ChordSelectorTextField.swift */; };
+		3BAE00311C00CA9D00ED98A1 /* OldSetDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE00301C00CA9D00ED98A1 /* OldSetDetailsViewController.swift */; };
+		3BBAD35A1CE39A8D001B395E /* GroupPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAD3591CE39A8D001B395E /* GroupPlayerViewController.swift */; };
+		3BBAD35E1CE39DFA001B395E /* MuzomaMultiPeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAD35D1CE39DFA001B395E /* MuzomaMultiPeerService.swift */; };
+		3BBE9B5E1C3AD1A500E74AEB /* CreateNewDocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE9B5D1C3AD1A500E74AEB /* CreateNewDocViewController.swift */; };
+		3BCF50AD1C074C1A007697D0 /* SequencerAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF50AC1C074C1A007697D0 /* SequencerAudio.swift */; };
+		3BD383D41B984A8A006B522A /* MuzomaDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD383D31B984A8A006B522A /* MuzomaDocument.swift */; };
+		3BD513B01C8E254700818431 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BD513A91C8E254700818431 /* Contents.json */; };
+		3BD513EB1C8E268D00818431 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BD513E51C8E268D00818431 /* Contents.json */; };
+		3BD513EC1C8E268D00818431 /* Layer 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD513E61C8E268D00818431 /* Layer 1.png */; };
+		3BD513ED1C8E268D00818431 /* Layer 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD513E71C8E268D00818431 /* Layer 1@2x.png */; };
+		3BD513EE1C8E268D00818431 /* Layer 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD513E81C8E268D00818431 /* Layer 1@3x.png */; };
+		3BD513EF1C8E268D00818431 /* muzoma app.idraw in Resources */ = {isa = PBXBuildFile; fileRef = 3BD513E91C8E268D00818431 /* muzoma app.idraw */; };
+		3BD513F01C8E268D00818431 /* muzoma app.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3BD513EA1C8E268D00818431 /* muzoma app.tiff */; };
+		3BE143891CB92CF000E7A665 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE143881CB92CF000E7A665 /* AudioToolbox.framework */; };
+		3BE1438D1CB92D4900E7A665 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE1438C1CB92D4900E7A665 /* StoreKit.framework */; };
+		3BE143B21CB97BE700E7A665 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE143AB1CB97BCE00E7A665 /* Zip.framework */; };
+		3BE2AD2B1C0F00EC00CBFBDC /* TracksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE2AD2A1C0F00EC00CBFBDC /* TracksTableViewController.swift */; };
+		3BE2AD2D1C0F031700CBFBDC /* TracksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE2AD2C1C0F031700CBFBDC /* TracksTableViewCell.swift */; };
+		3BE407771C0DFF3400AA6E0C /* ViewTracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE407761C0DFF3400AA6E0C /* ViewTracksViewController.swift */; };
+		3BE5CD4F1BFF72900068EB95 /* OldSetsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CD4E1BFF72900068EB95 /* OldSetsCollectionViewController.swift */; };
+		3BE5CD511BFF76A80068EB95 /* NewSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CD501BFF76A80068EB95 /* NewSetViewController.swift */; };
+		3BE5CD531BFF7C8C0068EB95 /* OldSetPlayerDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CD521BFF7C8C0068EB95 /* OldSetPlayerDocumentViewController.swift */; };
+		3BE5CD551BFF84B80068EB95 /* PlayerDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CD541BFF84B80068EB95 /* PlayerDocumentViewController.swift */; };
+		3BE5CD571BFF903C0068EB95 /* EditTracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CD561BFF903C0068EB95 /* EditTracksViewController.swift */; };
+		3BE5CD591BFF90940068EB95 /* NewTrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CD581BFF90940068EB95 /* NewTrackViewController.swift */; };
+		3BE5CD5B1BFF91070068EB95 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CD5A1BFF91070068EB95 /* NewItemViewController.swift */; };
+		3BE86C1C1C416B2100CDAD90 /* EditorTableViewLyricCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE86C1B1C416B2100CDAD90 /* EditorTableViewLyricCell.swift */; };
+		3BEEDBAC1C1A2F0D009CA319 /* CreateTestDocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEDBAB1C1A2F0D009CA319 /* CreateTestDocViewController.swift */; };
+		3BEEDBB61C1AE91D009CA319 /* EditorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEDBB51C1AE91D009CA319 /* EditorTableViewCell.swift */; };
+		3BEEDBB81C1B4A36009CA319 /* ChordAndLyricTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEDBB71C1B4A36009CA319 /* ChordAndLyricTableViewController.swift */; };
+		3BEEDBBA1C1B5F7E009CA319 /* WordSelectorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEDBB91C1B5F7E009CA319 /* WordSelectorTextField.swift */; };
+		3BEEDC291C8F20800035EA70 /* ChordPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEDC281C8F20800035EA70 /* ChordPickerController.swift */; };
+		3BEFD8911CE2034B00229999 /* UISuperTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFD8901CE2034B00229999 /* UISuperTextView.swift */; };
+		3BEFD8931CE2214200229999 /* DefaultText.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFD8921CE2214200229999 /* DefaultText.rtf */; };
+		3BF808E01CF30B86006529C3 /* SetsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF808DF1CF30B86006529C3 /* SetsCollectionViewController.swift */; };
+		3BF808E21CF30BF2006529C3 /* MuzSetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF808E11CF30BF2006529C3 /* MuzSetCollectionViewCell.swift */; };
+		3BFE041B1C5810C900B73176 /* EditorTableViewAudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE041A1C5810C900B73176 /* EditorTableViewAudioCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BA794E01CBD05A700EB9B03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE143A31CB97BCE00E7A665 /* Zip.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 347E3A731C1DFFB500A11FD3;
+			remoteInfo = Zip;
+		};
+		3BE143AA1CB97BCE00E7A665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE143A31CB97BCE00E7A665 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 347E3A741C1DFFB500A11FD3;
+			remoteInfo = Zip;
+		};
+		3BE143AC1CB97BCE00E7A665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE143A31CB97BCE00E7A665 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 347E3A7E1C1DFFB500A11FD3;
+			remoteInfo = ZipTests;
+		};
+		3BE143AE1CB97BCE00E7A665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE143A31CB97BCE00E7A665 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343F50FF1C8DAEEC0028C434;
+			remoteInfo = "Zip OSX";
+		};
+		3BE143B01CB97BCE00E7A665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE143A31CB97BCE00E7A665 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343F51081C8DAEEC0028C434;
+			remoteInfo = "Zip OSXTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BA794E21CBD05A700EB9B03 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3BA794DF1CBD05A700EB9B03 /* Zip.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B1025721BF9ED6300E3F78C /* DocumentsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DocumentsCollectionViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/DocumentsCollectionViewController.swift"; sourceTree = "<group>"; };
+		3B1025741BF9F36B00E3F78C /* MuzDocCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MuzDocCollectionViewCell.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/MuzDocCollectionViewCell.swift"; sourceTree = "<group>"; };
+		3B1C849B1CEDE85800032B6D /* EditorTableViewStructureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorTableViewStructureCell.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/EditorTableViewStructureCell.swift"; sourceTree = "<group>"; };
+		3B1C849D1CEDE8B900032B6D /* EditorTableViewBarBeatsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorTableViewBarBeatsCell.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/EditorTableViewBarBeatsCell.swift"; sourceTree = "<group>"; };
+		3B28EC901CB925F200A682FC /* Muzoma.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Muzoma.entitlements; sourceTree = "<group>"; };
+		3B3465381CE9CBEB00B63F40 /* EditTimingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditTimingViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/EditTimingViewController.swift"; sourceTree = "<group>"; };
+		3B49CF961C80B92B0062DC1F /* ImportTextDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportTextDocumentViewController.swift; sourceTree = "<group>"; };
+		3B49CF9B1C84B83A0062DC1F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3B4D8C411B9742A10051F4BE /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
+		3B4E33B41AD1559B00443460 /* Muzoma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muzoma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4E33B81AD1559B00443460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4E33B91AD1559B00443460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Event Sequencer/AppDelegate.swift"; sourceTree = "<group>"; };
+		3B4E33BB1AD1559B00443460 /* EditDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditDocumentViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/EditDocumentViewController.swift"; sourceTree = "<group>"; };
+		3B4E33BE1AD1559B00443460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B4E33C01AD1559B00443460 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B4E33C31AD1559B00443460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B4E52271CD9118F00FE0201 /* Chord Pro Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chord Pro Icon.png"; path = "../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Resources/Chord Pro Icon.png"; sourceTree = "<group>"; };
+		3B4E522C1CD917EA00FE0201 /* Text Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Text Icon.png"; path = "../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Resources/Text Icon.png"; sourceTree = "<group>"; };
+		3B5106C01C7FBDD800DC6692 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		3B58E7E31C7B18A80062C7D5 /* todo.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = todo.rtf; path = "Event Sequencer/todo.rtf"; sourceTree = "<group>"; };
+		3B5D9EA01C9FF7D3008A9736 /* dragCorner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dragCorner.png; path = Resources/dragCorner.png; sourceTree = "<group>"; };
+		3B637E1A1C917080005D913F /* Version History.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Version History.rtf"; sourceTree = "<group>"; };
+		3B637E2B1C9174A6005D913F /* DispatchTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchTimer.swift; sourceTree = "<group>"; };
+		3B637E2D1C99578B005D913F /* _Muzoma A1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma A1-AcGuitar.m4a"; path = "Resources/_Muzoma A1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E2E1C99578B005D913F /* _Muzoma A1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma A1-Piano.m4a"; path = "Resources/_Muzoma A1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E2F1C99578B005D913F /* _Muzoma A3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma A3-AcGuitar.m4a"; path = "Resources/_Muzoma A3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E301C99578B005D913F /* _Muzoma A3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma A3-Piano.m4a"; path = "Resources/_Muzoma A3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E311C99578B005D913F /* _Muzoma A4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma A4-AcGuitar.m4a"; path = "Resources/_Muzoma A4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E321C99578B005D913F /* _Muzoma A4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma A4-Piano.m4a"; path = "Resources/_Muzoma A4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E331C99578B005D913F /* _Muzoma As1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma As1-AcGuitar.m4a"; path = "Resources/_Muzoma As1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E341C99578B005D913F /* _Muzoma As1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma As1-Piano.m4a"; path = "Resources/_Muzoma As1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E351C99578B005D913F /* _Muzoma As3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma As3-AcGuitar.m4a"; path = "Resources/_Muzoma As3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E361C99578B005D913F /* _Muzoma As3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma As3-Piano.m4a"; path = "Resources/_Muzoma As3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E371C99578B005D913F /* _Muzoma As4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma As4-AcGuitar.m4a"; path = "Resources/_Muzoma As4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E381C99578B005D913F /* _Muzoma As4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma As4-Piano.m4a"; path = "Resources/_Muzoma As4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E391C99578B005D913F /* _Muzoma B1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma B1-AcGuitar.m4a"; path = "Resources/_Muzoma B1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E3A1C99578B005D913F /* _Muzoma B1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma B1-Piano.m4a"; path = "Resources/_Muzoma B1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E3B1C99578B005D913F /* _Muzoma B3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma B3-AcGuitar.m4a"; path = "Resources/_Muzoma B3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E3C1C99578B005D913F /* _Muzoma B3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma B3-Piano.m4a"; path = "Resources/_Muzoma B3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E3D1C99578B005D913F /* _Muzoma B4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma B4-AcGuitar.m4a"; path = "Resources/_Muzoma B4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E3E1C99578B005D913F /* _Muzoma B4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma B4-Piano.m4a"; path = "Resources/_Muzoma B4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E3F1C99578B005D913F /* _Muzoma C1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma C1-AcGuitar.m4a"; path = "Resources/_Muzoma C1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E401C99578B005D913F /* _Muzoma C1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma C1-Piano.m4a"; path = "Resources/_Muzoma C1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E411C99578B005D913F /* _Muzoma C3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma C3-AcGuitar.m4a"; path = "Resources/_Muzoma C3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E421C99578B005D913F /* _Muzoma C3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma C3-Piano.m4a"; path = "Resources/_Muzoma C3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E431C99578B005D913F /* _Muzoma C4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma C4-AcGuitar.m4a"; path = "Resources/_Muzoma C4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E441C99578B005D913F /* _Muzoma C4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma C4-Piano.m4a"; path = "Resources/_Muzoma C4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E451C99578B005D913F /* _Muzoma Cs1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Cs1-AcGuitar.m4a"; path = "Resources/_Muzoma Cs1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E461C99578B005D913F /* _Muzoma Cs1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Cs1-Piano.m4a"; path = "Resources/_Muzoma Cs1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E471C99578B005D913F /* _Muzoma Cs3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Cs3-AcGuitar.m4a"; path = "Resources/_Muzoma Cs3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E481C99578B005D913F /* _Muzoma Cs3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Cs3-Piano.m4a"; path = "Resources/_Muzoma Cs3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E491C99578B005D913F /* _Muzoma Cs4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Cs4-AcGuitar.m4a"; path = "Resources/_Muzoma Cs4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E4A1C99578B005D913F /* _Muzoma Cs4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Cs4-Piano.m4a"; path = "Resources/_Muzoma Cs4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E4B1C99578B005D913F /* _Muzoma D1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma D1-AcGuitar.m4a"; path = "Resources/_Muzoma D1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E4C1C99578B005D913F /* _Muzoma D1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma D1-Piano.m4a"; path = "Resources/_Muzoma D1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E4D1C99578B005D913F /* _Muzoma D3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma D3-AcGuitar.m4a"; path = "Resources/_Muzoma D3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E4E1C99578B005D913F /* _Muzoma D3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma D3-Piano.m4a"; path = "Resources/_Muzoma D3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E4F1C99578B005D913F /* _Muzoma D4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma D4-AcGuitar.m4a"; path = "Resources/_Muzoma D4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E501C99578B005D913F /* _Muzoma D4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma D4-Piano.m4a"; path = "Resources/_Muzoma D4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E511C99578B005D913F /* _Muzoma Ds1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Ds1-AcGuitar.m4a"; path = "Resources/_Muzoma Ds1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E521C99578B005D913F /* _Muzoma Ds1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Ds1-Piano.m4a"; path = "Resources/_Muzoma Ds1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E531C99578B005D913F /* _Muzoma Ds3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Ds3-AcGuitar.m4a"; path = "Resources/_Muzoma Ds3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E541C99578B005D913F /* _Muzoma Ds3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Ds3-Piano.m4a"; path = "Resources/_Muzoma Ds3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E551C99578B005D913F /* _Muzoma Ds4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Ds4-AcGuitar.m4a"; path = "Resources/_Muzoma Ds4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E561C99578B005D913F /* _Muzoma Ds4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Ds4-Piano.m4a"; path = "Resources/_Muzoma Ds4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E571C99578B005D913F /* _Muzoma E1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma E1-AcGuitar.m4a"; path = "Resources/_Muzoma E1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E581C99578B005D913F /* _Muzoma E1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma E1-Piano.m4a"; path = "Resources/_Muzoma E1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E591C99578B005D913F /* _Muzoma E3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma E3-AcGuitar.m4a"; path = "Resources/_Muzoma E3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E5A1C99578B005D913F /* _Muzoma E3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma E3-Piano.m4a"; path = "Resources/_Muzoma E3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E5B1C99578B005D913F /* _Muzoma E4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma E4-AcGuitar.m4a"; path = "Resources/_Muzoma E4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E5C1C99578B005D913F /* _Muzoma E4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma E4-Piano.m4a"; path = "Resources/_Muzoma E4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E5D1C99578B005D913F /* _Muzoma F1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma F1-AcGuitar.m4a"; path = "Resources/_Muzoma F1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E5E1C99578B005D913F /* _Muzoma F1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma F1-Piano.m4a"; path = "Resources/_Muzoma F1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E5F1C99578B005D913F /* _Muzoma F3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma F3-AcGuitar.m4a"; path = "Resources/_Muzoma F3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E601C99578B005D913F /* _Muzoma F3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma F3-Piano.m4a"; path = "Resources/_Muzoma F3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E611C99578B005D913F /* _Muzoma F4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma F4-AcGuitar.m4a"; path = "Resources/_Muzoma F4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E621C99578B005D913F /* _Muzoma F4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma F4-Piano.m4a"; path = "Resources/_Muzoma F4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E631C99578B005D913F /* _Muzoma Fs1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Fs1-AcGuitar.m4a"; path = "Resources/_Muzoma Fs1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E641C99578B005D913F /* _Muzoma Fs1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Fs1-Piano.m4a"; path = "Resources/_Muzoma Fs1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E651C99578B005D913F /* _Muzoma Fs3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Fs3-AcGuitar.m4a"; path = "Resources/_Muzoma Fs3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E661C99578B005D913F /* _Muzoma Fs3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Fs3-Piano.m4a"; path = "Resources/_Muzoma Fs3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E671C99578B005D913F /* _Muzoma Fs4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Fs4-AcGuitar.m4a"; path = "Resources/_Muzoma Fs4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E681C99578B005D913F /* _Muzoma Fs4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Fs4-Piano.m4a"; path = "Resources/_Muzoma Fs4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E691C99578B005D913F /* _Muzoma G1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma G1-AcGuitar.m4a"; path = "Resources/_Muzoma G1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E6A1C99578B005D913F /* _Muzoma G1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma G1-Piano.m4a"; path = "Resources/_Muzoma G1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E6B1C99578B005D913F /* _Muzoma G3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma G3-AcGuitar.m4a"; path = "Resources/_Muzoma G3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E6C1C99578B005D913F /* _Muzoma G3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma G3-Piano.m4a"; path = "Resources/_Muzoma G3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E6D1C99578B005D913F /* _Muzoma G4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma G4-AcGuitar.m4a"; path = "Resources/_Muzoma G4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E6E1C99578B005D913F /* _Muzoma G4-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma G4-Piano.m4a"; path = "Resources/_Muzoma G4-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E6F1C99578B005D913F /* _Muzoma Gs-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Gs-Piano.m4a"; path = "Resources/_Muzoma Gs-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E701C99578B005D913F /* _Muzoma Gs1-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Gs1-AcGuitar.m4a"; path = "Resources/_Muzoma Gs1-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E711C99578B005D913F /* _Muzoma Gs1-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Gs1-Piano.m4a"; path = "Resources/_Muzoma Gs1-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E721C99578B005D913F /* _Muzoma Gs3-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Gs3-AcGuitar.m4a"; path = "Resources/_Muzoma Gs3-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637E731C99578B005D913F /* _Muzoma Gs3-Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Gs3-Piano.m4a"; path = "Resources/_Muzoma Gs3-Piano.m4a"; sourceTree = "<group>"; };
+		3B637E741C99578B005D913F /* _Muzoma Gs4-AcGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "_Muzoma Gs4-AcGuitar.m4a"; path = "Resources/_Muzoma Gs4-AcGuitar.m4a"; sourceTree = "<group>"; };
+		3B637EBD1C9AA521005D913F /* ChordPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordPlayer.swift; sourceTree = "<group>"; };
+		3B637EBF1C9ED537005D913F /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DragView.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/DragView.swift"; sourceTree = "<group>"; };
+		3B720C171C29E03C0052B271 /* EditorLinesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorLinesController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/EditorLinesController.swift"; sourceTree = "<group>"; };
+		3B7601801C710E3F0039320C /* OldMuzSetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldMuzSetCollectionViewCell.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/OldMuzSetCollectionViewCell.swift"; sourceTree = "<group>"; };
+		3B7880D81BF8D8E300A7C4DE /* NewDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewDocumentViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/NewDocumentViewController.swift"; sourceTree = "<group>"; };
+		3B7880DA1BF8DEB200A7C4DE /* MainNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
+		3B7880DC1BF8E23600A7C4DE /* OldDocumentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldDocumentsViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/OldDocumentsViewController.swift"; sourceTree = "<group>"; };
+		3B7880DE1BF8E32B00A7C4DE /* ShareDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShareDocumentViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/ShareDocumentViewController.swift"; sourceTree = "<group>"; };
+		3B7ECA8A1CE6129400408B66 /* ExternalPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExternalPlayerView.xib; sourceTree = "<group>"; };
+		3B7ECA8F1CE6131F00408B66 /* ExternalPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExternalPlayerView.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/ExternalPlayerView.swift"; sourceTree = "<group>"; };
+		3B7ECA911CE629D900408B66 /* LineEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineEventView.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/LineEventView.swift"; sourceTree = "<group>"; };
+		3B7ECA931CE629F100408B66 /* LineEventView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LineEventView.xib; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/LineEventView.xib"; sourceTree = "<group>"; };
+		3B847A451C033441006E6AE5 /* FileSystemHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemHelper.swift; sourceTree = "<group>"; };
+		3BA479AD1C67A37000CEC949 /* EditorTableViewGuideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorTableViewGuideCell.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/EditorTableViewGuideCell.swift"; sourceTree = "<group>"; };
+		3BA858881CF33AB0005997E2 /* SetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetTableViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/SetTableViewController.swift"; sourceTree = "<group>"; };
+		3BA8588A1CF34103005997E2 /* SetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetTableViewCell.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/SetTableViewCell.swift"; sourceTree = "<group>"; };
+		3BA8588C1CF34919005997E2 /* MuzomaSetDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MuzomaSetDocument.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/MuzomaSetDocument.swift"; sourceTree = "<group>"; };
+		3BABBC501B4D2FF40058C65E /* MuzomaMidiOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MuzomaMidiOut.swift; path = ../MuzomaMidi/MuzomaMidiOut.swift; sourceTree = "<group>"; };
+		3BACB02E1C4564C300E360C0 /* EditorTableViewChordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorTableViewChordCell.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/EditorTableViewChordCell.swift"; sourceTree = "<group>"; };
+		3BACB0301C458F2D00E360C0 /* ChordSelectorTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChordSelectorTextField.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/ChordSelectorTextField.swift"; sourceTree = "<group>"; };
+		3BAE00301C00CA9D00ED98A1 /* OldSetDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldSetDetailsViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/OldSetDetailsViewController.swift"; sourceTree = "<group>"; };
+		3BBAD3591CE39A8D001B395E /* GroupPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupPlayerViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/GroupPlayerViewController.swift"; sourceTree = "<group>"; };
+		3BBAD35D1CE39DFA001B395E /* MuzomaMultiPeerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuzomaMultiPeerService.swift; sourceTree = "<group>"; };
+		3BBE9B5D1C3AD1A500E74AEB /* CreateNewDocViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateNewDocViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/CreateNewDocViewController.swift"; sourceTree = "<group>"; };
+		3BCF50AC1C074C1A007697D0 /* SequencerAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequencerAudio.swift; sourceTree = "<group>"; };
+		3BD383D31B984A8A006B522A /* MuzomaDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MuzomaDocument.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/MuzomaDocument.swift"; sourceTree = "<group>"; };
+		3BD513A91C8E254700818431 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = Images.xcassets/Contents.json; sourceTree = "<group>"; };
+		3BD513E51C8E268D00818431 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		3BD513E61C8E268D00818431 /* Layer 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer 1.png"; sourceTree = "<group>"; };
+		3BD513E71C8E268D00818431 /* Layer 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer 1@2x.png"; sourceTree = "<group>"; };
+		3BD513E81C8E268D00818431 /* Layer 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer 1@3x.png"; sourceTree = "<group>"; };
+		3BD513E91C8E268D00818431 /* muzoma app.idraw */ = {isa = PBXFileReference; lastKnownFileType = file; path = "muzoma app.idraw"; sourceTree = "<group>"; };
+		3BD513EA1C8E268D00818431 /* muzoma app.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "muzoma app.tiff"; sourceTree = "<group>"; };
+		3BE143881CB92CF000E7A665 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3BE1438C1CB92D4900E7A665 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3BE143A31CB97BCE00E7A665 /* Zip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Zip.xcodeproj; path = "../../Zip-master/Zip.xcodeproj"; sourceTree = "<group>"; };
+		3BE2AD2A1C0F00EC00CBFBDC /* TracksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TracksTableViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/TracksTableViewController.swift"; sourceTree = "<group>"; };
+		3BE2AD2C1C0F031700CBFBDC /* TracksTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TracksTableViewCell.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/TracksTableViewCell.swift"; sourceTree = "<group>"; };
+		3BE407761C0DFF3400AA6E0C /* ViewTracksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewTracksViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/ViewTracksViewController.swift"; sourceTree = "<group>"; };
+		3BE5CD4E1BFF72900068EB95 /* OldSetsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldSetsCollectionViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/OldSetsCollectionViewController.swift"; sourceTree = "<group>"; };
+		3BE5CD501BFF76A80068EB95 /* NewSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewSetViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/NewSetViewController.swift"; sourceTree = "<group>"; };
+		3BE5CD521BFF7C8C0068EB95 /* OldSetPlayerDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldSetPlayerDocumentViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/OldSetPlayerDocumentViewController.swift"; sourceTree = "<group>"; };
+		3BE5CD541BFF84B80068EB95 /* PlayerDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerDocumentViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/PlayerDocumentViewController.swift"; sourceTree = "<group>"; };
+		3BE5CD561BFF903C0068EB95 /* EditTracksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditTracksViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/EditTracksViewController.swift"; sourceTree = "<group>"; };
+		3BE5CD581BFF90940068EB95 /* NewTrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewTrackViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/NewTrackViewController.swift"; sourceTree = "<group>"; };
+		3BE5CD5A1BFF91070068EB95 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewItemViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/NewItemViewController.swift"; sourceTree = "<group>"; };
+		3BE86C1B1C416B2100CDAD90 /* EditorTableViewLyricCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorTableViewLyricCell.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/EditorTableViewLyricCell.swift"; sourceTree = "<group>"; };
+		3BEEDBAB1C1A2F0D009CA319 /* CreateTestDocViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateTestDocViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/CreateTestDocViewController.swift"; sourceTree = "<group>"; };
+		3BEEDBB51C1AE91D009CA319 /* EditorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorTableViewCell.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/EditorTableViewCell.swift"; sourceTree = "<group>"; };
+		3BEEDBB71C1B4A36009CA319 /* ChordAndLyricTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChordAndLyricTableViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/ChordAndLyricTableViewController.swift"; sourceTree = "<group>"; };
+		3BEEDBB91C1B5F7E009CA319 /* WordSelectorTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WordSelectorTextField.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/WordSelectorTextField.swift"; sourceTree = "<group>"; };
+		3BEEDC281C8F20800035EA70 /* ChordPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordPickerController.swift; sourceTree = "<group>"; };
+		3BEFD8901CE2034B00229999 /* UISuperTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UISuperTextView.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/UISuperTextView.swift"; sourceTree = "<group>"; };
+		3BEFD8921CE2214200229999 /* DefaultText.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = DefaultText.rtf; path = "../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/DefaultText.rtf"; sourceTree = "<group>"; };
+		3BF808DF1CF30B86006529C3 /* SetsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetsCollectionViewController.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/SetsCollectionViewController.swift"; sourceTree = "<group>"; };
+		3BF808E11CF30BF2006529C3 /* MuzSetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MuzSetCollectionViewCell.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/MuzSetCollectionViewCell.swift"; sourceTree = "<group>"; };
+		3BFDCA791C69FDDF00E5EB72 /* Event Sequencer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Event Sequencer.entitlements"; sourceTree = "<group>"; };
+		3BFE041A1C5810C900B73176 /* EditorTableViewAudioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorTableViewAudioCell.swift; path = "../../../../../../matthewhopkins/Documents/Dev/Event Sequencer/Event Sequencer/Event Sequencer/EditorTableViewAudioCell.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B4E33B11AD1559B00443460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE143B21CB97BE700E7A665 /* Zip.framework in Frameworks */,
+				3BE1438D1CB92D4900E7A665 /* StoreKit.framework in Frameworks */,
+				3BE143891CB92CF000E7A665 /* AudioToolbox.framework in Frameworks */,
+				3BA794DE1CBD05A700EB9B03 /* Zip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3465341CE9CB4300B63F40 /* Edit Timing */ = {
+			isa = PBXGroup;
+			children = (
+				3BEEDBB71C1B4A36009CA319 /* ChordAndLyricTableViewController.swift */,
+				3B3465381CE9CBEB00B63F40 /* EditTimingViewController.swift */,
+			);
+			name = "Edit Timing";
+			sourceTree = "<group>";
+		};
+		3B49CF951C80B8AB0062DC1F /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				3B49CF961C80B92B0062DC1F /* ImportTextDocumentViewController.swift */,
+			);
+			name = Import;
+			sourceTree = "<group>";
+		};
+		3B49CF9A1C84B8120062DC1F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3B49CF9B1C84B83A0062DC1F /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		3B4E33AB1AD1559B00443460 = {
+			isa = PBXGroup;
+			children = (
+				3BE143A31CB97BCE00E7A665 /* Zip.xcodeproj */,
+				3BE1438C1CB92D4900E7A665 /* StoreKit.framework */,
+				3BE143881CB92CF000E7A665 /* AudioToolbox.framework */,
+				3B4E33BD1AD1559B00443460 /* Main.storyboard */,
+				3B4E33B91AD1559B00443460 /* AppDelegate.swift */,
+				3B28EC901CB925F200A682FC /* Muzoma.entitlements */,
+				3B58E7E31C7B18A80062C7D5 /* todo.rtf */,
+				3B637E1A1C917080005D913F /* Version History.rtf */,
+				3B637E1C1C917226005D913F /* Resources */,
+				3B5106C01C7FBDD800DC6692 /* Settings.bundle */,
+				3B4E33B61AD1559B00443460 /* Event Sequencer */,
+				3B4E33B51AD1559B00443460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B4E33B51AD1559B00443460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B4E33B41AD1559B00443460 /* Muzoma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B4E33B61AD1559B00443460 /* Event Sequencer */ = {
+			isa = PBXGroup;
+			children = (
+				3B49CF9A1C84B8120062DC1F /* Extensions */,
+				3B847A421C01D3D6006E6AE5 /* View */,
+				3B847A401C01D39D006E6AE5 /* Model */,
+				3B58E7E21C7B0F7F0062C7D5 /* Timer */,
+				3BCF50AB1C0749BD007697D0 /* Audio */,
+				3B847A441C0333D6006E6AE5 /* FileSystem */,
+				3B847A431C01D432006E6AE5 /* XML */,
+				3B847A411C01D3B8006E6AE5 /* Midi */,
+				3B4E33C01AD1559B00443460 /* Images.xcassets */,
+				3BD513E41C8E268D00818431 /* AppIcon.appiconset */,
+				3B4E33B71AD1559B00443460 /* Supporting Files */,
+			);
+			path = "Event Sequencer";
+			sourceTree = "<group>";
+		};
+		3B4E33B71AD1559B00443460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD513A91C8E254700818431 /* Contents.json */,
+				3BFDCA791C69FDDF00E5EB72 /* Event Sequencer.entitlements */,
+				3B4E33C21AD1559B00443460 /* LaunchScreen.xib */,
+				3B4E33B81AD1559B00443460 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B58E7E21C7B0F7F0062C7D5 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				3B637E2B1C9174A6005D913F /* DispatchTimer.swift */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
+		3B637E1C1C917226005D913F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B4E522C1CD917EA00FE0201 /* Text Icon.png */,
+				3B4E52271CD9118F00FE0201 /* Chord Pro Icon.png */,
+				3B5D9EA01C9FF7D3008A9736 /* dragCorner.png */,
+				3B637E2D1C99578B005D913F /* _Muzoma A1-AcGuitar.m4a */,
+				3B637E2E1C99578B005D913F /* _Muzoma A1-Piano.m4a */,
+				3B637E2F1C99578B005D913F /* _Muzoma A3-AcGuitar.m4a */,
+				3B637E301C99578B005D913F /* _Muzoma A3-Piano.m4a */,
+				3B637E311C99578B005D913F /* _Muzoma A4-AcGuitar.m4a */,
+				3B637E321C99578B005D913F /* _Muzoma A4-Piano.m4a */,
+				3B637E331C99578B005D913F /* _Muzoma As1-AcGuitar.m4a */,
+				3B637E341C99578B005D913F /* _Muzoma As1-Piano.m4a */,
+				3B637E351C99578B005D913F /* _Muzoma As3-AcGuitar.m4a */,
+				3B637E361C99578B005D913F /* _Muzoma As3-Piano.m4a */,
+				3B637E371C99578B005D913F /* _Muzoma As4-AcGuitar.m4a */,
+				3B637E381C99578B005D913F /* _Muzoma As4-Piano.m4a */,
+				3B637E391C99578B005D913F /* _Muzoma B1-AcGuitar.m4a */,
+				3B637E3A1C99578B005D913F /* _Muzoma B1-Piano.m4a */,
+				3B637E3B1C99578B005D913F /* _Muzoma B3-AcGuitar.m4a */,
+				3B637E3C1C99578B005D913F /* _Muzoma B3-Piano.m4a */,
+				3B637E3D1C99578B005D913F /* _Muzoma B4-AcGuitar.m4a */,
+				3B637E3E1C99578B005D913F /* _Muzoma B4-Piano.m4a */,
+				3B637E3F1C99578B005D913F /* _Muzoma C1-AcGuitar.m4a */,
+				3B637E401C99578B005D913F /* _Muzoma C1-Piano.m4a */,
+				3B637E411C99578B005D913F /* _Muzoma C3-AcGuitar.m4a */,
+				3B637E421C99578B005D913F /* _Muzoma C3-Piano.m4a */,
+				3B637E431C99578B005D913F /* _Muzoma C4-AcGuitar.m4a */,
+				3B637E441C99578B005D913F /* _Muzoma C4-Piano.m4a */,
+				3B637E451C99578B005D913F /* _Muzoma Cs1-AcGuitar.m4a */,
+				3B637E461C99578B005D913F /* _Muzoma Cs1-Piano.m4a */,
+				3B637E471C99578B005D913F /* _Muzoma Cs3-AcGuitar.m4a */,
+				3B637E481C99578B005D913F /* _Muzoma Cs3-Piano.m4a */,
+				3B637E491C99578B005D913F /* _Muzoma Cs4-AcGuitar.m4a */,
+				3B637E4A1C99578B005D913F /* _Muzoma Cs4-Piano.m4a */,
+				3B637E4B1C99578B005D913F /* _Muzoma D1-AcGuitar.m4a */,
+				3B637E4C1C99578B005D913F /* _Muzoma D1-Piano.m4a */,
+				3B637E4D1C99578B005D913F /* _Muzoma D3-AcGuitar.m4a */,
+				3B637E4E1C99578B005D913F /* _Muzoma D3-Piano.m4a */,
+				3B637E4F1C99578B005D913F /* _Muzoma D4-AcGuitar.m4a */,
+				3B637E501C99578B005D913F /* _Muzoma D4-Piano.m4a */,
+				3B637E511C99578B005D913F /* _Muzoma Ds1-AcGuitar.m4a */,
+				3B637E521C99578B005D913F /* _Muzoma Ds1-Piano.m4a */,
+				3B637E531C99578B005D913F /* _Muzoma Ds3-AcGuitar.m4a */,
+				3B637E541C99578B005D913F /* _Muzoma Ds3-Piano.m4a */,
+				3B637E551C99578B005D913F /* _Muzoma Ds4-AcGuitar.m4a */,
+				3B637E561C99578B005D913F /* _Muzoma Ds4-Piano.m4a */,
+				3B637E571C99578B005D913F /* _Muzoma E1-AcGuitar.m4a */,
+				3B637E581C99578B005D913F /* _Muzoma E1-Piano.m4a */,
+				3B637E591C99578B005D913F /* _Muzoma E3-AcGuitar.m4a */,
+				3B637E5A1C99578B005D913F /* _Muzoma E3-Piano.m4a */,
+				3B637E5B1C99578B005D913F /* _Muzoma E4-AcGuitar.m4a */,
+				3B637E5C1C99578B005D913F /* _Muzoma E4-Piano.m4a */,
+				3B637E5D1C99578B005D913F /* _Muzoma F1-AcGuitar.m4a */,
+				3B637E5E1C99578B005D913F /* _Muzoma F1-Piano.m4a */,
+				3B637E5F1C99578B005D913F /* _Muzoma F3-AcGuitar.m4a */,
+				3B637E601C99578B005D913F /* _Muzoma F3-Piano.m4a */,
+				3B637E611C99578B005D913F /* _Muzoma F4-AcGuitar.m4a */,
+				3B637E621C99578B005D913F /* _Muzoma F4-Piano.m4a */,
+				3B637E631C99578B005D913F /* _Muzoma Fs1-AcGuitar.m4a */,
+				3B637E641C99578B005D913F /* _Muzoma Fs1-Piano.m4a */,
+				3B637E651C99578B005D913F /* _Muzoma Fs3-AcGuitar.m4a */,
+				3B637E661C99578B005D913F /* _Muzoma Fs3-Piano.m4a */,
+				3B637E671C99578B005D913F /* _Muzoma Fs4-AcGuitar.m4a */,
+				3B637E681C99578B005D913F /* _Muzoma Fs4-Piano.m4a */,
+				3B637E691C99578B005D913F /* _Muzoma G1-AcGuitar.m4a */,
+				3B637E6A1C99578B005D913F /* _Muzoma G1-Piano.m4a */,
+				3B637E6B1C99578B005D913F /* _Muzoma G3-AcGuitar.m4a */,
+				3B637E6C1C99578B005D913F /* _Muzoma G3-Piano.m4a */,
+				3B637E6D1C99578B005D913F /* _Muzoma G4-AcGuitar.m4a */,
+				3B637E6E1C99578B005D913F /* _Muzoma G4-Piano.m4a */,
+				3B637E6F1C99578B005D913F /* _Muzoma Gs-Piano.m4a */,
+				3B637E701C99578B005D913F /* _Muzoma Gs1-AcGuitar.m4a */,
+				3B637E711C99578B005D913F /* _Muzoma Gs1-Piano.m4a */,
+				3B637E721C99578B005D913F /* _Muzoma Gs3-AcGuitar.m4a */,
+				3B637E731C99578B005D913F /* _Muzoma Gs3-Piano.m4a */,
+				3B637E741C99578B005D913F /* _Muzoma Gs4-AcGuitar.m4a */,
+				3BEFD8921CE2214200229999 /* DefaultText.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B847A401C01D39D006E6AE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BD383D31B984A8A006B522A /* MuzomaDocument.swift */,
+				3BA8588C1CF34919005997E2 /* MuzomaSetDocument.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3B847A411C01D3B8006E6AE5 /* Midi */ = {
+			isa = PBXGroup;
+			children = (
+				3BABBC501B4D2FF40058C65E /* MuzomaMidiOut.swift */,
+			);
+			name = Midi;
+			sourceTree = "<group>";
+		};
+		3B847A421C01D3D6006E6AE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BBAD3551CE39A43001B395E /* Group Player */,
+				3BEFD88C1CE202E000229999 /* SuperTextView */,
+				3BEEDC271C8F20250035EA70 /* Chord Picker */,
+				3B49CF951C80B8AB0062DC1F /* Import */,
+				3B7880DA1BF8DEB200A7C4DE /* MainNavViewController.swift */,
+				3BEEDBB21C1AD801009CA319 /* Editor */,
+				3B3465341CE9CB4300B63F40 /* Edit Timing */,
+				3BEEDBB11C1AD7C8009CA319 /* Player */,
+				3BEEDBB01C1AD781009CA319 /* Document */,
+				3BEEDBAE1C1AD72B009CA319 /* Sets */,
+				3BEEDBAD1C1AD6F3009CA319 /* Tracks */,
+				3B637EBF1C9ED537005D913F /* DragView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3B847A431C01D432006E6AE5 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				3B4D8C411B9742A10051F4BE /* AEXML.swift */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+		3B847A441C0333D6006E6AE5 /* FileSystem */ = {
+			isa = PBXGroup;
+			children = (
+				3B847A451C033441006E6AE5 /* FileSystemHelper.swift */,
+			);
+			name = FileSystem;
+			sourceTree = "<group>";
+		};
+		3BA858871CF33911005997E2 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				3BE5CD521BFF7C8C0068EB95 /* OldSetPlayerDocumentViewController.swift */,
+				3BE5CD4E1BFF72900068EB95 /* OldSetsCollectionViewController.swift */,
+				3BAE00301C00CA9D00ED98A1 /* OldSetDetailsViewController.swift */,
+				3B7601801C710E3F0039320C /* OldMuzSetCollectionViewCell.swift */,
+			);
+			name = Old;
+			sourceTree = "<group>";
+		};
+		3BBAD3551CE39A43001B395E /* Group Player */ = {
+			isa = PBXGroup;
+			children = (
+				3BBAD3591CE39A8D001B395E /* GroupPlayerViewController.swift */,
+				3BBAD35D1CE39DFA001B395E /* MuzomaMultiPeerService.swift */,
+			);
+			name = "Group Player";
+			sourceTree = "<group>";
+		};
+		3BCF50AB1C0749BD007697D0 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF50AC1C074C1A007697D0 /* SequencerAudio.swift */,
+				3B637EBD1C9AA521005D913F /* ChordPlayer.swift */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		3BD513E41C8E268D00818431 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				3BD513E51C8E268D00818431 /* Contents.json */,
+				3BD513E61C8E268D00818431 /* Layer 1.png */,
+				3BD513E71C8E268D00818431 /* Layer 1@2x.png */,
+				3BD513E81C8E268D00818431 /* Layer 1@3x.png */,
+				3BD513E91C8E268D00818431 /* muzoma app.idraw */,
+				3BD513EA1C8E268D00818431 /* muzoma app.tiff */,
+			);
+			name = AppIcon.appiconset;
+			path = Images.xcassets/AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		3BE143A41CB97BCE00E7A665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BE143AB1CB97BCE00E7A665 /* Zip.framework */,
+				3BE143AD1CB97BCE00E7A665 /* ZipTests.xctest */,
+				3BE143AF1CB97BCE00E7A665 /* Zip.framework */,
+				3BE143B11CB97BCE00E7A665 /* Zip OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BEEDBAD1C1AD6F3009CA319 /* Tracks */ = {
+			isa = PBXGroup;
+			children = (
+				3BE2AD2A1C0F00EC00CBFBDC /* TracksTableViewController.swift */,
+				3BE407761C0DFF3400AA6E0C /* ViewTracksViewController.swift */,
+				3BE5CD581BFF90940068EB95 /* NewTrackViewController.swift */,
+				3BE5CD561BFF903C0068EB95 /* EditTracksViewController.swift */,
+				3BE2AD2C1C0F031700CBFBDC /* TracksTableViewCell.swift */,
+			);
+			name = Tracks;
+			sourceTree = "<group>";
+		};
+		3BEEDBAE1C1AD72B009CA319 /* Sets */ = {
+			isa = PBXGroup;
+			children = (
+				3BA858871CF33911005997E2 /* Old */,
+				3BF808E11CF30BF2006529C3 /* MuzSetCollectionViewCell.swift */,
+				3BA8588A1CF34103005997E2 /* SetTableViewCell.swift */,
+				3BF808DF1CF30B86006529C3 /* SetsCollectionViewController.swift */,
+				3BA858881CF33AB0005997E2 /* SetTableViewController.swift */,
+				3BE5CD501BFF76A80068EB95 /* NewSetViewController.swift */,
+			);
+			name = Sets;
+			sourceTree = "<group>";
+		};
+		3BEEDBB01C1AD781009CA319 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				3BFAE2591CF4EF1600293174 /* Old */,
+				3B1025741BF9F36B00E3F78C /* MuzDocCollectionViewCell.swift */,
+				3B1025721BF9ED6300E3F78C /* DocumentsCollectionViewController.swift */,
+				3BEEDBAB1C1A2F0D009CA319 /* CreateTestDocViewController.swift */,
+				3BBE9B5D1C3AD1A500E74AEB /* CreateNewDocViewController.swift */,
+			);
+			name = Document;
+			sourceTree = "<group>";
+		};
+		3BEEDBB11C1AD7C8009CA319 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				3B7ECA8A1CE6129400408B66 /* ExternalPlayerView.xib */,
+				3B7ECA8F1CE6131F00408B66 /* ExternalPlayerView.swift */,
+				3BE5CD5A1BFF91070068EB95 /* NewItemViewController.swift */,
+				3BE5CD541BFF84B80068EB95 /* PlayerDocumentViewController.swift */,
+				3B7ECA911CE629D900408B66 /* LineEventView.swift */,
+				3B7ECA931CE629F100408B66 /* LineEventView.xib */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		3BEEDBB21C1AD801009CA319 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				3B4E33BB1AD1559B00443460 /* EditDocumentViewController.swift */,
+				3B720C171C29E03C0052B271 /* EditorLinesController.swift */,
+				3BEEDBB51C1AE91D009CA319 /* EditorTableViewCell.swift */,
+				3B1C849D1CEDE8B900032B6D /* EditorTableViewBarBeatsCell.swift */,
+				3B1C849B1CEDE85800032B6D /* EditorTableViewStructureCell.swift */,
+				3BE86C1B1C416B2100CDAD90 /* EditorTableViewLyricCell.swift */,
+				3BFE041A1C5810C900B73176 /* EditorTableViewAudioCell.swift */,
+				3BA479AD1C67A37000CEC949 /* EditorTableViewGuideCell.swift */,
+				3BACB02E1C4564C300E360C0 /* EditorTableViewChordCell.swift */,
+				3BEEDBB91C1B5F7E009CA319 /* WordSelectorTextField.swift */,
+				3BACB0301C458F2D00E360C0 /* ChordSelectorTextField.swift */,
+			);
+			name = Editor;
+			sourceTree = "<group>";
+		};
+		3BEEDC271C8F20250035EA70 /* Chord Picker */ = {
+			isa = PBXGroup;
+			children = (
+				3BEEDC281C8F20800035EA70 /* ChordPickerController.swift */,
+			);
+			name = "Chord Picker";
+			sourceTree = "<group>";
+		};
+		3BEFD88C1CE202E000229999 /* SuperTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3BEFD8901CE2034B00229999 /* UISuperTextView.swift */,
+			);
+			name = SuperTextView;
+			sourceTree = "<group>";
+		};
+		3BFAE2591CF4EF1600293174 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				3B7880DE1BF8E32B00A7C4DE /* ShareDocumentViewController.swift */,
+				3B7880D81BF8D8E300A7C4DE /* NewDocumentViewController.swift */,
+				3B7880DC1BF8E23600A7C4DE /* OldDocumentsViewController.swift */,
+			);
+			name = Old;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B4E33B31AD1559B00443460 /* Muzoma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4E33D31AD1559C00443460 /* Build configuration list for PBXNativeTarget "Muzoma" */;
+			buildPhases = (
+				3B4E33B01AD1559B00443460 /* Sources */,
+				3B4E33B11AD1559B00443460 /* Frameworks */,
+				3B4E33B21AD1559B00443460 /* Resources */,
+				3BA794E21CBD05A700EB9B03 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA794E11CBD05A700EB9B03 /* PBXTargetDependency */,
+			);
+			name = Muzoma;
+			productName = "Event Sequencer";
+			productReference = 3B4E33B41AD1559B00443460 /* Muzoma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B4E33AC1AD1559B00443460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Muzoma.com;
+				TargetAttributes = {
+					3B4E33B31AD1559B00443460 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4SW73Q7M6X;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3B4E33AF1AD1559B00443460 /* Build configuration list for PBXProject "Muzoma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B4E33AB1AD1559B00443460;
+			productRefGroup = 3B4E33B51AD1559B00443460 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3BE143A41CB97BCE00E7A665 /* Products */;
+					ProjectRef = 3BE143A31CB97BCE00E7A665 /* Zip.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3B4E33B31AD1559B00443460 /* Muzoma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3BE143AB1CB97BCE00E7A665 /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = 3BE143AA1CB97BCE00E7A665 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3BE143AD1CB97BCE00E7A665 /* ZipTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZipTests.xctest;
+			remoteRef = 3BE143AC1CB97BCE00E7A665 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3BE143AF1CB97BCE00E7A665 /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = 3BE143AE1CB97BCE00E7A665 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3BE143B11CB97BCE00E7A665 /* Zip OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Zip OSXTests.xctest";
+			remoteRef = 3BE143B01CB97BCE00E7A665 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B4E33B21AD1559B00443460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B637EA91C99578B005D913F /* _Muzoma F4-AcGuitar.m4a in Resources */,
+				3B637EA21C99578B005D913F /* _Muzoma E3-Piano.m4a in Resources */,
+				3B637E891C99578B005D913F /* _Muzoma C3-AcGuitar.m4a in Resources */,
+				3B637EAB1C99578B005D913F /* _Muzoma Fs1-AcGuitar.m4a in Resources */,
+				3B637E9E1C99578B005D913F /* _Muzoma Ds4-Piano.m4a in Resources */,
+				3B637E9F1C99578B005D913F /* _Muzoma E1-AcGuitar.m4a in Resources */,
+				3B637E771C99578B005D913F /* _Muzoma A3-AcGuitar.m4a in Resources */,
+				3B637E9C1C99578B005D913F /* _Muzoma Ds3-Piano.m4a in Resources */,
+				3B637EB11C99578B005D913F /* _Muzoma G1-AcGuitar.m4a in Resources */,
+				3B637E811C99578B005D913F /* _Muzoma B1-AcGuitar.m4a in Resources */,
+				3B637EB31C99578B005D913F /* _Muzoma G3-AcGuitar.m4a in Resources */,
+				3B637EA11C99578B005D913F /* _Muzoma E3-AcGuitar.m4a in Resources */,
+				3B637E9B1C99578B005D913F /* _Muzoma Ds3-AcGuitar.m4a in Resources */,
+				3BD513F01C8E268D00818431 /* muzoma app.tiff in Resources */,
+				3B637E971C99578B005D913F /* _Muzoma D4-AcGuitar.m4a in Resources */,
+				3BD513EE1C8E268D00818431 /* Layer 1@3x.png in Resources */,
+				3B637E951C99578B005D913F /* _Muzoma D3-AcGuitar.m4a in Resources */,
+				3B637E1B1C917080005D913F /* Version History.rtf in Resources */,
+				3BD513EB1C8E268D00818431 /* Contents.json in Resources */,
+				3B637EBA1C99578B005D913F /* _Muzoma Gs3-AcGuitar.m4a in Resources */,
+				3BD513ED1C8E268D00818431 /* Layer 1@2x.png in Resources */,
+				3B637E7D1C99578B005D913F /* _Muzoma As3-AcGuitar.m4a in Resources */,
+				3B637E851C99578B005D913F /* _Muzoma B4-AcGuitar.m4a in Resources */,
+				3B637E9A1C99578B005D913F /* _Muzoma Ds1-Piano.m4a in Resources */,
+				3B637E7B1C99578B005D913F /* _Muzoma As1-AcGuitar.m4a in Resources */,
+				3B4E33BF1AD1559B00443460 /* Main.storyboard in Resources */,
+				3B637E751C99578B005D913F /* _Muzoma A1-AcGuitar.m4a in Resources */,
+				3B637E8E1C99578B005D913F /* _Muzoma Cs1-Piano.m4a in Resources */,
+				3B637E821C99578B005D913F /* _Muzoma B1-Piano.m4a in Resources */,
+				3B637E801C99578B005D913F /* _Muzoma As4-Piano.m4a in Resources */,
+				3B637EAA1C99578B005D913F /* _Muzoma F4-Piano.m4a in Resources */,
+				3B637E981C99578B005D913F /* _Muzoma D4-Piano.m4a in Resources */,
+				3B637E7C1C99578B005D913F /* _Muzoma As1-Piano.m4a in Resources */,
+				3B637EB61C99578B005D913F /* _Muzoma G4-Piano.m4a in Resources */,
+				3B7ECA8B1CE6129400408B66 /* ExternalPlayerView.xib in Resources */,
+				3BD513EC1C8E268D00818431 /* Layer 1.png in Resources */,
+				3B637E871C99578B005D913F /* _Muzoma C1-AcGuitar.m4a in Resources */,
+				3B637E881C99578B005D913F /* _Muzoma C1-Piano.m4a in Resources */,
+				3B637EB41C99578B005D913F /* _Muzoma G3-Piano.m4a in Resources */,
+				3B637EB01C99578B005D913F /* _Muzoma Fs4-Piano.m4a in Resources */,
+				3B637E781C99578B005D913F /* _Muzoma A3-Piano.m4a in Resources */,
+				3B637E8C1C99578B005D913F /* _Muzoma C4-Piano.m4a in Resources */,
+				3B637EAE1C99578B005D913F /* _Muzoma Fs3-Piano.m4a in Resources */,
+				3B637EAD1C99578B005D913F /* _Muzoma Fs3-AcGuitar.m4a in Resources */,
+				3B637E841C99578B005D913F /* _Muzoma B3-Piano.m4a in Resources */,
+				3B637E7F1C99578B005D913F /* _Muzoma As4-AcGuitar.m4a in Resources */,
+				3B637E831C99578B005D913F /* _Muzoma B3-AcGuitar.m4a in Resources */,
+				3B637E931C99578B005D913F /* _Muzoma D1-AcGuitar.m4a in Resources */,
+				3B637E8B1C99578B005D913F /* _Muzoma C4-AcGuitar.m4a in Resources */,
+				3B4E33C41AD1559B00443460 /* LaunchScreen.xib in Resources */,
+				3B637E911C99578B005D913F /* _Muzoma Cs4-AcGuitar.m4a in Resources */,
+				3B637EA81C99578B005D913F /* _Muzoma F3-Piano.m4a in Resources */,
+				3B637EBC1C99578B005D913F /* _Muzoma Gs4-AcGuitar.m4a in Resources */,
+				3B637E7E1C99578B005D913F /* _Muzoma As3-Piano.m4a in Resources */,
+				3B58E7E41C7B18A80062C7D5 /* todo.rtf in Resources */,
+				3B637E921C99578B005D913F /* _Muzoma Cs4-Piano.m4a in Resources */,
+				3B7ECA941CE629F100408B66 /* LineEventView.xib in Resources */,
+				3B4E33C11AD1559B00443460 /* Images.xcassets in Resources */,
+				3BD513EF1C8E268D00818431 /* muzoma app.idraw in Resources */,
+				3B637E8A1C99578B005D913F /* _Muzoma C3-Piano.m4a in Resources */,
+				3B637EA51C99578B005D913F /* _Muzoma F1-AcGuitar.m4a in Resources */,
+				3B637E941C99578B005D913F /* _Muzoma D1-Piano.m4a in Resources */,
+				3BEFD8931CE2214200229999 /* DefaultText.rtf in Resources */,
+				3B637E901C99578B005D913F /* _Muzoma Cs3-Piano.m4a in Resources */,
+				3B637E961C99578B005D913F /* _Muzoma D3-Piano.m4a in Resources */,
+				3B4E522D1CD917EA00FE0201 /* Text Icon.png in Resources */,
+				3B5D9EA11C9FF7D3008A9736 /* dragCorner.png in Resources */,
+				3B637EB91C99578B005D913F /* _Muzoma Gs1-Piano.m4a in Resources */,
+				3B637E9D1C99578B005D913F /* _Muzoma Ds4-AcGuitar.m4a in Resources */,
+				3B637EA61C99578B005D913F /* _Muzoma F1-Piano.m4a in Resources */,
+				3B637EA31C99578B005D913F /* _Muzoma E4-AcGuitar.m4a in Resources */,
+				3B637EAF1C99578B005D913F /* _Muzoma Fs4-AcGuitar.m4a in Resources */,
+				3B637EA01C99578B005D913F /* _Muzoma E1-Piano.m4a in Resources */,
+				3B637EA71C99578B005D913F /* _Muzoma F3-AcGuitar.m4a in Resources */,
+				3B637E861C99578B005D913F /* _Muzoma B4-Piano.m4a in Resources */,
+				3B637EA41C99578B005D913F /* _Muzoma E4-Piano.m4a in Resources */,
+				3B5106C11C7FBDD800DC6692 /* Settings.bundle in Resources */,
+				3B637E7A1C99578B005D913F /* _Muzoma A4-Piano.m4a in Resources */,
+				3B637EB51C99578B005D913F /* _Muzoma G4-AcGuitar.m4a in Resources */,
+				3B637EB81C99578B005D913F /* _Muzoma Gs1-AcGuitar.m4a in Resources */,
+				3B637EAC1C99578B005D913F /* _Muzoma Fs1-Piano.m4a in Resources */,
+				3B637E791C99578B005D913F /* _Muzoma A4-AcGuitar.m4a in Resources */,
+				3BD513B01C8E254700818431 /* Contents.json in Resources */,
+				3B637EB71C99578B005D913F /* _Muzoma Gs-Piano.m4a in Resources */,
+				3B637E8D1C99578B005D913F /* _Muzoma Cs1-AcGuitar.m4a in Resources */,
+				3B4E52281CD9119000FE0201 /* Chord Pro Icon.png in Resources */,
+				3B637EB21C99578B005D913F /* _Muzoma G1-Piano.m4a in Resources */,
+				3B637E8F1C99578B005D913F /* _Muzoma Cs3-AcGuitar.m4a in Resources */,
+				3B637E761C99578B005D913F /* _Muzoma A1-Piano.m4a in Resources */,
+				3B637EBB1C99578B005D913F /* _Muzoma Gs3-Piano.m4a in Resources */,
+				3B637E991C99578B005D913F /* _Muzoma Ds1-AcGuitar.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B4E33B01AD1559B00443460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA8588B1CF34103005997E2 /* SetTableViewCell.swift in Sources */,
+				3B6F49031B4D54660055B604 /* MuzomaMidiOut.swift in Sources */,
+				3B1C849E1CEDE8B900032B6D /* EditorTableViewBarBeatsCell.swift in Sources */,
+				3BCF50AD1C074C1A007697D0 /* SequencerAudio.swift in Sources */,
+				3BACB02F1C4564C300E360C0 /* EditorTableViewChordCell.swift in Sources */,
+				3BF808E21CF30BF2006529C3 /* MuzSetCollectionViewCell.swift in Sources */,
+				3B7880DD1BF8E23600A7C4DE /* OldDocumentsViewController.swift in Sources */,
+				3BE5CD5B1BFF91070068EB95 /* NewItemViewController.swift in Sources */,
+				3BFE041B1C5810C900B73176 /* EditorTableViewAudioCell.swift in Sources */,
+				3BA858891CF33AB0005997E2 /* SetTableViewController.swift in Sources */,
+				3BE2AD2B1C0F00EC00CBFBDC /* TracksTableViewController.swift in Sources */,
+				3B7880DB1BF8DEB200A7C4DE /* MainNavViewController.swift in Sources */,
+				3BE86C1C1C416B2100CDAD90 /* EditorTableViewLyricCell.swift in Sources */,
+				3BE5CD591BFF90940068EB95 /* NewTrackViewController.swift in Sources */,
+				3BAE00311C00CA9D00ED98A1 /* OldSetDetailsViewController.swift in Sources */,
+				3B7601811C710E3F0039320C /* OldMuzSetCollectionViewCell.swift in Sources */,
+				3BE5CD4F1BFF72900068EB95 /* OldSetsCollectionViewController.swift in Sources */,
+				3BE5CD531BFF7C8C0068EB95 /* OldSetPlayerDocumentViewController.swift in Sources */,
+				3BEEDBB81C1B4A36009CA319 /* ChordAndLyricTableViewController.swift in Sources */,
+				3B637E2C1C9174A6005D913F /* DispatchTimer.swift in Sources */,
+				3B4D8C421B9742A10051F4BE /* AEXML.swift in Sources */,
+				3B49CF971C80B92B0062DC1F /* ImportTextDocumentViewController.swift in Sources */,
+				3B3465391CE9CBEB00B63F40 /* EditTimingViewController.swift in Sources */,
+				3BE5CD571BFF903C0068EB95 /* EditTracksViewController.swift in Sources */,
+				3BEEDBBA1C1B5F7E009CA319 /* WordSelectorTextField.swift in Sources */,
+				3BBAD35E1CE39DFA001B395E /* MuzomaMultiPeerService.swift in Sources */,
+				3B847A461C033441006E6AE5 /* FileSystemHelper.swift in Sources */,
+				3BACB0311C458F2D00E360C0 /* ChordSelectorTextField.swift in Sources */,
+				3BBAD35A1CE39A8D001B395E /* GroupPlayerViewController.swift in Sources */,
+				3B637EC01C9ED537005D913F /* DragView.swift in Sources */,
+				3BEEDBB61C1AE91D009CA319 /* EditorTableViewCell.swift in Sources */,
+				3B7880D91BF8D8E300A7C4DE /* NewDocumentViewController.swift in Sources */,
+				3B49CF9C1C84B83A0062DC1F /* Extensions.swift in Sources */,
+				3B4E33BC1AD1559B00443460 /* EditDocumentViewController.swift in Sources */,
+				3BBE9B5E1C3AD1A500E74AEB /* CreateNewDocViewController.swift in Sources */,
+				3BEEDBAC1C1A2F0D009CA319 /* CreateTestDocViewController.swift in Sources */,
+				3B4E33BA1AD1559B00443460 /* AppDelegate.swift in Sources */,
+				3BA479AE1C67A37000CEC949 /* EditorTableViewGuideCell.swift in Sources */,
+				3BEEDC291C8F20800035EA70 /* ChordPickerController.swift in Sources */,
+				3BF808E01CF30B86006529C3 /* SetsCollectionViewController.swift in Sources */,
+				3B1025731BF9ED6300E3F78C /* DocumentsCollectionViewController.swift in Sources */,
+				3B7ECA921CE629D900408B66 /* LineEventView.swift in Sources */,
+				3B1025751BF9F36B00E3F78C /* MuzDocCollectionViewCell.swift in Sources */,
+				3BE407771C0DFF3400AA6E0C /* ViewTracksViewController.swift in Sources */,
+				3BD383D41B984A8A006B522A /* MuzomaDocument.swift in Sources */,
+				3B7880DF1BF8E32B00A7C4DE /* ShareDocumentViewController.swift in Sources */,
+				3BE5CD551BFF84B80068EB95 /* PlayerDocumentViewController.swift in Sources */,
+				3B1C849C1CEDE85800032B6D /* EditorTableViewStructureCell.swift in Sources */,
+				3B720C181C29E03C0052B271 /* EditorLinesController.swift in Sources */,
+				3BE5CD511BFF76A80068EB95 /* NewSetViewController.swift in Sources */,
+				3B637EBE1C9AA522005D913F /* ChordPlayer.swift in Sources */,
+				3BEFD8911CE2034B00229999 /* UISuperTextView.swift in Sources */,
+				3B7ECA901CE6131F00408B66 /* ExternalPlayerView.swift in Sources */,
+				3BA8588D1CF34919005997E2 /* MuzomaSetDocument.swift in Sources */,
+				3BE2AD2D1C0F031700CBFBDC /* TracksTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BA794E11CBD05A700EB9B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Zip;
+			targetProxy = 3BA794E01CBD05A700EB9B03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B4E33BD1AD1559B00443460 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B4E33BE1AD1559B00443460 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "Event Sequencer";
+			sourceTree = "<group>";
+		};
+		3B4E33C21AD1559B00443460 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B4E33C31AD1559B00443460 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B4E33D11AD1559C00443460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matt Hopkins (E6FLWYUSM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B4E33D21AD1559C00443460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matt Hopkins (E6FLWYUSM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B4E33D41AD1559C00443460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Muzoma.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matt Hopkins (E6FLWYUSM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Event Sequencer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Muzoma.com.Muzoma;
+				PRODUCT_NAME = Muzoma;
+				PROVISIONING_PROFILE = "";
+				"SWIFT_INCLUDE_PATHS[arch=*]" = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Event Sequencer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B4E33D51AD1559C00443460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Muzoma.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matt Hopkins (E6FLWYUSM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Event Sequencer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Muzoma.com.Muzoma;
+				PRODUCT_NAME = Muzoma;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Event Sequencer-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B4E33AF1AD1559B00443460 /* Build configuration list for PBXProject "Muzoma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4E33D11AD1559C00443460 /* Debug */,
+				3B4E33D21AD1559C00443460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B4E33D31AD1559C00443460 /* Build configuration list for PBXNativeTarget "Muzoma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4E33D41AD1559C00443460 /* Debug */,
+				3B4E33D51AD1559C00443460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B4E33AC1AD1559B00443460 /* Project object */;
+}

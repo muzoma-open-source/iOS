@@ -1,0 +1,32 @@
+﻿body {
+}
+
+pre {
+    font-family: 'courier new', courier, monospace;
+    font-size: 22px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.pagebreak {
+    page-break-before: always;
+}
+
+.chords {
+    color: blue;
+    font-family: 'courier new', courier, monospace;
+    font-size: 22px;
+}
+
+.songLine {
+}
+
+.author {
+    text-align: center;
+}

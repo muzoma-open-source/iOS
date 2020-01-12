@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="3" customClass="APSoundCell">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3" id="RrZ-0w-Ea9">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" bouncesZoom="NO" id="rVy-p1-6ld" userLabel="Scroll View (mScrollView)">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="oVj-oo-hif" userLabel="View (mScrollViewContentView)">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="phB-dw-SDV" userLabel="Label (mScrollViewTextLabel)">
+                                        <rect key="frame" x="50" y="12" width="220" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XnI-r7-np6">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="selectButtonTapped:" destination="3" eventType="touchUpInside" id="o1v-ok-B9h"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="99" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="ZTO-qb-weo" userLabel="Button (mPlayButton)" customClass="URLButton">
+                                        <rect key="frame" x="5" y="0.0" width="44" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" image="btn-preview.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="btn-preview-active.png"/>
+                                        <state key="highlighted" image="btn-preview-press.png"/>
+                                        <connections>
+                                            <action selector="playButtonTapped:" destination="3" eventType="touchUpInside" id="c6t-e3-iX5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="T8G-Ew-4Yu" userLabel="Button (mDismissButton)">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissButtonTapped:" destination="3" eventType="touchUpInside" id="klx-D6-xQh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="delegate" destination="3" id="5jt-yT-xe9"/>
+                        </connections>
+                    </scrollView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="mDeleteButton" destination="wMs-UA-sha" id="4lb-vP-bSI"/>
+                <outlet property="mDismissButton" destination="T8G-Ew-4Yu" id="yyc-5B-moi"/>
+                <outlet property="mMoreButton" destination="0CM-4e-dpd" id="8Ao-JT-91D"/>
+                <outlet property="mPlayButton" destination="ZTO-qb-weo" id="U5h-oi-050"/>
+                <outlet property="mRevealedButtonView" destination="kuG-4J-3oI" id="MGx-45-EaD"/>
+                <outlet property="mScrollView" destination="rVy-p1-6ld" id="8yR-XQ-8xF"/>
+                <outlet property="mScrollViewContentView" destination="oVj-oo-hif" id="wCT-kP-53Y"/>
+                <outlet property="mScrollViewTextLabel" destination="phB-dw-SDV" id="Vcb-0e-DC1"/>
+            </connections>
+        </tableViewCell>
+        <view contentMode="scaleToFill" id="kuG-4J-3oI" userLabel="View (mRevealedButtonView)">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="0CM-4e-dpd" userLabel="Button (More Button)" customClass="URLButton">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="btn-more.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="btn-more-active.png"/>
+                    <connections>
+                        <action selector="moreButtonTapped:" destination="3" eventType="touchUpInside" id="0zi-As-V5F"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="bVm-uA-6uP" userLabel="Button (Options Button)">
+                    <rect key="frame" x="50" y="0.0" width="50" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="btn-settings.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="btn-settings-active.png"/>
+                    <connections>
+                        <action selector="optionsButtonTapped:" destination="3" eventType="touchUpInside" id="5Mx-R8-KyQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wMs-UA-sha" userLabel="Button (mDetailButton)" customClass="URLButton">
+                    <rect key="frame" x="100" y="0.0" width="50" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="btn-trash.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="btn-trash-active.png"/>
+                    <connections>
+                        <action selector="deleteButtonTapped:" destination="3" eventType="touchUpInside" id="3Qg-xE-Jvk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.90083165322580661" alpha="1" colorSpace="calibratedWhite"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn-more-active.png" width="28" height="22"/>
+        <image name="btn-more.png" width="28" height="22"/>
+        <image name="btn-preview-active.png" width="30" height="30"/>
+        <image name="btn-preview-press.png" width="30" height="30"/>
+        <image name="btn-preview.png" width="30" height="30"/>
+        <image name="btn-settings-active.png" width="22" height="22"/>
+        <image name="btn-settings.png" width="22" height="22"/>
+        <image name="btn-trash-active.png" width="15" height="22"/>
+        <image name="btn-trash.png" width="15" height="22"/>
+    </resources>
+</document>

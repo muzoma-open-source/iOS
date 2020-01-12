@@ -1,0 +1,58 @@
+﻿body {
+    background-color: darkblue;
+    color: white;
+    
+}
+
+pre {
+    font-family: 'courier new', courier, monospace, color: white;
+    font-size: 22px;
+    display: inline;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.pagebreak {
+    page-break-before: always;
+}
+
+.chords {
+    color: yellow;
+    font-weight:bold;
+    width: 300%
+}
+
+.chordsHiLite {
+    color: yellow;
+    font-weight:bold;
+    background-color: darkcyan;
+    width: 300%
+}
+
+.lyrics {
+    color: white;
+    width: 300%
+}
+
+.lyricsHiLite {
+    color: white;
+    background-color: darkcyan;
+    width: 300%
+}
+
+.songLine {
+    color: white;
+}
+
+.author {
+    color: white;
+    text-align: center;
+}
