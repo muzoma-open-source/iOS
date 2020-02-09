@@ -136,6 +136,17 @@ class ImportTextDocumentViewController :  UIViewController, UITextViewDelegate, 
         }
     }
     
+    var topbarHeight: CGFloat {
+       /* if #available(iOS 13.0, *) {
+            return (view.window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0.0) +
+                (self.navigationController?.navigationBar.frame.height ?? 0.0)
+        } else {
+            // Fallback on earlier versions
+            return(self.navigationController?.navigationBar.frame.height ?? 0.0)
+        }*/
+        return(self.navigationController?.navigationBar.frame.height ?? 0.0)
+    }
+    
     var keyboardShowing = false
     override var shouldAutorotate : Bool {
         return !self.keyboardShowing
@@ -145,19 +156,45 @@ class ImportTextDocumentViewController :  UIViewController, UITextViewDelegate, 
     // iOS 8 will play its part (scroll cursor to visible)
     // and we don't have to animate
     
+    @IBOutlet weak var _composeToolbar: UINavigationItem!
     @objc func keyboardShow(_ n:Notification) {
         //print("kb show")
         self.navigationController?.setToolbarHidden(true, animated: true)
         self.navigationController?.setNavigationBarHidden(true, animated: true)
         self.keyboardShowing = true
+        // set the scrollviews so they move up
+        self._partScrollView.frame = CGRect(x:self._partScrollView.frame.minX, y:10, width: self._partScrollView.frame.width, height: 70)
+        self._chordScrollView.frame = CGRect(x:self._chordScrollView.frame.minX, y:10+50, width: self._chordScrollView.frame.width, height: 70)
+        // set the scrollviews content size
+        self._chordScrollView.contentSize = CGSize(
+            width: self._contextToolBar.frame.size.width,
+            height: self._contextToolBar.frame.size.height
+        );
+        
+        self._partScrollView.contentSize = CGSize(
+            width: self.lineTypeToolBar.frame.size.width,
+            height: self.lineTypeToolBar.frame.size.height
+        );
     }
     
     @objc func keyboardHide(_ n:Notification) {
         //print("kb hide")
         self.navigationController?.setToolbarHidden(false, animated: true)
         self.navigationController?.setNavigationBarHidden(false, animated: true)
-        
         self.keyboardShowing = false
+        // set the scrollviews so they move up
+        self._partScrollView.frame = CGRect(x:self._partScrollView.frame.minX, y:topbarHeight, width: self._partScrollView.frame.width, height: 70)
+        self._chordScrollView.frame = CGRect(x:self._chordScrollView.frame.minX, y:self._partScrollView.frame.maxY, width: self._chordScrollView.frame.width, height: 70)
+        // set the scrollviews content size
+        self._chordScrollView.contentSize = CGSize(
+            width: self._contextToolBar.frame.size.width,
+            height: self._contextToolBar.frame.size.height
+        );
+        
+        self._partScrollView.contentSize = CGSize(
+            width: self.lineTypeToolBar.frame.size.width,
+            height: self.lineTypeToolBar.frame.size.height
+        );
     }
     
     
@@ -217,6 +254,7 @@ class ImportTextDocumentViewController :  UIViewController, UITextViewDelegate, 
                 self.removeImportingSpinnerView()
             })
         }
+        
     }
     
     func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
@@ -235,6 +273,17 @@ class ImportTextDocumentViewController :  UIViewController, UITextViewDelegate, 
         _transport.muzomaDoc = self.muzomaDoc
         
         refreshChordPallet()
+
+        // set the scrollviews content size
+        self._chordScrollView.contentSize = CGSize(
+            width: self._contextToolBar.frame.size.width,
+            height: self._contextToolBar.frame.size.height
+        );
+        
+        self._partScrollView.contentSize = CGSize(
+            width: self.lineTypeToolBar.frame.size.width,
+            height: self.lineTypeToolBar.frame.size.height
+        );
         return( super.viewDidAppear(animated) )
     }
     
@@ -2445,14 +2494,22 @@ class ImportTextDocumentViewController :  UIViewController, UITextViewDelegate, 
         })
     }
     
+    
+    @IBOutlet weak var _chordScrollView: UIScrollView!
+    @IBOutlet weak var _partScrollView: UIScrollView!
     @IBOutlet weak var scrollToolbar: ExtUISlider!
+    
     let maxScroll:CGFloat = 2048.0
     @IBAction func scrollToolbarsChanged(_ sender: AnyObject) {
         let pos = max( ((scrollToolbar.value * (Float)(maxScroll)) * -1), (Float)((maxScroll-self.view.frame.maxX) * -1) )
         print("pos: " + String(pos) )
 
+            //   self._chordScrollView.setContentOffset(CGPoint(x: Int(pos * -1), y:0), animated: true)
+        /* self._chordScrollView.frame = CGRect(x: CGFloat(pos), y: self._contextToolBar.frame.minY, width: maxScroll, height: self._contextToolBar.frame.height)*/
+        /*
         self._contextToolBar.frame = CGRect(x: CGFloat(pos), y: self._contextToolBar.frame.minY, width: maxScroll, height: self._contextToolBar.frame.height)
         self.lineTypeToolBar.frame = CGRect(x: CGFloat(pos), y: self.lineTypeToolBar.frame.minY, width: maxScroll, height: self.lineTypeToolBar.frame.height)
+        */
     }
     
     func clearView()
