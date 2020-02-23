@@ -122,16 +122,16 @@ class UISuperTextView: UIScrollView, UIScrollViewDelegate, UITextViewDelegate {
             
             /* replace with registration versions*/
             let reg = UserRegistration()
-            masString.mutableString.replaceOccurrences(of: "Artist", with:  reg.artist != nil ? reg.artist! : "Artist", options: NSString.CompareOptions.forcedOrdering, range: NSMakeRange(0, masString.mutableString.length))
+            masString.mutableString.replaceOccurrences(of: "Band", with:  reg.artist != nil ? reg.artist! : "Artist", options: NSString.CompareOptions.forcedOrdering, range: NSMakeRange(0, masString.mutableString.length))
             masString.mutableString.replaceOccurrences(of: "Author", with:  reg.author != nil ? reg.author! : "Author", options: NSString.CompareOptions.forcedOrdering, range: NSMakeRange(0, masString.mutableString.length))
-            masString.mutableString.replaceOccurrences(of: "Copyright 2016-20 Muzoma Ltd", with:  reg.copyright != nil ? reg.copyright! : "(c) " + Date().datePretty, options: NSString.CompareOptions.forcedOrdering, range: NSMakeRange(0, masString.mutableString.length))
+            masString.mutableString.replaceOccurrences(of: "Copyright 2016 Muzoma Ltd", with:  reg.copyright != nil ? reg.copyright! : "(c) " + Date().datePretty, options: NSString.CompareOptions.forcedOrdering, range: NSMakeRange(0, masString.mutableString.length))
             masString.mutableString.replaceOccurrences(of: "Published by Muzoma Ltd", with:  reg.publisher != nil ? reg.publisher! : "Pubisher", options: NSString.CompareOptions.forcedOrdering, range: NSMakeRange(0, masString.mutableString.length))
             
             self._textView.attributedText = masString
         }
         catch
         {
-            // print( "no default text could be loaded for the text view" )
+            print( "no default text could be loaded for the text view" )
         }
         
         resizeTextView()

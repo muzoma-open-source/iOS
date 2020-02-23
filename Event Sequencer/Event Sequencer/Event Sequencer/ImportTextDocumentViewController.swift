@@ -45,34 +45,35 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 enum LineTypeColourIndex : Int
 {
     case none = 255
-    case lyrics = 0
-    case chords = 1
-    case section = 2
-    case title = 3
-    case artist = 4
-    case author = 5
-    case copyright = 6
-    case publisher = 7
+    case lyrics = 0 // Import chords and lyrics{ NSBackgroundColor = "kCGColorSpaceModelRGB 1 0 0 1 ";
+    case chords = 1 // C        F      G       { NSBackgroundColor = "kCGColorSpaceModelRGB 0 0.70196 0.30196 1 ";
+    case section = 2 // Verse 1 NSBackgroundColor = "kCGColorSpaceModelRGB 1 0.50196 0 1 ";
+    case title = 3 // Example Song{ NSBackgroundColor = "kCGColorSpaceModelRGB 0 0.6 0.6 1 ";
+    case artist = 4 // Band{ NSBackgroundColor = "kCGColorSpaceModelRGB 0 0 0.90196 1 ";
+    case author = 5 // Author{ NSBackgroundColor = "kCGColorSpaceModelRGB 0.8 0.6 0.8 1 ";
+    case copyright = 6 //  Copyright 2016 Muzoma Ltd{ NSBackgroundColor = "kCGColorSpaceModelRGB 1 0.30196 0.10196 1 ";
+    case publisher = 7 // Published by Muzoma Ltd{ NSBackgroundColor = "kCGColorSpaceModelRGB 1 0 1 1 ";
     case memo = 8
-    case key = 9
-    case tempo = 10
-    case timeSig = 11
+    case key = 9 // C major / A minor{ NSBackgroundColor = "kCGColorSpaceModelRGB 0.70196 0.30196 0.8 1 ";
+    case tempo = 10 // 120 BPM{ NSBackgroundColor = "kCGColorSpaceModelRGB 0.8 0.8 0.2 1 ";
+    case timeSig = 11 // 4/4{ NSBackgroundColor = "kCGColorSpaceModelRGB 0.70196 0.30196 1 1 ";
 }
+
 
 let LineColourArray =
     [
-        UIColor.init(red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0),//.redColor(),
-        UIColor.init(hexString: "#00b34d"), //init(red: 0.0, green: 0.7, blue: 0.3, alpha: 1.0),//.redColor(),,
-        UIColor.init(hexString: "#ff8000"), //orangeColor(),
-        UIColor.init(red: 0.0, green: 0.6, blue: 0.6, alpha: 1.0),//cyanColor(),
-        UIColor.init( hexString: "#0000e6" ),//red: 0.0, green: 0.0, blue: 0.901961, alpha: 1.0),//blueColor(),
-        UIColor.init(red: 0.8, green: 0.6, blue: 0.8, alpha: 1.0), // grey
-        UIColor.init( hexString: "#ff4d1a"), //init(red: 1.0, green: 0.3, blue: 0.1, alpha: 1.0),
-        UIColor.magenta,
-        UIColor.init( hexString: "#331033"), //init(red: 0.2, green: 0.7, blue: 0.2, alpha: 1.0),//grayColor(),
-        UIColor.init( hexString: "#b34dcc" ), //init(red: 0.7, green: 0.3, blue: 0.8, alpha: 1.0), //lightGrayColor(),
-        UIColor.init(red: 0.8, green: 0.8, blue: 0.2, alpha: 1.0),//.yellowColor(),
-        UIColor.init( hexString: "#b34dff" )//init(red: 0.7, green: 0.3, blue: 1.0, alpha: 1.0)//.purpleColor()
+        UIColor.init(red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0),//lyrics
+        UIColor.init(red: 0.0, green: 0.70196, blue: 0.30196, alpha: 1.0),  //chords
+        UIColor.init(hexString: "#ff8000"), //section
+        UIColor.init(red: 0.0, green: 0.6, blue: 0.6, alpha: 1.0),//title
+        UIColor.init( hexString: "#0000e6" ),//artist
+        UIColor.init(red: 0.8, green: 0.6, blue: 0.8, alpha: 1.0), //author
+        UIColor.init( hexString: "#ff4d1a"), //copyright
+        UIColor.magenta, // publisher
+        UIColor.init( hexString: "#331033"), //memo
+        UIColor.init( hexString: "#b34dcc" ), //key
+        UIColor.init(red: 0.8, green: 0.8, blue: 0.2, alpha: 1.0),//tempo
+        UIColor.init( hexString: "#b34dff" )//timeSig
 ]
 
 class ImportTextDocumentViewController :  UIViewController, UITextViewDelegate, UIDocumentPickerDelegate, UIGestureRecognizerDelegate
@@ -254,7 +255,6 @@ class ImportTextDocumentViewController :  UIViewController, UITextViewDelegate, 
                 self.removeImportingSpinnerView()
             })
         }
-        
     }
     
     func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
@@ -804,7 +804,8 @@ class ImportTextDocumentViewController :  UIViewController, UITextViewDelegate, 
             let bgCol = lineText.attribute(NSAttributedString.Key.backgroundColor, at: 0, effectiveRange: nil)
             if( bgCol != nil )
             {
-                let col = (bgCol as! UIColor).toHexString()
+                let uiCol = (bgCol as! UIColor)
+                let col = uiCol.toHexString()
                 if( col == LineColourArray[LineTypeColourIndex.chords.rawValue].toHexString() )
                 {
                     let chordTextString = lineText.string
